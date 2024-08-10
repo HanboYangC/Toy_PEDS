@@ -6,13 +6,13 @@ class Patch(object):
         self.x=x
         self.p=p
 class Geometry_1D(object):
-    def __init__(self,params,width,anchors:np.ndarray):
+    def __init__(self,lengths,width,anchors:np.ndarray):
         '''The left bottom is the origin ,which is contradictory with the index rules for array.
         If you wanna plot the geometry, flip it first.'''
-        if len(params)!=len(anchors):
+        if len(lengths)!=len(anchors):
             print('Invalid parameters')
             return
-        self.params = params
+        self.params = lengths
         self.width = width
         self.anchors = anchors
         self.add_patches()
