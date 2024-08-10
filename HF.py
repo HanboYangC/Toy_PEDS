@@ -1,5 +1,5 @@
 import numpy as np
-from Geometry import Geometry
+from Geometry_2D import Geometry
 
 class Diffusion_HF():
     def __init__(self,N:int,T:int):

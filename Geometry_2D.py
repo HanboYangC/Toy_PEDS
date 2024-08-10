@@ -8,7 +8,7 @@ class Patch(object):
         self.p=p
 
 
-class Geometry(object):
+class Geometry_2D(object):
     def __init__(self,params,width,height,anchors:np.ndarray):
         '''The left bottom is the origin ,which is contradictory with the index rules for array.
         If you wanna plot the geometry, flip it first.'''
