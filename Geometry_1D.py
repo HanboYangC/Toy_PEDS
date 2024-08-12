@@ -6,21 +6,21 @@ class Patch(object):
         self.x=x
         self.p=p
 class Geometry_1D(object):
-    def __init__(self,lengths,width,anchors:np.ndarray):
-        '''The left bottom is the origin ,which is contradictory with the index rules for array.
-        If you wanna plot the geometry, flip it first.'''
-        if len(lengths)!=len(anchors):
+    def __init__(self,lengths,params):
+        if len(lengths)!=len(params['anchors']):
             print('Invalid parameters')
             return
-        self.params = lengths
-        self.width = width
-        self.anchors = anchors
+        self.params=params
+        self.anchors = self.params['anchors']
+        self.lengths = lengths
+        self.width = self.params['width']
         self.add_patches()
+        self.d_hole=self.params['d_hole']
+        self.d_med=self.params['d_med']
         return
-
     def add_patches(self):
         patch_list = []
-        for i,p in enumerate(self.params):
+        for i,p in enumerate(self.lengths):
             x = self.anchors[i]
             patch = Patch(x,p)
             patch_list.append(patch)
@@ -41,8 +41,19 @@ class Geometry_1D(object):
             grid[ln:rn+1]=False
         return grid
 
+    def get_D(self,N:int):
+        grid=self.get_grid(N)
+        D=np.where(grid, self.d_med, self.d_hole)
+        return D
+    def plot(self,N:int):
+        D=self.get_D(N)
+        # potential = np.where(grid, 1, 0)
+        plt.step(np.linspace(0, self.width, len(D)), D)
+        plt.show()
+
+
     @staticmethod
-    def plot(grid: np.ndarray,width):
+    def plot_grid(grid: np.ndarray,width):
         if grid is None:
             print('Grid is None !')
         else:

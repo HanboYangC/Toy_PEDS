@@ -3,7 +3,7 @@ from Geometry_1D import Geometry_1D as G1D
 from matplotlib import pyplot as plt
 from scipy.stats import pearsonr
 class Diffusion_FD_1D():
-    def __init__(self,thre):
+    def __init__(self,thre=1-1e-5):
         super().__init__()
         self.thre=thre
         self.d_hole=0.1
@@ -13,8 +13,11 @@ class Diffusion_FD_1D():
         print('Geometry added.')
         return self.geo
 
-    def solve(self,N:int,D:np.ndarray=None,plot=True):
+    def solve(self,N=None,D:np.ndarray=None,plot=True):
         if D is None:
+            if N is None:
+                print('Please provide N')
+                return None
             grid = self.geo.get_grid(N)
             D = np.where(grid, self.d_med, self.d_hole)
         U = np.random.rand(len(D))

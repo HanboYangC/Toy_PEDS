@@ -5,7 +5,15 @@ import torch
 import numpy as np
 from LF_1D import LF_Layer as LF
 from matplotlib import pyplot as plt
-
+from DataGenerator import DataGenerator as DG
+SEED=42
+#%%
+dg=DG(4,4,10)
+geo_list=dg.generate_geo(seed=SEED)
+for geo in geo_list:
+    geo.plot(1024)
+    # grid=geo.get_grid(64)
+    # G1D.plot(grid,geo.width)
 
 #%%
 
@@ -44,3 +52,4 @@ output_np=output.detach().numpy()
 # plt.plot(output_np)
 # plt.show()
 grad=LF.backward(D_tensor,params,output)
+

@@ -15,13 +15,13 @@ class LF_Layer (torch.autograd.Function):
 
         ctx.save_for_backward(input)
         ctx.result_tensor = U
-        ctx.params = params
+        ctx.lengths = params
         return U
 
     @staticmethod
     def backward(ctx, grad_output=None):
         input, = ctx.saved_tensors
-        params = ctx.params
+        params = ctx.lengths
         U = ctx.result_tensor
         h = params['h']
         D = input.detach()  # Use only torch operations
