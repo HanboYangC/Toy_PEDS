@@ -12,5 +12,5 @@ def label_lengths(lengths,params):
     geo=G1D(lengths,params)
     D=geo.get_D(N)
     hf=FD1()
-    y=hf.solve(D,plot=False)
+    y=hf.solve(D=D,plot=False)
     return y

@@ -37,7 +37,7 @@ class DiffusionModel(nn.Module):
         x=LF_Layer.forward(final_D,params)
         return x
 
-    def load_data(self, lengths_list_train, y_list_train, lengths_list_val, y_list_val, lengths_list_test, y_list_test, batch_size=32):
+    def load_data(self, lengths_list_train, y_list_train, lengths_list_val, y_list_val, batch_size=32):
         lengths_tensor_train = torch.tensor(lengths_list_train, dtype=torch.float32).to(self.device)
         y_tensor_train = torch.tensor(y_list_train, dtype=torch.float32).to(self.device)
         train_dataset = TensorDataset(lengths_tensor_train, y_tensor_train)
@@ -48,12 +48,8 @@ class DiffusionModel(nn.Module):
         val_dataset = TensorDataset(lengths_tensor_val, y_tensor_val)
         self.val_dataloader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
 
-        lengths_tensor_test = torch.tensor(lengths_list_test, dtype=torch.float32).to(self.device)
-        y_tensor_test = torch.tensor(y_list_test, dtype=torch.float32).to(self.device)
-        test_dataset = TensorDataset(lengths_tensor_test, y_tensor_test)
-        self.test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-        print(f"Training, validation, and test data loaded successfully on {self.device}.")
+        print(f"Training and validation data loaded successfully on {self.device}.")
 
     def fit(self, params,epochs, learning_rate=0.01):
         train_losses = []
