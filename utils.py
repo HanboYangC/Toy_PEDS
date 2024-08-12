@@ -5,7 +5,8 @@ def label_D(D):
     hf=FD1()
     return hf.solve(D)
 
-def label_lengths(lengths,params,N=100):
+def label_lengths(lengths,params):
+    N=params['HF_N']
     if N<100:
         print('Warning: The N is too small for high fidelity solver')
     geo=G1D(lengths,params)
