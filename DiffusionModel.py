@@ -52,6 +52,7 @@ class DiffusionModel(nn.Module):
         print(f"Training and validation data loaded successfully on {self.device}.")
 
     def fit(self, params,epochs, learning_rate=0.01):
+        '''The Loss !!! They have different shapes!!!!'''
         train_losses = []
         val_losses = []
         self.optimizer = optim.Adam(self.parameters(), lr=learning_rate)
