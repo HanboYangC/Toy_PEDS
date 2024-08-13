@@ -10,13 +10,21 @@ class LF_Layer (torch.autograd.Function):
         input_np = input.detach().cpu().numpy().reshape(-1)
         fd = FD1(thre=1 - 1e-5)
         N = len(input_np)
+        mid=int(N/2)
         U = fd.solve(N=N, D=input_np, plot=False)
+        Ul = U[mid-1]
+        Ur = U[mid + 1]
+        k=input_np[mid]*(Ur-Ul)/(2*params['h'])
+
         U = torch.from_numpy(U).to(device)
+        k=torch.from_numpy(k).to(device)
 
         ctx.save_for_backward(input)
         ctx.result_tensor = U
+        ctx.result_k=k
         ctx.lengths = params
-        return U
+        ctx.mid=mid
+        return k
 
     @staticmethod
     def backward(ctx, grad_output=None):
@@ -54,9 +62,16 @@ class LF_Layer (torch.autograd.Function):
                 gd[i,i-1]=dU[i]
         gd=(1/(2*h))*gd
 
+        mid=ctx.mid
+        ku=torch.zeros((1,N))
+        ku[mid-1]=-1
+        ku[mid+1]=1
+        ku=(D[mid]/(2*h))*ku
+        kuT=ku.t()
+
         gu_inv = torch.linalg.inv(gu)
         grad_output_vector = grad_output.view(-1, 1).to(dtype=torch.float32)  # Convert grad_output to float32
-        lam = -torch.matmul(gu_inv, grad_output_vector)
+        lam = -torch.matmul(gu_inv, torch.matmul(kuT,grad_output_vector))
         df=torch.matmul(gd.t(),lam)
         return df
 
