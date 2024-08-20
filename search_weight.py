@@ -49,15 +49,15 @@ y_test, y_val, lengths_test, lengths_val, k_test, k_val = train_test_split(
 )
 
 input_dim=lengths_array.shape[1]
-dm=DM(input_dim=input_dim,geometry_dim=params['LF_N'])
-dm.load_data(lengths_train, k_train,lengths_val, k_val)
 
 '''Search w'''
-ws=np.linspace(0,0.99,10)
+ws=np.linspace(0,0.99,100)
 
 for w in ws:
     print(f'Testing w={w}')
     params['w']=w
+    dm=DM(input_dim=input_dim,geometry_dim=params['LF_N'])
+    dm.load_data(lengths_train, k_train,lengths_val, k_val)
     weight_path=os.path.join(os.path.join(weights_dir,'weights_1'),f'w_{w}.pth')
     train_losses, val_losses=dm.fit(params=params,learning_rate=0.1,save_path=weight_path)
 

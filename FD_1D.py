@@ -56,7 +56,12 @@ class Diffusion_FD_1D():
         else:
             width=self.geo.width
         A,b=ut.get_Ab(D)
-        u=np.linalg.inv(A)@b
+    
+        try:
+            u = np.linalg.solve(A, b)
+        except np.linalg.LinAlgError:
+            print('Matrix A is singular, using pseudoinverse.')
+            u = np.linalg.pinv(A) @ b
         u=u.reshape((-1))
         if plot:
             plt.plot(np.linspace(0,width,len(u)), u)
