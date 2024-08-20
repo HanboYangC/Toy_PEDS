@@ -1,0 +1,5 @@
+/blue/guo/yangh/Toy_PEDS/sh
+c0304a-s10.ufhpc
+Tue Aug 20 00:39:16 EDT 2024
+/tmp/slurmd/job41407056/slurm_script: line 19: cd: blue_guo/yangh/Toy_PEDS/: No such file or directory
+python: can't open file '/blue/guo/yangh/Toy_PEDS/sh/search_weight.py': [Errno 2] No such file or directory

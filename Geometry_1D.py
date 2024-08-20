@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import torch
 
 class Patch(object):
     def __init__(self,x,p):
@@ -34,6 +35,10 @@ class Geometry_1D(object):
         for patch in self.patches:
             lp=patch.x-patch.p/2
             rp=patch.x+patch.p/2
+            if isinstance(lp, torch.Tensor):
+                lp = lp.cpu().numpy() if lp.is_cuda else lp.numpy()
+            if isinstance(rp, torch.Tensor):
+                rp = rp.cpu().numpy() if rp.is_cuda else rp.numpy()
             ln=int(np.floor(lp/hx))
             rn=int(np.floor(rp/hx))
             if ((rp/hx)%1==0):

@@ -21,8 +21,11 @@ class LF_Layer (torch.autograd.Function):
             k=ut.give_K(D,U,params)
             result_k.append(k)
 
-        U = torch.tensor(result_U,dtype=torch.float32).to(device)
-        k=torch.tensor(result_k,dtype=torch.float32).to(device)
+        result_U_array = np.array(result_U)
+        result_k_array = np.array(result_k)
+
+        U = torch.from_numpy(result_U_array).float().to(device)
+        k = torch.from_numpy(result_k_array).float().to(device)
         ctx.result_tensor = U
         ctx.result_k=k
         ctx.lengths = params
@@ -47,7 +50,7 @@ class LF_Layer (torch.autograd.Function):
         for i in range(len(D)):
             d=D[i]
 
-            ku=torch.zeros((N,1))
+            ku=torch.zeros((N,1), device=input.device, dtype=torch.float32)
             ku[mid-1,0]= -d[mid-1] / (4 * h)
             ku[mid ,0]=- d[mid]/ (4 * h)
             ku[mid+1, 0]= d[mid+1]/(4*h)
@@ -80,13 +83,13 @@ class LF_Layer (torch.autograd.Function):
                 nabla[j, j+2] = 1
             du = torch.matmul(nabla, u_long.T)[1:-1,0].view(-1)
             # du = (1 / (2 * h)) * torch.matmul(nabla, u_long.T)[1:-1,0].view(-1)# Ensure all tensors are in float32 before multiplication
-            Ad=torch.zeros((N,N))
+            Ad=torch.zeros((N,N), device=input.device, dtype=torch.float32)
             for k in range(N):
                 if k+1 < N:
                     Ad[k, k+1] = du[k + 1]
                 if k-1>=0:
                     Ad[k,k-1]= -du[k - 1]
-            bd=torch.zeros((N,N))
+            bd=torch.zeros((N,N), device=input.device, dtype=torch.float32)
             bd[-2,-1]=-1
             gd=Ad-bd
             # gd=(1/(2*h))*gd

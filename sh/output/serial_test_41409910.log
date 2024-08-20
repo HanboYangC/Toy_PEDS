@@ -1,0 +1,29 @@
+/blue/guo/yangh/Toy_PEDS/sh
+c0304a-s10.ufhpc
+Tue Aug 20 01:07:55 EDT 2024
+device:cuda
+Generating data:   0%|          | 0/10000 [00:00<?, ?it/s]Generating data:  95%|█████████▍| 9490/10000 [00:00<00:00, 77355.75it/s]Generating data: 100%|██████████| 10000/10000 [00:00<00:00, 79432.46it/s]
+/blue/guo/yangh/Toy_PEDS/LF_1D.py:24: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /opt/conda/conda-bld/pytorch_1720538439764/work/torch/csrc/utils/tensor_new.cpp:278.)
+  U = torch.tensor(result_U,dtype=torch.float32).to(device)
+Training and validation data loaded successfully on cuda.
+Testing w=0.0
+Traceback (most recent call last):
+  File "/blue/guo/yangh/Toy_PEDS/search_weight.py", line 62, in <module>
+    train_losses, val_losses=dm.fit(params=params,learning_rate=0.1,save_path=weight_path)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/blue/guo/yangh/Toy_PEDS/DiffusionModel.py", line 93, in fit
+    loss.backward()
+  File "/blue/guo/yangh/.conda/envs/PEDS/lib/python3.12/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/blue/guo/yangh/.conda/envs/PEDS/lib/python3.12/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/blue/guo/yangh/.conda/envs/PEDS/lib/python3.12/site-packages/torch/autograd/graph.py", line 768, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/blue/guo/yangh/.conda/envs/PEDS/lib/python3.12/site-packages/torch/autograd/function.py", line 306, in apply
+    return user_fn(self, *args)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/blue/guo/yangh/Toy_PEDS/LF_1D.py", line 102, in backward
+    df=grad_output[i] *torch.matmul(ud.T,ku)
+                       ^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument mat2 in method wrapper_CUDA_mm)

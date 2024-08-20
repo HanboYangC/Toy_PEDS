@@ -47,7 +47,7 @@ class DiffusionModel(nn.Module):
             D_LF=utils.downsample(D_numpy, params['LF_N'])
             D_tensor = torch.from_numpy(D_LF).float()
             D_list.append(D_tensor)
-        D_tensor = torch.stack(D_list)
+        D_tensor = torch.stack(D_list).to(self.device)
 
         x1 = self.input(lengths_list)
         x2 = F.relu(self.h1(x1))
