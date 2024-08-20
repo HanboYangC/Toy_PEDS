@@ -1,6 +1,7 @@
 import numpy as np
 from Geometry_1D import Geometry_1D as G1D
 from matplotlib import pyplot as plt
+import utils as ut
 from scipy.stats import pearsonr
 class Diffusion_FD_1D():
     def __init__(self,thre=1-1e-5):
@@ -8,18 +9,23 @@ class Diffusion_FD_1D():
         self.thre=thre
         self.d_hole=0.1
         self.d_med=1
+        self.geo=None
     def add_geometry(self,geo:G1D):
         self.geo = geo
         print('Geometry added.')
         return self.geo
-
-    def solve(self,N=None,D:np.ndarray=None,plot=True):
+    #
+    def solve_it(self,N=None,D:np.ndarray=None,plot=True):
         if D is None:
             if N is None:
                 print('Please provide N')
                 return None
             grid = self.geo.get_grid(N)
             D = np.where(grid, self.d_med, self.d_hole)
+        if self.geo is None:
+            width=10
+        else:
+            width=self.geo.width
         U = np.random.rand(len(D))
         # for t in range(self.T):
         corr=0
@@ -34,10 +40,28 @@ class Diffusion_FD_1D():
             corr, _ = pearsonr(U_, U)
             U=U_
         if plot:
-            plt.plot(np.linspace(0,self.geo.width,len(U)), U)
+            plt.plot(np.linspace(0,width,len(U)), U)
             plt.show()
         return U
 
+    def solve(self,N=None,D:np.ndarray=None,plot=True):
+        if D is None:
+            if N is None:
+                print('Please provide N')
+                return None
+            grid = self.geo.get_grid(N)
+            D = np.where(grid, self.d_med, self.d_hole)
+        if self.geo is None:
+            width=10
+        else:
+            width=self.geo.width
+        A,b=ut.get_Ab(D)
+        u=np.linalg.inv(A)@b
+        u=u.reshape((-1))
+        if plot:
+            plt.plot(np.linspace(0,width,len(u)), u)
+            plt.show()
+        return u
 
 
 

@@ -9,8 +9,8 @@ class DataGenerator:
         self.num_wells=self.params['num_wells']
         self.width=self.params['width']
         self.grid_width = self.width / self.num_wells
-        self.anchors=np.linspace(0,self.width,self.num_wells+1)[:self.num_wells]+(self.grid_width/2)
-        self.params['anchors']=self.anchors
+        # self.anchors=np.linspace(0,self.width,self.num_wells+1)[:self.num_wells]+(self.grid_width/2)
+        self.anchors = self.params['anchors']
         return
 
     def generate_geo(self,seed=None):

@@ -1,55 +1,52 @@
-from Geometry_1D import Geometry_1D as G1D
-import numpy as np
-from FD_1D import Diffusion_FD_1D as FD1
-import torch
-import numpy as np
-from LF_1D import LF_Layer as LF
-from matplotlib import pyplot as plt
 from DataGenerator import DataGenerator as DG
+from tqdm import tqdm
+import utils as ut
+import matplotlib.pyplot as plt
+import os
+import numpy as np
+from sklearn.model_selection import train_test_split
+from LF_1D import LF_Layer as LF
+import torch
+from DiffusionModel import DiffusionModel as DM
 SEED=42
-#%%
-dg=DG(4,4,10)
-geo_list=dg.generate_geo(seed=SEED)
-for geo in geo_list:
-    geo.plot(1024)
-    # grid=geo.get_grid(64)
-    # G1D.plot(grid,geo.width)
+from FD_1D import Diffusion_FD_1D as FD
+from Geometry_1D import Geometry_1D as G1D
 
 #%%
-
-width=10
-lengths=np.array([1])
-anchors=np.array([5])
-geo=G1D(lengths,width,anchors)
-d_hole = 0.1
-d_med = 1
-# #%%
-# fd=FD1(thre=1-1e-5)
-# fd.add_geometry(geo)
-# fd.solve(N=4)
-# fd.solve(N=8)
-# fd.solve(N=16)
-# fd.solve(N=32)
-# fd.solve(N=64)
-# fd.solve(N=128)
-# fd.solve(N=256)
+'''Test Downsample'''
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+params={'num_samples':10000,
+        'num_wells':4,
+        'width':10,
+        'd_hole':0.1,
+        'd_med':1,
+        'HF_N':128,
+        'LF_N':16,
+        'num_train':700,
+        'num_test':200,
+        'num_val':100,
+        'w':0.99
+        }
+grid_width = params['width'] / params['num_wells']
+params['grid_width'] = grid_width
+anchors=np.linspace(0,params['width'],params['num_wells']+1)[:params['num_wells']]+(params['grid_width']/2)
+params['anchors']=anchors
+data_dir='./data'
+lengths_dir=os.path.join(data_dir,'lengths')
+y_dir=os.path.join(data_dir,'y')
+k_dir=os.path.join(data_dir,'k')
+print(f'device:{device}')
 #%%
-'''Test LF Layer'''
-device='cpu'
-N=4
-grid=geo.get_grid(N=N)
-D_tensor=torch.from_numpy(np.where(grid, d_med, d_hole))
-print("D Tensor:", D_tensor)
-
-params={
-    'N':N,
-    'h':geo.width/N
-}
-
-output=LF.apply(D_tensor,params)
-output_np=output.detach().numpy()
-# print("LF output:", output)
-# plt.plot(output_np)
-# plt.show()
-grad=LF.backward(D_tensor,params,output)
-
+dg = DG(params)
+geo_list = dg.generate_geo(seed=SEED)
+lengths_array = np.zeros((params['num_samples'], params['num_wells']))
+y_array = np.zeros((params['num_samples'], params['HF_N']))
+#%%
+check_num=5
+for i in range(check_num):
+    d_HF = geo_list[i].get_D(N=params['HF_N'])
+    d_LF=ut.downsample(d_HF,params['LF_N'])
+    plt.plot(d_HF)
+    plt.show()
+    plt.plot(d_LF)
+    plt.show()

@@ -8,6 +8,6 @@
 #SBATCH --cpus-per-task=3
 #SBATCH --mem=10gb                     # Job memory request
 #SBATCH --time=30:00:00               # Time limit hrs:min:sec
-#SBATCH --output=./output/serial_test_%j.log   # Standard output and error log
+#SBATCH --h3=./h3/serial_test_%j.log   # Standard h3 and error log
 pwd; hostname; date
 
