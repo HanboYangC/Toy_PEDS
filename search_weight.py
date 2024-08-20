@@ -18,7 +18,7 @@ params={'num_samples':10000,
         'num_train':700,
         'num_test':200,
         'num_val':100,
-        'epochs':10
+        'epochs':200
         }
 grid_width = params['width'] / params['num_wells']
 params['grid_width'] = grid_width
@@ -53,7 +53,7 @@ dm=DM(input_dim=input_dim,geometry_dim=params['LF_N'])
 dm.load_data(lengths_train, k_train,lengths_val, k_val)
 
 '''Search w'''
-ws=np.linspace(0,0.99,2)
+ws=np.linspace(0,0.99,10)
 
 for w in ws:
     print(f'Testing w={w}')
