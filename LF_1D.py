@@ -40,7 +40,9 @@ class LF_Layer (torch.autograd.Function):
 
         batch_size = input.size(0)
         U = ctx.result_tensor
-        h = params['grid_width']
+        # h = params['grid_width']
+        N=input.size(1)
+        h = params['width'] / N
         D = input.detach()  # Use only torch operations
         D_out = torch.tensor([1.0], device=input.device,
                              dtype=torch.float32)  # Ensuring tensor is on the same device and type
@@ -51,10 +53,11 @@ class LF_Layer (torch.autograd.Function):
             d=D[i]
 
             ku=torch.zeros((N,1), device=input.device, dtype=torch.float32)
-            ku[mid-1,0]= -d[mid-1] / (4 * h)
-            ku[mid ,0]=- d[mid]/ (4 * h)
-            ku[mid+1, 0]= d[mid+1]/(4*h)
-            ku[mid+2, 0]= d[mid+2]/(4*h)
+            # d_mid = (d[mid - 1] + d[mid + 1]) / 2
+            ku[mid-1,0]= -d[mid] / (4 * h)
+            ku[mid ,0]= -d[mid+1]/ (4 * h)
+            ku[mid+1, 0]= d[mid]/(4*h)
+            ku[mid+2, 0]= d[mid+1]/(4*h)
             # A,b=ut.get_Ab(d)
             # inv_AAT = torch.inverse(torch.matmul(A, A.T))
             # kup=ku-torch.matmul(torch.matmul(A.T,inv_AAT),torch.matmul(A,ku))

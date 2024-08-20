@@ -21,7 +21,7 @@ params={'num_samples':10000,
         'num_test':200,
         'num_val':100,
         'epochs':200,
-        'avg_num':10
+        'avg_num':5
         }
 grid_width = params['width'] / params['num_wells']
 params['grid_width'] = grid_width
@@ -74,10 +74,10 @@ for w in ws:
     params['w']=w
     w_loss=np.zeros(params['avg_num'])
     for i in range(params['avg_num']):
-        dm=DM(input_dim=input_dim,geometry_dim=params['LF_N'],seed=False)
+        dm=DM(input_dim=input_dim,geometry_dim=params['LF_N'])
         dm.load_data(lengths_train, k_train,lengths_val, k_val)
         weight_path=os.path.join(weight_dir_sparse, f'w={w:.2f}_{i}.pth')
-        train_losses, val_losses,best_val_loss=dm.fit(params=params,learning_rate=0.1,save_path=weight_path)
+        train_losses, val_losses,best_val_loss=dm.fit(params=params,learning_rate=1e-5,save_path=weight_path)
         if best_val_loss is not None:
             w_loss[i]=best_val_loss
         else:
@@ -90,7 +90,7 @@ np.save(os.path.join(weight_dir_sparse, weight_name_sparse), all_loss_np)
 mean_loss=np.nanmean(all_loss_np,axis=1)
 min_index = np.argmin(mean_loss)
 w_best=ws[min_index]
-ws_d = np.linspace(max(0, w_best - 0.1), min(0.99, w_best + 0.1), 21)
+ws_d = np.linspace(max(0, w_best - 0.1), min(0.99, w_best + 0.1), 11)
 all_loss=[]
 weight_name_dense = f'weights_LF={params['LF_N']}_dense'
 
@@ -106,7 +106,7 @@ for w in ws_d:
     params['w']=w
     w_loss=np.zeros(params['avg_num'])
     for i in range(params['avg_num']):
-        dm=DM(input_dim=input_dim,geometry_dim=params['LF_N'],seed=False)
+        dm=DM(input_dim=input_dim,geometry_dim=params['LF_N'])
         dm.load_data(lengths_train, k_train,lengths_val, k_val)
         weight_path=os.path.join(weight_dir_dense, f'w={w:.2f}_{i}.pth')
         train_losses, val_losses,best_val_loss=dm.fit(params=params,learning_rate=0.1,save_path=weight_path)

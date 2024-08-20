@@ -11,6 +11,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import torch
 from DiffusionModel import DiffusionModel as DM
+import utils as ut
+from tqdm import tqdm
 SEED=42
 
 
@@ -29,7 +31,8 @@ params={'num_samples':10000,
         'num_train':700,
         'num_test':200,
         'num_val':100,
-        'w':0.5
+        'epochs':100,
+        'w':0
         }
 grid_width = params['width'] / params['num_wells']
 params['grid_width'] = grid_width
@@ -127,20 +130,24 @@ y_test, y_val, lengths_test, lengths_val, k_test, k_val = train_test_split(
 # In[ ]:
 
 input_dim=lengths_array.shape[1]
-dm=DM(input_dim=input_dim,geometry_dim=params['LF_N'])
+dm=DM(input_dim=input_dim,geometry_dim=params['LF_N'],seed=42)
 dm.load_data(lengths_train, k_train,lengths_val, k_val)
 #%%
 #epochs=125 is ok
-train_losses, val_losses=dm.fit(params=params,epochs=100,learning_rate=0.1)
+train_losses, val_losses,_=dm.fit(params=params,learning_rate=1e-5)
 #%%
 plt.plot(train_losses, label='train')
 plt.show()
 plt.plot(val_losses, label='val')
 plt.show()
 #%%
-k_pred=dm.forward(torch.from_numpy(lengths_test).float(),params).detach().numpy()
-plt.plot(k_test,k_test)
-plt.scatter(k_pred,k_test)
-plt.show()
+k_pred = dm.forward(torch.from_numpy(lengths_val).float(), params).detach().numpy()
+fig, ax = plt.subplots()
+ax.plot(k_pred, k_pred)
+ax.scatter(k_pred, k_val)
+ax.set_aspect('equal', 'box')
 
+# 显示图形
+plt.show()
+#%%
 

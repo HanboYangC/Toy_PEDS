@@ -9,23 +9,26 @@ import torch.optim as optim
 import numpy as np
 from Geometry_1D import Geometry_1D as G1D
 import torch.nn.init as init
-SEED = 42
+# SEED = 42
 
 
 class DiffusionModel(nn.Module):
-    def __init__(self,input_dim,geometry_dim,seed=True):
+    def __init__(self,input_dim,geometry_dim,seed=None):
         super(DiffusionModel, self).__init__()
+        if seed is not None:
+            torch.manual_seed(seed)
+            print('SEED is SET !')
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
-        self.input = nn.Linear(input_dim,8)
-        self.h1 = nn.Linear(8,8)
-        self.h2 = nn.Linear(8,8)
-        self.h3 = nn.Linear(8, geometry_dim)
+        self.input = nn.Linear(input_dim,64)
+        self.h1 = nn.Linear(64,64)
+        self.h2 = nn.Linear(64,64)
+        self.h3 = nn.Linear(64, geometry_dim)
         self.out= nn.Hardtanh(min_val=0, max_val=1)
         self._initialize_weights()
-        self.loss = nn.MSELoss()
+        # self.loss = nn.MSELoss()
+        self.loss = nn.L1Loss()
         self.to(self.device)
-        if seed:
-            torch.manual_seed(SEED)
+
 
     def _initialize_weights(self):
         init.kaiming_uniform_(self.input.weight, nonlinearity='relu')
@@ -107,7 +110,7 @@ class DiffusionModel(nn.Module):
                     loss = self.loss(pred, k_batch)
                     batch_losses.append(loss.item())
             avg_val_loss = np.mean(batch_losses)
-            if avg_val_loss>0.1:
+            if avg_val_loss>1:
                 print('Diverge !')
                 return None,None,None
             val_losses.append(avg_val_loss)

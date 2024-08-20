@@ -41,7 +41,7 @@ def give_K(D,U,params):
     #     temp = np.zeros_like(D)
     # elif isinstance(D, torch.Tensor):
     #     temp = torch.zeros_like(D)
-    k=(D_mid/(h))*(Ur-Ul)
+    k=(D_mid/(2*h))*(Ur-Ul)
     return k
 
 
