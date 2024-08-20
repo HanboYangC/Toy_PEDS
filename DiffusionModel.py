@@ -3,17 +3,17 @@ import torch
 import utils
 from LF_1D import LF_Layer
 import torch.nn as nn
-from torch.utils.data import random_split, TensorDataset, DataLoader
+from torch.utils.data import TensorDataset, DataLoader
 import torch.nn.functional as F
 import torch.optim as optim
 import numpy as np
 from Geometry_1D import Geometry_1D as G1D
 import torch.nn.init as init
 SEED = 42
-torch.manual_seed(SEED)
+
 
 class DiffusionModel(nn.Module):
-    def __init__(self,input_dim,geometry_dim):
+    def __init__(self,input_dim,geometry_dim,seed=True):
         super(DiffusionModel, self).__init__()
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         self.input = nn.Linear(input_dim,8)
@@ -24,6 +24,8 @@ class DiffusionModel(nn.Module):
         self._initialize_weights()
         self.loss = nn.MSELoss()
         self.to(self.device)
+        if seed:
+            torch.manual_seed(SEED)
 
     def _initialize_weights(self):
         init.kaiming_uniform_(self.input.weight, nonlinearity='relu')
@@ -105,6 +107,9 @@ class DiffusionModel(nn.Module):
                     loss = self.loss(pred, k_batch)
                     batch_losses.append(loss.item())
             avg_val_loss = np.mean(batch_losses)
+            if avg_val_loss>0.1:
+                print('Diverge !')
+                return None,None,None
             val_losses.append(avg_val_loss)
             # Check for the best validation loss
             if avg_val_loss < best_val_loss:
@@ -118,4 +123,4 @@ class DiffusionModel(nn.Module):
 
             print(f"Epoch [{epoch + 1}/{epochs}], Train Loss: {avg_train_loss}, Val Loss: {avg_val_loss}")
 
-        return train_losses, val_losses
+        return train_losses, val_losses,best_val_loss

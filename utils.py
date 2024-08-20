@@ -113,3 +113,5 @@ def downsample(arr, target_length):
         downsampled_arr.append(segment_avg)
 
     return np.array(downsampled_arr)
+
+# def find_smaller_region(all_loss)

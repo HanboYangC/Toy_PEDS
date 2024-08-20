@@ -60,7 +60,7 @@ class Diffusion_FD_1D():
         try:
             u = np.linalg.solve(A, b)
         except np.linalg.LinAlgError:
-            print('Matrix A is singular, using pseudoinverse.')
+            # print('Matrix A is singular, using pseudoinverse.')
             u = np.linalg.pinv(A) @ b
         u=u.reshape((-1))
         if plot:
