@@ -31,8 +31,8 @@ params={'num_samples':10000,
         'num_train':700,
         'num_test':200,
         'num_val':100,
-        'epochs':100,
-        'w':0
+        'epochs':75,
+        'w':0.99
         }
 grid_width = params['width'] / params['num_wells']
 params['grid_width'] = grid_width
@@ -94,7 +94,7 @@ y_array = np.zeros((params['num_samples'], params['HF_N']))
 # np.save(k_dir + '.npy',k_array)
 #
 #
-# #%%
+#%%
 # # Simple Check
 # # lengths_array=np.load(lengths_dir+'.npy')
 # y_array=np.load(y_dir+'.npy')
@@ -107,9 +107,11 @@ y_array = np.zeros((params['num_samples'], params['HF_N']))
 # for i in range(check_num):
 #     d_HF = geo_list[i].get_D(N=params['HF_N'])
 #     y_hf=y_array[i]
-#     plt.plot(y_hf)
-#     plt.plot(d_HF)
+#     plt.plot(y_hf,label='Temperature')
+#     plt.plot(d_HF,label='Diffusion Coefficients')
+#     plt.legend(loc="lower right")
 #     plt.show()
+#%%
 
 
 # In[25]:
@@ -136,8 +138,14 @@ dm.load_data(lengths_train, k_train,lengths_val, k_val)
 #epochs=125 is ok
 train_losses, val_losses,_=dm.fit(params=params,learning_rate=1e-5)
 #%%
+plt.title('Training Loss')
+plt.xlabel('epochs')
+plt.ylabel('training loss')
 plt.plot(train_losses, label='train')
 plt.show()
+plt.title('Validation Loss')
+plt.xlabel('epochs')
+plt.ylabel('Validation loss')
 plt.plot(val_losses, label='val')
 plt.show()
 #%%
