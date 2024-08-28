@@ -6,23 +6,13 @@ import torch
 import os
 from sklearn.model_selection import train_test_split
 from src.DiffusionModel import DiffusionModel as DM
+import tools.config as config
 import shutil
 SEED=42
 #%%
-params = {'num_samples': 10000,
-          'num_wells': 4,
-          'width': 10,
-          'd_hole': 0.1,
-          'd_med': 1,
-          'HF_N': 128,
-          'LF_N': 8,
-          'num_train': 700,
-          'num_test': 200,
-          'num_val': 100,
-          'epochs': 300,
-          # 'w': 0.5
-          }
-data_dir = './data'
+params=config.params
+data_dir=config.data_dir
+w_list=config.w_list
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 grid_width = params['width'] / params['num_wells']
@@ -50,8 +40,7 @@ y_test, y_val, lengths_test, lengths_val, k_test, k_val = train_test_split(
 )
 #%%
 weight_path='./weights/'
-w_list=np.round(np.linspace(0, 0.9, 10), decimals=2).tolist()
-w_list.append(0.99)
+
 best_val_list=[]
 
 # if os.path.exists(weight_path):
@@ -64,14 +53,14 @@ for w in w_list:
     dm.load_data(lengths_train,k_train,lengths_val,k_val)
     train_losses, val_losses,best_val_loss=dm.fit(learning_rate=1e-5,save_path=os.path.join(weight_path,f'w={w}_LF_N={params['LF_N']}.pt'))
     best_val_list.append(best_val_loss)
-    plt.plot(train_losses, label='training loss')
-    plt.plot(val_losses, label='validation loss')
-    plt.title(f"Loss for w={w}")
-    plt.legend()
-    plt.show()
+    # plt.plot(train_losses, label='training loss')
+    # plt.plot(val_losses, label='validation loss')
+    # plt.title(f"Loss for w={w}")
+    # plt.legend()
+    # plt.show()
 #0.0177
 #%%
-plt.plot(w_list,best_val_list)
-plt.xlabel('weight w')
-plt.ylabel('validation loss')
-plt.show()
+# plt.plot(w_list,best_val_list)
+# plt.xlabel('weight w')
+# plt.ylabel('validation loss')
+# plt.show()
