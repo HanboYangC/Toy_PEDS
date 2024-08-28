@@ -14,6 +14,6 @@ params = {'num_samples': 1000,
           }
 proj_path='.'
 data_dir = os.path.join(proj_path,'data')
-weight_name='weights_pretrained'
+weight_name='weights'
 
 w_list=[0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,0.99]
