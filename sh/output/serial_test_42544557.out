@@ -1,0 +1,10 @@
+/blue/guo/yangh/Toy_PEDS/sh
+c38a-s37.ufhpc
+Wed Aug 28 14:41:41 EDT 2024
+device:cuda
+Generating data:   0%|                                                                                                                                                           | 0/10000 [00:00<?, ?it/s]Generating data:  94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍        | 9394/10000 [00:00<00:00, 73858.36it/s]Generating data: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:00<00:00, 76240.53it/s]
+Traceback (most recent call last):
+  File "/blue/guo/yangh/Toy_PEDS/./tools/train_model.py", line 59, in <module>
+    os.makedirs(weight_path)
+  File "<frozen os>", line 225, in makedirs
+FileExistsError: [Errno 17] File exists: './weights/'

@@ -1,0 +1,13 @@
+/blue/guo/yangh/Toy_PEDS/sh
+c38a-s13.ufhpc
+Wed Aug 28 14:38:31 EDT 2024
+device:cuda
+Generating data:   0%|                                                                                                                                                           | 0/10000 [00:00<?, ?it/s]Generating data:  94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍        | 9394/10000 [00:00<00:00, 62658.70it/s]Generating data: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10000/10000 [00:00<00:00, 64883.11it/s]
+Traceback (most recent call last):
+  File "/blue/guo/yangh/Toy_PEDS/tools/train_model.py", line 40, in <module>
+    lengths_array=np.load(lengths_dir+'.npy')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/blue/guo/yangh/.conda/envs/PEDS/lib/python3.12/site-packages/numpy/lib/_npyio_impl.py", line 459, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './data/lengths.npy'

@@ -1,0 +1,7 @@
+/blue/guo/yangh/Toy_PEDS/sh
+c38a-s13.ufhpc
+Wed Aug 28 14:35:43 EDT 2024
+Traceback (most recent call last):
+  File "/blue/guo/yangh/Toy_PEDS/tools/train_model.py", line 1, in <module>
+    from src.DataGenerator import DataGenerator as DG
+ModuleNotFoundError: No module named 'src'

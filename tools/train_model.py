@@ -15,7 +15,7 @@ params = {'num_samples': 10000,
           'd_hole': 0.1,
           'd_med': 1,
           'HF_N': 128,
-          'LF_N': 4,
+          'LF_N': 8,
           'num_train': 700,
           'num_test': 200,
           'num_val': 100,
@@ -56,7 +56,7 @@ best_val_list=[]
 
 # if os.path.exists(weight_path):
 #     shutil.rmtree(weight_path)
-os.makedirs(weight_path)
+os.makedirs(weight_path, exist_ok=True)
 for w in w_list:
     params['w']=w
     input_dim=lengths_array.shape[1]

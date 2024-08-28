@@ -1,30 +1,0 @@
-/blue/guo/yangh/Toy_PEDS/sh
-c0304a-s10.ufhpc
-Tue Aug 20 00:53:23 EDT 2024
-device:cuda
-Generating data:   0%|          | 0/10000 [00:00<?, ?it/s]Generating data:  98%|█████████▊| 9775/10000 [00:00<00:00, 78637.52it/s]Generating data: 100%|██████████| 10000/10000 [00:00<00:00, 79457.14it/s]
-Training and validation data loaded successfully on cuda.
-Testing w=0.0
-Traceback (most recent call last):
-  File "/blue/guo/yangh/Toy_PEDS/search_weight.py", line 62, in <module>
-    train_losses, val_losses=dm.fit(params=params,learning_rate=0.1,save_path=weight_path)
-                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/blue/guo/yangh/Toy_PEDS/DiffusionModel.py", line 90, in fit
-    pred = self(x_batch,params)
-           ^^^^^^^^^^^^^^^^^^^^
-  File "/blue/guo/yangh/.conda/envs/PEDS/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/blue/guo/yangh/.conda/envs/PEDS/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
-    return forward_call(*args, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/blue/guo/yangh/Toy_PEDS/DiffusionModel.py", line 46, in forward
-    D_numpy = geo.get_D(params['HF_N'])
-              ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/blue/guo/yangh/Toy_PEDS/Geometry_1D.py", line 49, in get_D
-    grid=self.get_grid(N)
-         ^^^^^^^^^^^^^^^^
-  File "/blue/guo/yangh/Toy_PEDS/Geometry_1D.py", line 37, in get_grid
-    if isinstance(lp, torch.Tensor):
-                      ^^^^^
-NameError: name 'torch' is not defined

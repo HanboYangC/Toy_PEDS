@@ -1,7 +1,0 @@
-/blue/guo/yangh/Toy_PEDS/sh
-c0304a-s10.ufhpc
-Tue Aug 20 00:41:09 EDT 2024
-Traceback (most recent call last):
-  File "/blue/guo/yangh/Toy_PEDS/search_weight.py", line 5, in <module>
-    from sklearn.model_selection import train_test_split
-ModuleNotFoundError: No module named 'sklearn'
