@@ -1,7 +1,8 @@
 # Introduction
 This is a toy model for PEDS(Physics-enhanced deep surrogates for partial differential equations). The original paper is at https://doi.org/10.1038/s42256-023-00761-y.
 This model reimplements the PEDS in Pytorch and solves a 1D diffusion equation to predict the flux. 
-
+# Set up the environment
+Install Pytorch, numpy, matplotlib,sympy,scikit-learn,jupyter notebook,tqdm in your environment.
 # Workflow
 All the source codes are included in the `/src` folder. The codes in `/tools` folder provide an interface to train the model and evaluate models' performance.  
 ## Data Generation
