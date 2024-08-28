@@ -1,14 +1,13 @@
 import torch
 
-import utils
-from LF_1D import LF_Layer
+import src.utils as utils
 import torch.nn as nn
 from torch.utils.data import TensorDataset, DataLoader
 import torch.nn.functional as F
 import torch.optim as optim
 import numpy as np
-from Geometry_1D import Geometry_1D as G1D
-from LF_1D import LF_Layer
+from src.Geometry_1D import Geometry_1D as G1D
+from src.LF_1D import LF_Layer
 import torch.nn.init as init
 # SEED = 42
 

@@ -1,5 +1,5 @@
-from FD_1D import Diffusion_FD_1D as FD1
-from Geometry_1D import Geometry_1D as G1D
+from src.FD_1D import Diffusion_FD_1D as FD1
+from src.Geometry_1D import Geometry_1D as G1D
 import torch
 import numpy as np
 

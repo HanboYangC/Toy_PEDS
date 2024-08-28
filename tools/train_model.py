@@ -9,7 +9,6 @@ from src.DiffusionModel import DiffusionModel as DM
 import shutil
 SEED=42
 #%%
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
 params = {'num_samples': 10000,
           'num_wells': 4,
           'width': 10,
@@ -23,12 +22,14 @@ params = {'num_samples': 10000,
           'epochs': 300,
           # 'w': 0.5
           }
+data_dir = './data'
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
 grid_width = params['width'] / params['num_wells']
 params['grid_width'] = grid_width
 anchors = np.linspace(0, params['width'], params['num_wells'] + 1)[:params['num_wells']] + (
             params['grid_width'] / 2)
 params['anchors'] = anchors
-data_dir = './data'
 lengths_dir = os.path.join(data_dir, 'lengths')
 y_dir = os.path.join(data_dir, 'y')
 k_dir = os.path.join(data_dir, 'k')

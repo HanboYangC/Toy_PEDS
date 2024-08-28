@@ -2,8 +2,8 @@ import numpy as np
 import os
 import torch
 
-import utils
-from DataGenerator import DataGenerator as DG
+import src.utils
+from src.DataGenerator import DataGenerator as DG
 import matplotlib.pyplot as plt
 from matplotlib.ticker import ScalarFormatter
 SEED=42

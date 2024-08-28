@@ -1,9 +1,9 @@
 import numpy as np
 import torch
 
-from Geometry_1D import Geometry_1D as G1D
+from src.Geometry_1D import Geometry_1D as G1D
 from matplotlib import pyplot as plt
-import utils as ut
+import src.utils as ut
 from scipy.stats import pearsonr
 class Diffusion_FD_1D():
     def __init__(self,thre=1-1e-5):

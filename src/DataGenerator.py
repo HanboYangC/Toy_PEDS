@@ -1,9 +1,9 @@
 import numpy as np
-from Geometry_1D import Geometry_1D as G1D
+from src.Geometry_1D import Geometry_1D as G1D
 from tqdm import tqdm
 import os
 import torch
-import utils as ut
+import src.utils as ut
 SEED=42
 #%%
 class DataGenerator:

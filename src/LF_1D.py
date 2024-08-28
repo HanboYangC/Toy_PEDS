@@ -1,7 +1,7 @@
-from FD_1D import Diffusion_FD_1D as FD1
+from src.FD_1D import Diffusion_FD_1D as FD1
 import numpy as np
-from Geometry_1D import Geometry_1D as G1D
-import utils as ut
+from src.Geometry_1D import Geometry_1D as G1D
+import src.utils as ut
 import torch
 import torch.nn as nn
 
