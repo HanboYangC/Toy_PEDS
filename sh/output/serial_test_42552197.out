@@ -1,0 +1,2032 @@
+/blue/guo/yangh/Toy_PEDS/sh
+c39a-s21.ufhpc
+Wed Aug 28 15:50:40 EDT 2024
+device:cuda
+Generating data:   0%|                                                                                                                                                            | 0/1000 [00:00<?, ?it/s]Generating data: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1000/1000 [00:00<00:00, 129951.17it/s]
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.019167864928022027
+Epoch [1/100], Train Loss: 0.018129498697817326, Val Loss: 0.019167864928022027
+Epoch [2/100], Train Loss: 0.018135381777855484, Val Loss: 0.019167864928022027
+Epoch [3/100], Train Loss: 0.018136832270432602, Val Loss: 0.019167864928022027
+Epoch [4/100], Train Loss: 0.018120670564134012, Val Loss: 0.019167864928022027
+Epoch [5/100], Train Loss: 0.018141256052662025, Val Loss: 0.019167864928022027
+Epoch [6/100], Train Loss: 0.01814822708679871, Val Loss: 0.019167864928022027
+Epoch [7/100], Train Loss: 0.018153142268684776, Val Loss: 0.019167864928022027
+Epoch [8/100], Train Loss: 0.01813647167926485, Val Loss: 0.019167864928022027
+Epoch [9/100], Train Loss: 0.01813382405618375, Val Loss: 0.019167864928022027
+Epoch [10/100], Train Loss: 0.01815867783840407, Val Loss: 0.019167864928022027
+Epoch [11/100], Train Loss: 0.01813808007335121, Val Loss: 0.019167864928022027
+Epoch [12/100], Train Loss: 0.018142724663696506, Val Loss: 0.019167864928022027
+Epoch [13/100], Train Loss: 0.018131000201471827, Val Loss: 0.019167864928022027
+Epoch [14/100], Train Loss: 0.018120739863000133, Val Loss: 0.019167864928022027
+Epoch [15/100], Train Loss: 0.01813344784419645, Val Loss: 0.019167864928022027
+Epoch [16/100], Train Loss: 0.01814042797989466, Val Loss: 0.019167864928022027
+Epoch [17/100], Train Loss: 0.018145691518756477, Val Loss: 0.019167864928022027
+Epoch [18/100], Train Loss: 0.018132508563047104, Val Loss: 0.019167864928022027
+Epoch [19/100], Train Loss: 0.0181490160016851, Val Loss: 0.019167864928022027
+Epoch [20/100], Train Loss: 0.018149212934076786, Val Loss: 0.019167864928022027
+Epoch [21/100], Train Loss: 0.018136408518661152, Val Loss: 0.019167864928022027
+Epoch [22/100], Train Loss: 0.018132186706431887, Val Loss: 0.019167864928022027
+Epoch [23/100], Train Loss: 0.018140861552885988, Val Loss: 0.019167864928022027
+Epoch [24/100], Train Loss: 0.01813813370906494, Val Loss: 0.019167864928022027
+Epoch [25/100], Train Loss: 0.018138333985751324, Val Loss: 0.019167864928022027
+Epoch [26/100], Train Loss: 0.018137909556654366, Val Loss: 0.019167864928022027
+Epoch [27/100], Train Loss: 0.018144560639153828, Val Loss: 0.019167864928022027
+Epoch [28/100], Train Loss: 0.018133145630020987, Val Loss: 0.019167864928022027
+Epoch [29/100], Train Loss: 0.01813958187333562, Val Loss: 0.019167864928022027
+Epoch [30/100], Train Loss: 0.01812556411393664, Val Loss: 0.019167864928022027
+Epoch [31/100], Train Loss: 0.018145719373768025, Val Loss: 0.019167864928022027
+Epoch [32/100], Train Loss: 0.01814295690168034, Val Loss: 0.019167864928022027
+Epoch [33/100], Train Loss: 0.01813422922383655, Val Loss: 0.019167864928022027
+Epoch [34/100], Train Loss: 0.018135030669244854, Val Loss: 0.019167864928022027
+Epoch [35/100], Train Loss: 0.01814300660043955, Val Loss: 0.019167864928022027
+Epoch [36/100], Train Loss: 0.018147769130089066, Val Loss: 0.019167864928022027
+Epoch [37/100], Train Loss: 0.01814839472486214, Val Loss: 0.019167864928022027
+Epoch [38/100], Train Loss: 0.018151479646224867, Val Loss: 0.019167864928022027
+Epoch [39/100], Train Loss: 0.01813682617450302, Val Loss: 0.019167864928022027
+Epoch [40/100], Train Loss: 0.018131549131463875, Val Loss: 0.019167864928022027
+Epoch [41/100], Train Loss: 0.018120650794695724, Val Loss: 0.019167864928022027
+Epoch [42/100], Train Loss: 0.01813819729299708, Val Loss: 0.019167864928022027
+Epoch [43/100], Train Loss: 0.01812949056991122, Val Loss: 0.019167864928022027
+Epoch [44/100], Train Loss: 0.018137738235633482, Val Loss: 0.019167864928022027
+Epoch [45/100], Train Loss: 0.01814683103425936, Val Loss: 0.019167864928022027
+Epoch [46/100], Train Loss: 0.01813477099957791, Val Loss: 0.019167864928022027
+Epoch [47/100], Train Loss: 0.01812610411169854, Val Loss: 0.019167864928022027
+Epoch [48/100], Train Loss: 0.018152247606353325, Val Loss: 0.019167864928022027
+Epoch [49/100], Train Loss: 0.01812653463672508, Val Loss: 0.019167864928022027
+Epoch [50/100], Train Loss: 0.018142600035802883, Val Loss: 0.019167864928022027
+Epoch [51/100], Train Loss: 0.01814684695140882, Val Loss: 0.019167864928022027
+Epoch [52/100], Train Loss: 0.01814097911119461, Val Loss: 0.019167864928022027
+Epoch [53/100], Train Loss: 0.018153770996088333, Val Loss: 0.019167864928022027
+Epoch [54/100], Train Loss: 0.018140397203916855, Val Loss: 0.019167864928022027
+Epoch [55/100], Train Loss: 0.018139240924607624, Val Loss: 0.019167864928022027
+Epoch [56/100], Train Loss: 0.01814066847278313, Val Loss: 0.019167864928022027
+Epoch [57/100], Train Loss: 0.018129862760278313, Val Loss: 0.019167864928022027
+Epoch [58/100], Train Loss: 0.018135030415247787, Val Loss: 0.019167864928022027
+Epoch [59/100], Train Loss: 0.018124985254623673, Val Loss: 0.019167864928022027
+Epoch [60/100], Train Loss: 0.018135895529253918, Val Loss: 0.019167864928022027
+Epoch [61/100], Train Loss: 0.018136710097843952, Val Loss: 0.019167864928022027
+Epoch [62/100], Train Loss: 0.01813878131691705, Val Loss: 0.019167864928022027
+Epoch [63/100], Train Loss: 0.01814091019332409, Val Loss: 0.019167864928022027
+Epoch [64/100], Train Loss: 0.018135443964803762, Val Loss: 0.019167864928022027
+Epoch [65/100], Train Loss: 0.018132951025935738, Val Loss: 0.019167864928022027
+Epoch [66/100], Train Loss: 0.01814836035059257, Val Loss: 0.019167864928022027
+Epoch [67/100], Train Loss: 0.018127788154577665, Val Loss: 0.019167864928022027
+Epoch [68/100], Train Loss: 0.0181345490061424, Val Loss: 0.019167864928022027
+Epoch [69/100], Train Loss: 0.018135671080513435, Val Loss: 0.019167864928022027
+Epoch [70/100], Train Loss: 0.018136448057537728, Val Loss: 0.019167864928022027
+Epoch [71/100], Train Loss: 0.018127660775049168, Val Loss: 0.019167864928022027
+Epoch [72/100], Train Loss: 0.01813535349951549, Val Loss: 0.019167864928022027
+Epoch [73/100], Train Loss: 0.01813599450344389, Val Loss: 0.019167864928022027
+Epoch [74/100], Train Loss: 0.018126082606613636, Val Loss: 0.019167864928022027
+Epoch [75/100], Train Loss: 0.018140167463570833, Val Loss: 0.019167864928022027
+Epoch [76/100], Train Loss: 0.018161399205299942, Val Loss: 0.019167864928022027
+Epoch [77/100], Train Loss: 0.01812771377577023, Val Loss: 0.019167864928022027
+Epoch [78/100], Train Loss: 0.018135793761096218, Val Loss: 0.019167864928022027
+Epoch [79/100], Train Loss: 0.018138270909813316, Val Loss: 0.019167864928022027
+Epoch [80/100], Train Loss: 0.018137729007073423, Val Loss: 0.019167864928022027
+Epoch [81/100], Train Loss: 0.018149768467992544, Val Loss: 0.019167864928022027
+Epoch [82/100], Train Loss: 0.018125121016055346, Val Loss: 0.019167864928022027
+Epoch [83/100], Train Loss: 0.018140461295843124, Val Loss: 0.019167864928022027
+Epoch [84/100], Train Loss: 0.01813991139219566, Val Loss: 0.019167864928022027
+Epoch [85/100], Train Loss: 0.01813554907725616, Val Loss: 0.019167864928022027
+Epoch [86/100], Train Loss: 0.018122638575732708, Val Loss: 0.019167864928022027
+Epoch [87/100], Train Loss: 0.018138889392668552, Val Loss: 0.019167864928022027
+Epoch [88/100], Train Loss: 0.018132351846857506, Val Loss: 0.019167864928022027
+Epoch [89/100], Train Loss: 0.018138685771687466, Val Loss: 0.019167864928022027
+Epoch [90/100], Train Loss: 0.018126971935006706, Val Loss: 0.019167864928022027
+Epoch [91/100], Train Loss: 0.018147769976745953, Val Loss: 0.019167864928022027
+Epoch [92/100], Train Loss: 0.018141502091153103, Val Loss: 0.019167864928022027
+Epoch [93/100], Train Loss: 0.018137600188228218, Val Loss: 0.019167864928022027
+Epoch [94/100], Train Loss: 0.01813537635925141, Val Loss: 0.019167864928022027
+Epoch [95/100], Train Loss: 0.018131547565148634, Val Loss: 0.019167864928022027
+Epoch [96/100], Train Loss: 0.018135351975533096, Val Loss: 0.019167864928022027
+Epoch [97/100], Train Loss: 0.018135745501653713, Val Loss: 0.019167864928022027
+Epoch [98/100], Train Loss: 0.018131033348088913, Val Loss: 0.019167864928022027
+Epoch [99/100], Train Loss: 0.018138861706988377, Val Loss: 0.019167864928022027
+Epoch [100/100], Train Loss: 0.018121585334566506, Val Loss: 0.019167864928022027
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.02034631697461009
+Epoch [1/100], Train Loss: 0.01955094002187252, Val Loss: 0.02034631697461009
+Epoch [2/100], New best model saved with Val Loss: 0.020227061118930578
+Epoch [2/100], Train Loss: 0.019450363533740692, Val Loss: 0.020227061118930578
+Epoch [3/100], New best model saved with Val Loss: 0.020100627560168505
+Epoch [3/100], Train Loss: 0.019326166503808716, Val Loss: 0.020100627560168505
+Epoch [4/100], New best model saved with Val Loss: 0.0199668207205832
+Epoch [4/100], Train Loss: 0.019207529977641323, Val Loss: 0.0199668207205832
+Epoch [5/100], New best model saved with Val Loss: 0.0198270408436656
+Epoch [5/100], Train Loss: 0.01908614748919552, Val Loss: 0.0198270408436656
+Epoch [6/100], New best model saved with Val Loss: 0.019680058117955923
+Epoch [6/100], Train Loss: 0.018942793323235077, Val Loss: 0.019680058117955923
+Epoch [7/100], New best model saved with Val Loss: 0.019521853886544704
+Epoch [7/100], Train Loss: 0.01879281753843481, Val Loss: 0.019521853886544704
+Epoch [8/100], New best model saved with Val Loss: 0.019352205097675323
+Epoch [8/100], Train Loss: 0.0186220221221447, Val Loss: 0.019352205097675323
+Epoch [9/100], New best model saved with Val Loss: 0.01917186425998807
+Epoch [9/100], Train Loss: 0.018447715111754158, Val Loss: 0.01917186425998807
+Epoch [10/100], New best model saved with Val Loss: 0.018975792452692986
+Epoch [10/100], Train Loss: 0.018287290818989277, Val Loss: 0.018975792452692986
+Epoch [11/100], New best model saved with Val Loss: 0.018769055837765336
+Epoch [11/100], Train Loss: 0.01809011179615151, Val Loss: 0.018769055837765336
+Epoch [12/100], New best model saved with Val Loss: 0.01853934465907514
+Epoch [12/100], Train Loss: 0.01789548417383974, Val Loss: 0.01853934465907514
+Epoch [13/100], New best model saved with Val Loss: 0.018316241912543774
+Epoch [13/100], Train Loss: 0.01763730449602008, Val Loss: 0.018316241912543774
+Epoch [14/100], New best model saved with Val Loss: 0.018089781515300274
+Epoch [14/100], Train Loss: 0.01740098532966592, Val Loss: 0.018089781515300274
+Epoch [15/100], New best model saved with Val Loss: 0.017831692937761545
+Epoch [15/100], Train Loss: 0.017134686423973602, Val Loss: 0.017831692937761545
+Epoch [16/100], New best model saved with Val Loss: 0.017579551553353667
+Epoch [16/100], Train Loss: 0.016868586863645098, Val Loss: 0.017579551553353667
+Epoch [17/100], New best model saved with Val Loss: 0.017336050048470497
+Epoch [17/100], Train Loss: 0.01662791609256105, Val Loss: 0.017336050048470497
+Epoch [18/100], New best model saved with Val Loss: 0.017100645462051034
+Epoch [18/100], Train Loss: 0.01640538964420557, Val Loss: 0.017100645462051034
+Epoch [19/100], New best model saved with Val Loss: 0.01687529729679227
+Epoch [19/100], Train Loss: 0.01620120034468445, Val Loss: 0.01687529729679227
+Epoch [20/100], New best model saved with Val Loss: 0.01668356847949326
+Epoch [20/100], Train Loss: 0.01598281447183002, Val Loss: 0.01668356847949326
+Epoch [21/100], New best model saved with Val Loss: 0.016555218491703272
+Epoch [21/100], Train Loss: 0.015814911658790978, Val Loss: 0.016555218491703272
+Epoch [22/100], New best model saved with Val Loss: 0.016454486176371574
+Epoch [22/100], Train Loss: 0.01565265663984147, Val Loss: 0.016454486176371574
+Epoch [23/100], New best model saved with Val Loss: 0.01635446329601109
+Epoch [23/100], Train Loss: 0.015478778842159292, Val Loss: 0.01635446329601109
+Epoch [24/100], New best model saved with Val Loss: 0.016270983032882214
+Epoch [24/100], Train Loss: 0.01534451095556671, Val Loss: 0.016270983032882214
+Epoch [25/100], New best model saved with Val Loss: 0.016194245778024197
+Epoch [25/100], Train Loss: 0.01526463387364691, Val Loss: 0.016194245778024197
+Epoch [26/100], New best model saved with Val Loss: 0.01613055868074298
+Epoch [26/100], Train Loss: 0.015190838201140816, Val Loss: 0.01613055868074298
+Epoch [27/100], New best model saved with Val Loss: 0.016077343840152025
+Epoch [27/100], Train Loss: 0.015122011515565893, Val Loss: 0.016077343840152025
+Epoch [28/100], New best model saved with Val Loss: 0.016035485779866576
+Epoch [28/100], Train Loss: 0.015098924409936775, Val Loss: 0.016035485779866576
+Epoch [29/100], New best model saved with Val Loss: 0.01599775650538504
+Epoch [29/100], Train Loss: 0.015046464067629793, Val Loss: 0.01599775650538504
+Epoch [30/100], New best model saved with Val Loss: 0.01596408919431269
+Epoch [30/100], Train Loss: 0.015009731392968784, Val Loss: 0.01596408919431269
+Epoch [31/100], New best model saved with Val Loss: 0.015931638423353434
+Epoch [31/100], Train Loss: 0.014984582381492311, Val Loss: 0.015931638423353434
+Epoch [32/100], New best model saved with Val Loss: 0.01590273156762123
+Epoch [32/100], Train Loss: 0.014949372588572178, Val Loss: 0.01590273156762123
+Epoch [33/100], New best model saved with Val Loss: 0.015872785821557045
+Epoch [33/100], Train Loss: 0.01492452739991925, Val Loss: 0.015872785821557045
+Epoch [34/100], New best model saved with Val Loss: 0.015853487187996507
+Epoch [34/100], Train Loss: 0.01489585070786151, Val Loss: 0.015853487187996507
+Epoch [35/100], New best model saved with Val Loss: 0.01584073412232101
+Epoch [35/100], Train Loss: 0.014894117728214373, Val Loss: 0.01584073412232101
+Epoch [36/100], New best model saved with Val Loss: 0.015834174351766706
+Epoch [36/100], Train Loss: 0.014866413336924532, Val Loss: 0.015834174351766706
+Epoch [37/100], New best model saved with Val Loss: 0.01583005371503532
+Epoch [37/100], Train Loss: 0.014869518112391233, Val Loss: 0.01583005371503532
+Epoch [38/100], New best model saved with Val Loss: 0.01582620502449572
+Epoch [38/100], Train Loss: 0.014845982913605192, Val Loss: 0.01582620502449572
+Epoch [39/100], New best model saved with Val Loss: 0.01582356379367411
+Epoch [39/100], Train Loss: 0.014846746725114908, Val Loss: 0.01582356379367411
+Epoch [40/100], New best model saved with Val Loss: 0.01582187064923346
+Epoch [40/100], Train Loss: 0.014833012892102653, Val Loss: 0.01582187064923346
+Epoch [41/100], New best model saved with Val Loss: 0.015820374945178628
+Epoch [41/100], Train Loss: 0.014828609006310051, Val Loss: 0.015820374945178628
+Epoch [42/100], New best model saved with Val Loss: 0.015819394262507558
+Epoch [42/100], Train Loss: 0.014840489253401756, Val Loss: 0.015819394262507558
+Epoch [43/100], New best model saved with Val Loss: 0.015818189131096005
+Epoch [43/100], Train Loss: 0.014832752756774426, Val Loss: 0.015818189131096005
+Epoch [44/100], New best model saved with Val Loss: 0.01581681938841939
+Epoch [44/100], Train Loss: 0.014830924147232012, Val Loss: 0.01581681938841939
+Epoch [45/100], New best model saved with Val Loss: 0.015815735328942537
+Epoch [45/100], Train Loss: 0.014834422279487957, Val Loss: 0.015815735328942537
+Epoch [46/100], New best model saved with Val Loss: 0.015814935555681586
+Epoch [46/100], Train Loss: 0.014825340318070217, Val Loss: 0.015814935555681586
+Epoch [47/100], New best model saved with Val Loss: 0.01581422076560557
+Epoch [47/100], Train Loss: 0.014821468852460384, Val Loss: 0.01581422076560557
+Epoch [48/100], New best model saved with Val Loss: 0.015813497127965093
+Epoch [48/100], Train Loss: 0.01482807303016836, Val Loss: 0.015813497127965093
+Epoch [49/100], New best model saved with Val Loss: 0.015812870115041733
+Epoch [49/100], Train Loss: 0.014825282449072058, Val Loss: 0.015812870115041733
+Epoch [50/100], New best model saved with Val Loss: 0.01581226196140051
+Epoch [50/100], Train Loss: 0.014825555538250641, Val Loss: 0.01581226196140051
+Epoch [51/100], New best model saved with Val Loss: 0.015811486402526498
+Epoch [51/100], Train Loss: 0.014832112980498509, Val Loss: 0.015811486402526498
+Epoch [52/100], New best model saved with Val Loss: 0.01581092132255435
+Epoch [52/100], Train Loss: 0.014831476167521694, Val Loss: 0.01581092132255435
+Epoch [53/100], New best model saved with Val Loss: 0.015810078708454967
+Epoch [53/100], Train Loss: 0.014818777922879566, Val Loss: 0.015810078708454967
+Epoch [54/100], New best model saved with Val Loss: 0.01580953598022461
+Epoch [54/100], Train Loss: 0.014822790145196697, Val Loss: 0.01580953598022461
+Epoch [55/100], New best model saved with Val Loss: 0.015809048665687442
+Epoch [55/100], Train Loss: 0.014830676034431566, Val Loss: 0.015809048665687442
+Epoch [56/100], New best model saved with Val Loss: 0.015808579046279192
+Epoch [56/100], Train Loss: 0.014840304936197672, Val Loss: 0.015808579046279192
+Epoch [57/100], New best model saved with Val Loss: 0.015808112919330597
+Epoch [57/100], Train Loss: 0.014822118322957645, Val Loss: 0.015808112919330597
+Epoch [58/100], New best model saved with Val Loss: 0.015807743649929762
+Epoch [58/100], Train Loss: 0.014819494787264954, Val Loss: 0.015807743649929762
+Epoch [59/100], New best model saved with Val Loss: 0.015807315008714795
+Epoch [59/100], Train Loss: 0.014824400994588028, Val Loss: 0.015807315008714795
+Epoch [60/100], New best model saved with Val Loss: 0.01580697693862021
+Epoch [60/100], Train Loss: 0.014824902173131704, Val Loss: 0.01580697693862021
+Epoch [61/100], New best model saved with Val Loss: 0.01580669661052525
+Epoch [61/100], Train Loss: 0.014823730484667149, Val Loss: 0.01580669661052525
+Epoch [62/100], New best model saved with Val Loss: 0.01580627029761672
+Epoch [62/100], Train Loss: 0.014823410363698547, Val Loss: 0.01580627029761672
+Epoch [63/100], New best model saved with Val Loss: 0.015805936651304364
+Epoch [63/100], Train Loss: 0.014824029777876356, Val Loss: 0.015805936651304364
+Epoch [64/100], New best model saved with Val Loss: 0.015805664705112576
+Epoch [64/100], Train Loss: 0.014842310835692015, Val Loss: 0.015805664705112576
+Epoch [65/100], New best model saved with Val Loss: 0.015805418137460947
+Epoch [65/100], Train Loss: 0.014825658153065226, Val Loss: 0.015805418137460947
+Epoch [66/100], New best model saved with Val Loss: 0.015805264469236135
+Epoch [66/100], Train Loss: 0.01483339871364561, Val Loss: 0.015805264469236135
+Epoch [67/100], New best model saved with Val Loss: 0.015805023489519954
+Epoch [67/100], Train Loss: 0.014830037401142445, Val Loss: 0.015805023489519954
+Epoch [68/100], New best model saved with Val Loss: 0.01580461789853871
+Epoch [68/100], Train Loss: 0.014821828935634006, Val Loss: 0.01580461789853871
+Epoch [69/100], New best model saved with Val Loss: 0.015804339898750186
+Epoch [69/100], Train Loss: 0.014826803425834938, Val Loss: 0.015804339898750186
+Epoch [70/100], New best model saved with Val Loss: 0.0158040311653167
+Epoch [70/100], Train Loss: 0.014827921647917141, Val Loss: 0.0158040311653167
+Epoch [71/100], New best model saved with Val Loss: 0.01580375269986689
+Epoch [71/100], Train Loss: 0.014825738331472332, Val Loss: 0.01580375269986689
+Epoch [72/100], New best model saved with Val Loss: 0.015803482616320252
+Epoch [72/100], Train Loss: 0.014815813057463278, Val Loss: 0.015803482616320252
+Epoch [73/100], New best model saved with Val Loss: 0.015803164103999734
+Epoch [73/100], Train Loss: 0.014834049369462511, Val Loss: 0.015803164103999734
+Epoch [74/100], New best model saved with Val Loss: 0.015802897047251463
+Epoch [74/100], Train Loss: 0.014814162796193903, Val Loss: 0.015802897047251463
+Epoch [75/100], New best model saved with Val Loss: 0.015802631620317698
+Epoch [75/100], Train Loss: 0.014824556652456522, Val Loss: 0.015802631620317698
+Epoch [76/100], New best model saved with Val Loss: 0.015802265843376517
+Epoch [76/100], Train Loss: 0.014833294490182941, Val Loss: 0.015802265843376517
+Epoch [77/100], New best model saved with Val Loss: 0.01580199017189443
+Epoch [77/100], Train Loss: 0.014822059226307001, Val Loss: 0.01580199017189443
+Epoch [78/100], New best model saved with Val Loss: 0.015801750123500824
+Epoch [78/100], Train Loss: 0.014830074992708185, Val Loss: 0.015801750123500824
+Epoch [79/100], New best model saved with Val Loss: 0.015801342902705073
+Epoch [79/100], Train Loss: 0.014815063088793646, Val Loss: 0.015801342902705073
+Epoch [80/100], New best model saved with Val Loss: 0.015801005298271775
+Epoch [80/100], Train Loss: 0.014820668804035946, Val Loss: 0.015801005298271775
+Epoch [81/100], New best model saved with Val Loss: 0.01580076036043465
+Epoch [81/100], Train Loss: 0.014820040711625055, Val Loss: 0.01580076036043465
+Epoch [82/100], New best model saved with Val Loss: 0.015800303779542446
+Epoch [82/100], Train Loss: 0.014841774605553259, Val Loss: 0.015800303779542446
+Epoch [83/100], New best model saved with Val Loss: 0.01579995616339147
+Epoch [83/100], Train Loss: 0.014833456540310925, Val Loss: 0.01579995616339147
+Epoch [84/100], New best model saved with Val Loss: 0.01579979294911027
+Epoch [84/100], Train Loss: 0.01482969725673849, Val Loss: 0.01579979294911027
+Epoch [85/100], New best model saved with Val Loss: 0.015799712855368853
+Epoch [85/100], Train Loss: 0.01482162264768373, Val Loss: 0.015799712855368853
+Epoch [86/100], New best model saved with Val Loss: 0.015799660934135318
+Epoch [86/100], Train Loss: 0.014817666304721073, Val Loss: 0.015799660934135318
+Epoch [87/100], New best model saved with Val Loss: 0.0157996432390064
+Epoch [87/100], Train Loss: 0.01482510697943243, Val Loss: 0.0157996432390064
+Epoch [88/100], New best model saved with Val Loss: 0.015799580374732614
+Epoch [88/100], Train Loss: 0.014825831590728327, Val Loss: 0.015799580374732614
+Epoch [89/100], New best model saved with Val Loss: 0.01579952985048294
+Epoch [89/100], Train Loss: 0.014830475842410868, Val Loss: 0.01579952985048294
+Epoch [90/100], New best model saved with Val Loss: 0.015799484681338072
+Epoch [90/100], Train Loss: 0.014828329990533266, Val Loss: 0.015799484681338072
+Epoch [91/100], New best model saved with Val Loss: 0.01579946931451559
+Epoch [91/100], Train Loss: 0.014819511000744322, Val Loss: 0.01579946931451559
+Epoch [92/100], New best model saved with Val Loss: 0.015799398068338633
+Epoch [92/100], Train Loss: 0.014830698640170422, Val Loss: 0.015799398068338633
+Epoch [93/100], New best model saved with Val Loss: 0.015799343585968018
+Epoch [93/100], Train Loss: 0.014825843951918861, Val Loss: 0.015799343585968018
+Epoch [94/100], New best model saved with Val Loss: 0.01579930679872632
+Epoch [94/100], Train Loss: 0.01483124934814193, Val Loss: 0.01579930679872632
+Epoch [95/100], New best model saved with Val Loss: 0.0157992506865412
+Epoch [95/100], Train Loss: 0.01481031740761616, Val Loss: 0.0157992506865412
+Epoch [96/100], New best model saved with Val Loss: 0.01579919783398509
+Epoch [96/100], Train Loss: 0.014831277541816235, Val Loss: 0.01579919783398509
+Epoch [97/100], New best model saved with Val Loss: 0.01579915452748537
+Epoch [97/100], Train Loss: 0.014817827381193638, Val Loss: 0.01579915452748537
+Epoch [98/100], New best model saved with Val Loss: 0.015799118671566248
+Epoch [98/100], Train Loss: 0.014825473751195452, Val Loss: 0.015799118671566248
+Epoch [99/100], New best model saved with Val Loss: 0.015799078857526183
+Epoch [99/100], Train Loss: 0.01482612161304463, Val Loss: 0.015799078857526183
+Epoch [100/100], New best model saved with Val Loss: 0.015798995038494468
+Epoch [100/100], Train Loss: 0.014821238900450144, Val Loss: 0.015798995038494468
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.029286295175552368
+Epoch [1/100], Train Loss: 0.028752713633531875, Val Loss: 0.029286295175552368
+Epoch [2/100], New best model saved with Val Loss: 0.028979690745472908
+Epoch [2/100], Train Loss: 0.028502716090191494, Val Loss: 0.028979690745472908
+Epoch [3/100], New best model saved with Val Loss: 0.02862583613023162
+Epoch [3/100], Train Loss: 0.028140615671873093, Val Loss: 0.02862583613023162
+Epoch [4/100], New best model saved with Val Loss: 0.02823918592184782
+Epoch [4/100], Train Loss: 0.027769685384224762, Val Loss: 0.02823918592184782
+Epoch [5/100], New best model saved with Val Loss: 0.027794561348855495
+Epoch [5/100], Train Loss: 0.02734289267523722, Val Loss: 0.027794561348855495
+Epoch [6/100], New best model saved with Val Loss: 0.027303555980324745
+Epoch [6/100], Train Loss: 0.026839612729170105, Val Loss: 0.027303555980324745
+Epoch [7/100], New best model saved with Val Loss: 0.026705524884164333
+Epoch [7/100], Train Loss: 0.026254094290462406, Val Loss: 0.026705524884164333
+Epoch [8/100], New best model saved with Val Loss: 0.0260091507807374
+Epoch [8/100], Train Loss: 0.025587619112973862, Val Loss: 0.0260091507807374
+Epoch [9/100], New best model saved with Val Loss: 0.025139612145721912
+Epoch [9/100], Train Loss: 0.02480671808800914, Val Loss: 0.025139612145721912
+Epoch [10/100], New best model saved with Val Loss: 0.024075129069387913
+Epoch [10/100], Train Loss: 0.02388676924800331, Val Loss: 0.024075129069387913
+Epoch [11/100], New best model saved with Val Loss: 0.022918966133147478
+Epoch [11/100], Train Loss: 0.022836829704994507, Val Loss: 0.022918966133147478
+Epoch [12/100], New best model saved with Val Loss: 0.021942973602563143
+Epoch [12/100], Train Loss: 0.021877294914288956, Val Loss: 0.021942973602563143
+Epoch [13/100], New best model saved with Val Loss: 0.02143813669681549
+Epoch [13/100], Train Loss: 0.02114221741530028, Val Loss: 0.02143813669681549
+Epoch [14/100], New best model saved with Val Loss: 0.021149498410522938
+Epoch [14/100], Train Loss: 0.020771064118228176, Val Loss: 0.021149498410522938
+Epoch [15/100], New best model saved with Val Loss: 0.020971609745174646
+Epoch [15/100], Train Loss: 0.02056756844236092, Val Loss: 0.020971609745174646
+Epoch [16/100], New best model saved with Val Loss: 0.02084959764033556
+Epoch [16/100], Train Loss: 0.02040329228409312, Val Loss: 0.02084959764033556
+Epoch [17/100], New best model saved with Val Loss: 0.020761812571436167
+Epoch [17/100], Train Loss: 0.02029016131365841, Val Loss: 0.020761812571436167
+Epoch [18/100], New best model saved with Val Loss: 0.020680245477706194
+Epoch [18/100], Train Loss: 0.020172451876781204, Val Loss: 0.020680245477706194
+Epoch [19/100], New best model saved with Val Loss: 0.020609012804925442
+Epoch [19/100], Train Loss: 0.020105154253542423, Val Loss: 0.020609012804925442
+Epoch [20/100], New best model saved with Val Loss: 0.020557831041514874
+Epoch [20/100], Train Loss: 0.020033005794340916, Val Loss: 0.020557831041514874
+Epoch [21/100], New best model saved with Val Loss: 0.020512642338871956
+Epoch [21/100], Train Loss: 0.019971209154887634, Val Loss: 0.020512642338871956
+Epoch [22/100], New best model saved with Val Loss: 0.020474449265748262
+Epoch [22/100], Train Loss: 0.019937897270376034, Val Loss: 0.020474449265748262
+Epoch [23/100], New best model saved with Val Loss: 0.02043865993618965
+Epoch [23/100], Train Loss: 0.01988944182680412, Val Loss: 0.02043865993618965
+Epoch [24/100], New best model saved with Val Loss: 0.020404191687703133
+Epoch [24/100], Train Loss: 0.01986563883044503, Val Loss: 0.020404191687703133
+Epoch [25/100], New best model saved with Val Loss: 0.020377172622829676
+Epoch [25/100], Train Loss: 0.019833371805196457, Val Loss: 0.020377172622829676
+Epoch [26/100], New best model saved with Val Loss: 0.020353334490209818
+Epoch [26/100], Train Loss: 0.01984023404392329, Val Loss: 0.020353334490209818
+Epoch [27/100], New best model saved with Val Loss: 0.02032933058217168
+Epoch [27/100], Train Loss: 0.019805566831068558, Val Loss: 0.02032933058217168
+Epoch [28/100], New best model saved with Val Loss: 0.020306191872805357
+Epoch [28/100], Train Loss: 0.019766831177879463, Val Loss: 0.020306191872805357
+Epoch [29/100], New best model saved with Val Loss: 0.020282612182199955
+Epoch [29/100], Train Loss: 0.01972788716243072, Val Loss: 0.020282612182199955
+Epoch [30/100], New best model saved with Val Loss: 0.020258179865777493
+Epoch [30/100], Train Loss: 0.01972507279027592, Val Loss: 0.020258179865777493
+Epoch [31/100], New best model saved with Val Loss: 0.02023470215499401
+Epoch [31/100], Train Loss: 0.01970456303520636, Val Loss: 0.02023470215499401
+Epoch [32/100], New best model saved with Val Loss: 0.020212705247104168
+Epoch [32/100], Train Loss: 0.01968454374847087, Val Loss: 0.020212705247104168
+Epoch [33/100], New best model saved with Val Loss: 0.020190942101180553
+Epoch [33/100], Train Loss: 0.019654210402884266, Val Loss: 0.020190942101180553
+Epoch [34/100], New best model saved with Val Loss: 0.020168113987892866
+Epoch [34/100], Train Loss: 0.019662826745347542, Val Loss: 0.020168113987892866
+Epoch [35/100], New best model saved with Val Loss: 0.020146927796304226
+Epoch [35/100], Train Loss: 0.019605421207167885, Val Loss: 0.020146927796304226
+Epoch [36/100], New best model saved with Val Loss: 0.02012476045638323
+Epoch [36/100], Train Loss: 0.01957168502055786, Val Loss: 0.02012476045638323
+Epoch [37/100], New best model saved with Val Loss: 0.020104174967855215
+Epoch [37/100], Train Loss: 0.01957452136345885, Val Loss: 0.020104174967855215
+Epoch [38/100], New best model saved with Val Loss: 0.020083383657038212
+Epoch [38/100], Train Loss: 0.019571891139176758, Val Loss: 0.020083383657038212
+Epoch [39/100], New best model saved with Val Loss: 0.020062124356627464
+Epoch [39/100], Train Loss: 0.019546027887951244, Val Loss: 0.020062124356627464
+Epoch [40/100], New best model saved with Val Loss: 0.02004117425531149
+Epoch [40/100], Train Loss: 0.019527141004800797, Val Loss: 0.02004117425531149
+Epoch [41/100], New best model saved with Val Loss: 0.02001884113997221
+Epoch [41/100], Train Loss: 0.019483081573112446, Val Loss: 0.02001884113997221
+Epoch [42/100], New best model saved with Val Loss: 0.01999588869512081
+Epoch [42/100], Train Loss: 0.019481589933010666, Val Loss: 0.01999588869512081
+Epoch [43/100], New best model saved with Val Loss: 0.019972337875515223
+Epoch [43/100], Train Loss: 0.019456836056302895, Val Loss: 0.019972337875515223
+Epoch [44/100], New best model saved with Val Loss: 0.019948200322687626
+Epoch [44/100], Train Loss: 0.019428250718523155, Val Loss: 0.019948200322687626
+Epoch [45/100], New best model saved with Val Loss: 0.01992544438689947
+Epoch [45/100], Train Loss: 0.019419038837606258, Val Loss: 0.01992544438689947
+Epoch [46/100], New best model saved with Val Loss: 0.019903469365090132
+Epoch [46/100], Train Loss: 0.01937830490483479, Val Loss: 0.019903469365090132
+Epoch [47/100], New best model saved with Val Loss: 0.01988131459802389
+Epoch [47/100], Train Loss: 0.019364105283536694, Val Loss: 0.01988131459802389
+Epoch [48/100], New best model saved with Val Loss: 0.0198578923009336
+Epoch [48/100], Train Loss: 0.01929924992675131, Val Loss: 0.0198578923009336
+Epoch [49/100], New best model saved with Val Loss: 0.019834383856505156
+Epoch [49/100], Train Loss: 0.019313680939376354, Val Loss: 0.019834383856505156
+Epoch [50/100], New best model saved with Val Loss: 0.019809769932180643
+Epoch [50/100], Train Loss: 0.019279148260300808, Val Loss: 0.019809769932180643
+Epoch [51/100], New best model saved with Val Loss: 0.01978462003171444
+Epoch [51/100], Train Loss: 0.019257455810227177, Val Loss: 0.01978462003171444
+Epoch [52/100], New best model saved with Val Loss: 0.01975822076201439
+Epoch [52/100], Train Loss: 0.019233346154743976, Val Loss: 0.01975822076201439
+Epoch [53/100], New best model saved with Val Loss: 0.019730955827981234
+Epoch [53/100], Train Loss: 0.01919218355959112, Val Loss: 0.019730955827981234
+Epoch [54/100], New best model saved with Val Loss: 0.019702290184795856
+Epoch [54/100], Train Loss: 0.019163981926712124, Val Loss: 0.019702290184795856
+Epoch [55/100], New best model saved with Val Loss: 0.01967236865311861
+Epoch [55/100], Train Loss: 0.019119062037630516, Val Loss: 0.01967236865311861
+Epoch [56/100], New best model saved with Val Loss: 0.019642526283860207
+Epoch [56/100], Train Loss: 0.01911700457673181, Val Loss: 0.019642526283860207
+Epoch [57/100], New best model saved with Val Loss: 0.019609615206718445
+Epoch [57/100], Train Loss: 0.01905784933743152, Val Loss: 0.019609615206718445
+Epoch [58/100], New best model saved with Val Loss: 0.019576795399188995
+Epoch [58/100], Train Loss: 0.019027570431882686, Val Loss: 0.019576795399188995
+Epoch [59/100], New best model saved with Val Loss: 0.01954254973679781
+Epoch [59/100], Train Loss: 0.01901800287040797, Val Loss: 0.01954254973679781
+Epoch [60/100], New best model saved with Val Loss: 0.019505922682583332
+Epoch [60/100], Train Loss: 0.01896689044819637, Val Loss: 0.019505922682583332
+Epoch [61/100], New best model saved with Val Loss: 0.019467795733362436
+Epoch [61/100], Train Loss: 0.018918128006837585, Val Loss: 0.019467795733362436
+Epoch [62/100], New best model saved with Val Loss: 0.01942772977054119
+Epoch [62/100], Train Loss: 0.018867210146378387, Val Loss: 0.01942772977054119
+Epoch [63/100], New best model saved with Val Loss: 0.019385709427297115
+Epoch [63/100], Train Loss: 0.01883696633475748, Val Loss: 0.019385709427297115
+Epoch [64/100], New best model saved with Val Loss: 0.019341048784554005
+Epoch [64/100], Train Loss: 0.018766856244341892, Val Loss: 0.019341048784554005
+Epoch [65/100], New best model saved with Val Loss: 0.01929508615285158
+Epoch [65/100], Train Loss: 0.0187340107831088, Val Loss: 0.01929508615285158
+Epoch [66/100], New best model saved with Val Loss: 0.019245420582592487
+Epoch [66/100], Train Loss: 0.018668964970856905, Val Loss: 0.019245420582592487
+Epoch [67/100], New best model saved with Val Loss: 0.01919385464861989
+Epoch [67/100], Train Loss: 0.018627301578155973, Val Loss: 0.01919385464861989
+Epoch [68/100], New best model saved with Val Loss: 0.019138075411319733
+Epoch [68/100], Train Loss: 0.018566095058552244, Val Loss: 0.019138075411319733
+Epoch [69/100], New best model saved with Val Loss: 0.019078690093010664
+Epoch [69/100], Train Loss: 0.018495064228773117, Val Loss: 0.019078690093010664
+Epoch [70/100], New best model saved with Val Loss: 0.019014843739569187
+Epoch [70/100], Train Loss: 0.018424383449283512, Val Loss: 0.019014843739569187
+Epoch [71/100], New best model saved with Val Loss: 0.018947794567793608
+Epoch [71/100], Train Loss: 0.01835729139433666, Val Loss: 0.018947794567793608
+Epoch [72/100], New best model saved with Val Loss: 0.018871627748012543
+Epoch [72/100], Train Loss: 0.01826539800756357, Val Loss: 0.018871627748012543
+Epoch [73/100], New best model saved with Val Loss: 0.018792875576764345
+Epoch [73/100], Train Loss: 0.01820117798210545, Val Loss: 0.018792875576764345
+Epoch [74/100], New best model saved with Val Loss: 0.01870600297115743
+Epoch [74/100], Train Loss: 0.018104893663390118, Val Loss: 0.01870600297115743
+Epoch [75/100], New best model saved with Val Loss: 0.01860835123807192
+Epoch [75/100], Train Loss: 0.01800642056729306, Val Loss: 0.01860835123807192
+Epoch [76/100], New best model saved with Val Loss: 0.01850072806701064
+Epoch [76/100], Train Loss: 0.017875374294817448, Val Loss: 0.01850072806701064
+Epoch [77/100], New best model saved with Val Loss: 0.018381338566541672
+Epoch [77/100], Train Loss: 0.017747132954272358, Val Loss: 0.018381338566541672
+Epoch [78/100], New best model saved with Val Loss: 0.018244348000735044
+Epoch [78/100], Train Loss: 0.017622522078454494, Val Loss: 0.018244348000735044
+Epoch [79/100], New best model saved with Val Loss: 0.018085808027535677
+Epoch [79/100], Train Loss: 0.017437804786657744, Val Loss: 0.018085808027535677
+Epoch [80/100], New best model saved with Val Loss: 0.017907006666064262
+Epoch [80/100], Train Loss: 0.01725692149590362, Val Loss: 0.017907006666064262
+Epoch [81/100], New best model saved with Val Loss: 0.017695871414616704
+Epoch [81/100], Train Loss: 0.01702078190547499, Val Loss: 0.017695871414616704
+Epoch [82/100], New best model saved with Val Loss: 0.017444233410060406
+Epoch [82/100], Train Loss: 0.016735537951304155, Val Loss: 0.017444233410060406
+Epoch [83/100], New best model saved with Val Loss: 0.017136692069470882
+Epoch [83/100], Train Loss: 0.01637320144271309, Val Loss: 0.017136692069470882
+Epoch [84/100], New best model saved with Val Loss: 0.01675373502075672
+Epoch [84/100], Train Loss: 0.01597853834656152, Val Loss: 0.01675373502075672
+Epoch [85/100], New best model saved with Val Loss: 0.01622426137328148
+Epoch [85/100], Train Loss: 0.015468764330514452, Val Loss: 0.01622426137328148
+Epoch [86/100], New best model saved with Val Loss: 0.01557906111702323
+Epoch [86/100], Train Loss: 0.014845554674552246, Val Loss: 0.01557906111702323
+Epoch [87/100], New best model saved with Val Loss: 0.014994136057794094
+Epoch [87/100], Train Loss: 0.014139541890472174, Val Loss: 0.014994136057794094
+Epoch [88/100], New best model saved with Val Loss: 0.014354174258187413
+Epoch [88/100], Train Loss: 0.013524116821248423, Val Loss: 0.014354174258187413
+Epoch [89/100], New best model saved with Val Loss: 0.013878880068659782
+Epoch [89/100], Train Loss: 0.013038978022946552, Val Loss: 0.013878880068659782
+Epoch [90/100], New best model saved with Val Loss: 0.013479837216436863
+Epoch [90/100], Train Loss: 0.012638147539374504, Val Loss: 0.013479837216436863
+Epoch [91/100], New best model saved with Val Loss: 0.01322614774107933
+Epoch [91/100], Train Loss: 0.012315704952925444, Val Loss: 0.01322614774107933
+Epoch [92/100], New best model saved with Val Loss: 0.013027186039835215
+Epoch [92/100], Train Loss: 0.012095293453471228, Val Loss: 0.013027186039835215
+Epoch [93/100], New best model saved with Val Loss: 0.012854197761043906
+Epoch [93/100], Train Loss: 0.011942328334870663, Val Loss: 0.012854197761043906
+Epoch [94/100], New best model saved with Val Loss: 0.012750816764310002
+Epoch [94/100], Train Loss: 0.01184292273087935, Val Loss: 0.012750816764310002
+Epoch [95/100], New best model saved with Val Loss: 0.012680799700319767
+Epoch [95/100], Train Loss: 0.01177546830678528, Val Loss: 0.012680799700319767
+Epoch [96/100], New best model saved with Val Loss: 0.01262392452917993
+Epoch [96/100], Train Loss: 0.011720790231431072, Val Loss: 0.01262392452917993
+Epoch [97/100], New best model saved with Val Loss: 0.01257450319826603
+Epoch [97/100], Train Loss: 0.011663672217929905, Val Loss: 0.01257450319826603
+Epoch [98/100], New best model saved with Val Loss: 0.012530098436400294
+Epoch [98/100], Train Loss: 0.011625868987969377, Val Loss: 0.012530098436400294
+Epoch [99/100], New best model saved with Val Loss: 0.012485649203881621
+Epoch [99/100], Train Loss: 0.011590574825690552, Val Loss: 0.012485649203881621
+Epoch [100/100], New best model saved with Val Loss: 0.012455752352252603
+Epoch [100/100], Train Loss: 0.011552325830879536, Val Loss: 0.012455752352252603
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.024740866385400295
+Epoch [1/100], Train Loss: 0.02498253790492361, Val Loss: 0.024740866385400295
+Epoch [2/100], New best model saved with Val Loss: 0.024124876596033573
+Epoch [2/100], Train Loss: 0.024276352233507416, Val Loss: 0.024124876596033573
+Epoch [3/100], New best model saved with Val Loss: 0.023590425495058298
+Epoch [3/100], Train Loss: 0.0236476216126572, Val Loss: 0.023590425495058298
+Epoch [4/100], New best model saved with Val Loss: 0.023049512412399054
+Epoch [4/100], Train Loss: 0.023021992634643208, Val Loss: 0.023049512412399054
+Epoch [5/100], New best model saved with Val Loss: 0.022503387182950974
+Epoch [5/100], Train Loss: 0.022376112301241268, Val Loss: 0.022503387182950974
+Epoch [6/100], New best model saved with Val Loss: 0.021935449447482824
+Epoch [6/100], Train Loss: 0.021781168793412773, Val Loss: 0.021935449447482824
+Epoch [7/100], New best model saved with Val Loss: 0.021365304477512836
+Epoch [7/100], Train Loss: 0.02114187917587432, Val Loss: 0.021365304477512836
+Epoch [8/100], New best model saved with Val Loss: 0.02078428864479065
+Epoch [8/100], Train Loss: 0.020563181066377598, Val Loss: 0.02078428864479065
+Epoch [9/100], New best model saved with Val Loss: 0.020211472641676664
+Epoch [9/100], Train Loss: 0.020024446855214508, Val Loss: 0.020211472641676664
+Epoch [10/100], New best model saved with Val Loss: 0.019637702498584986
+Epoch [10/100], Train Loss: 0.01950830619104884, Val Loss: 0.019637702498584986
+Epoch [11/100], New best model saved with Val Loss: 0.01906061079353094
+Epoch [11/100], Train Loss: 0.018969457257877697, Val Loss: 0.01906061079353094
+Epoch [12/100], New best model saved with Val Loss: 0.01845742855221033
+Epoch [12/100], Train Loss: 0.018464142795313488, Val Loss: 0.01845742855221033
+Epoch [13/100], New best model saved with Val Loss: 0.0178524162620306
+Epoch [13/100], Train Loss: 0.01793983345851302, Val Loss: 0.0178524162620306
+Epoch [14/100], New best model saved with Val Loss: 0.01736658182926476
+Epoch [14/100], Train Loss: 0.017453468912704426, Val Loss: 0.01736658182926476
+Epoch [15/100], New best model saved with Val Loss: 0.016859780298545957
+Epoch [15/100], Train Loss: 0.016955997625535183, Val Loss: 0.016859780298545957
+Epoch [16/100], New best model saved with Val Loss: 0.016373001039028168
+Epoch [16/100], Train Loss: 0.016482626849954777, Val Loss: 0.016373001039028168
+Epoch [17/100], New best model saved with Val Loss: 0.015894428361207247
+Epoch [17/100], Train Loss: 0.016023979141292246, Val Loss: 0.015894428361207247
+Epoch [18/100], New best model saved with Val Loss: 0.015488117467612028
+Epoch [18/100], Train Loss: 0.015550776003775272, Val Loss: 0.015488117467612028
+Epoch [19/100], New best model saved with Val Loss: 0.015051434515044093
+Epoch [19/100], Train Loss: 0.01511166545308449, Val Loss: 0.015051434515044093
+Epoch [20/100], New best model saved with Val Loss: 0.014646440278738737
+Epoch [20/100], Train Loss: 0.014678621918640354, Val Loss: 0.014646440278738737
+Epoch [21/100], New best model saved with Val Loss: 0.014352794736623764
+Epoch [21/100], Train Loss: 0.0142404556020417, Val Loss: 0.014352794736623764
+Epoch [22/100], New best model saved with Val Loss: 0.014072018908336759
+Epoch [22/100], Train Loss: 0.013844136826016686, Val Loss: 0.014072018908336759
+Epoch [23/100], New best model saved with Val Loss: 0.01379366428591311
+Epoch [23/100], Train Loss: 0.013481262182308868, Val Loss: 0.01379366428591311
+Epoch [24/100], New best model saved with Val Loss: 0.013525913935154676
+Epoch [24/100], Train Loss: 0.013125328135422686, Val Loss: 0.013525913935154676
+Epoch [25/100], New best model saved with Val Loss: 0.013249562354758382
+Epoch [25/100], Train Loss: 0.012770111206918955, Val Loss: 0.013249562354758382
+Epoch [26/100], New best model saved with Val Loss: 0.012982623185962439
+Epoch [26/100], Train Loss: 0.012406687887216156, Val Loss: 0.012982623185962439
+Epoch [27/100], New best model saved with Val Loss: 0.012692066607996821
+Epoch [27/100], Train Loss: 0.012075131462717598, Val Loss: 0.012692066607996821
+Epoch [28/100], New best model saved with Val Loss: 0.012465134961530566
+Epoch [28/100], Train Loss: 0.01178518416021358, Val Loss: 0.012465134961530566
+Epoch [29/100], New best model saved with Val Loss: 0.012247608974575996
+Epoch [29/100], Train Loss: 0.011534181000156836, Val Loss: 0.012247608974575996
+Epoch [30/100], New best model saved with Val Loss: 0.012073165271431208
+Epoch [30/100], Train Loss: 0.011296535630456427, Val Loss: 0.012073165271431208
+Epoch [31/100], New best model saved with Val Loss: 0.011920157354325056
+Epoch [31/100], Train Loss: 0.011075451758436182, Val Loss: 0.011920157354325056
+Epoch [32/100], New best model saved with Val Loss: 0.011775658465921879
+Epoch [32/100], Train Loss: 0.010898006698963318, Val Loss: 0.011775658465921879
+Epoch [33/100], New best model saved with Val Loss: 0.01162821042817086
+Epoch [33/100], Train Loss: 0.010727387852966785, Val Loss: 0.01162821042817086
+Epoch [34/100], New best model saved with Val Loss: 0.011482619564048946
+Epoch [34/100], Train Loss: 0.010568387933414091, Val Loss: 0.011482619564048946
+Epoch [35/100], New best model saved with Val Loss: 0.01134287379682064
+Epoch [35/100], Train Loss: 0.010412616612897678, Val Loss: 0.01134287379682064
+Epoch [36/100], New best model saved with Val Loss: 0.011190119199454784
+Epoch [36/100], Train Loss: 0.010259674269367348, Val Loss: 0.011190119199454784
+Epoch [37/100], New best model saved with Val Loss: 0.011027412372641265
+Epoch [37/100], Train Loss: 0.010117813436822458, Val Loss: 0.011027412372641265
+Epoch [38/100], New best model saved with Val Loss: 0.010883945389650762
+Epoch [38/100], Train Loss: 0.009965433866124262, Val Loss: 0.010883945389650762
+Epoch [39/100], New best model saved with Val Loss: 0.010735168703831732
+Epoch [39/100], Train Loss: 0.009817527226087723, Val Loss: 0.010735168703831732
+Epoch [40/100], New best model saved with Val Loss: 0.010579827125184238
+Epoch [40/100], Train Loss: 0.009695860176262531, Val Loss: 0.010579827125184238
+Epoch [41/100], New best model saved with Val Loss: 0.010470009641721845
+Epoch [41/100], Train Loss: 0.009565374559976837, Val Loss: 0.010470009641721845
+Epoch [42/100], New best model saved with Val Loss: 0.010386731941252947
+Epoch [42/100], Train Loss: 0.009469570973041382, Val Loss: 0.010386731941252947
+Epoch [43/100], New best model saved with Val Loss: 0.010304220020771027
+Epoch [43/100], Train Loss: 0.009392499542710457, Val Loss: 0.010304220020771027
+Epoch [44/100], New best model saved with Val Loss: 0.010230176150798798
+Epoch [44/100], Train Loss: 0.009322774850509384, Val Loss: 0.010230176150798798
+Epoch [45/100], New best model saved with Val Loss: 0.010162280173972249
+Epoch [45/100], Train Loss: 0.009247542782263323, Val Loss: 0.010162280173972249
+Epoch [46/100], New best model saved with Val Loss: 0.010115402983501554
+Epoch [46/100], Train Loss: 0.009212748189880089, Val Loss: 0.010115402983501554
+Epoch [47/100], New best model saved with Val Loss: 0.01007482165005058
+Epoch [47/100], Train Loss: 0.009156245314939455, Val Loss: 0.01007482165005058
+Epoch [48/100], New best model saved with Val Loss: 0.010031972313299775
+Epoch [48/100], Train Loss: 0.009110833031379363, Val Loss: 0.010031972313299775
+Epoch [49/100], New best model saved with Val Loss: 0.009992935578338802
+Epoch [49/100], Train Loss: 0.009068893184038725, Val Loss: 0.009992935578338802
+Epoch [50/100], New best model saved with Val Loss: 0.009959740098565817
+Epoch [50/100], Train Loss: 0.009035848737270995, Val Loss: 0.009959740098565817
+Epoch [51/100], New best model saved with Val Loss: 0.009928290732204914
+Epoch [51/100], Train Loss: 0.009012207685207779, Val Loss: 0.009928290732204914
+Epoch [52/100], New best model saved with Val Loss: 0.009897433803416789
+Epoch [52/100], Train Loss: 0.008961244189942425, Val Loss: 0.009897433803416789
+Epoch [53/100], New best model saved with Val Loss: 0.009866542182862759
+Epoch [53/100], Train Loss: 0.00893404825844548, Val Loss: 0.009866542182862759
+Epoch [54/100], New best model saved with Val Loss: 0.009833228657953441
+Epoch [54/100], Train Loss: 0.00890320241027935, Val Loss: 0.009833228657953441
+Epoch [55/100], New best model saved with Val Loss: 0.009806546266190708
+Epoch [55/100], Train Loss: 0.008874031207100912, Val Loss: 0.009806546266190708
+Epoch [56/100], New best model saved with Val Loss: 0.009779735351912677
+Epoch [56/100], Train Loss: 0.008846357083794746, Val Loss: 0.009779735351912677
+Epoch [57/100], New best model saved with Val Loss: 0.00975478463806212
+Epoch [57/100], Train Loss: 0.008829273579811508, Val Loss: 0.00975478463806212
+Epoch [58/100], New best model saved with Val Loss: 0.009730441262945533
+Epoch [58/100], Train Loss: 0.008804203222759745, Val Loss: 0.009730441262945533
+Epoch [59/100], New best model saved with Val Loss: 0.009704201365821064
+Epoch [59/100], Train Loss: 0.008785282473333857, Val Loss: 0.009704201365821064
+Epoch [60/100], New best model saved with Val Loss: 0.009679871145635843
+Epoch [60/100], Train Loss: 0.00874471971341832, Val Loss: 0.009679871145635843
+Epoch [61/100], New best model saved with Val Loss: 0.009654734749346972
+Epoch [61/100], Train Loss: 0.008732349548319524, Val Loss: 0.009654734749346972
+Epoch [62/100], New best model saved with Val Loss: 0.009631662396714091
+Epoch [62/100], Train Loss: 0.008724857947196473, Val Loss: 0.009631662396714091
+Epoch [63/100], New best model saved with Val Loss: 0.009607122046872973
+Epoch [63/100], Train Loss: 0.008696310306814585, Val Loss: 0.009607122046872973
+Epoch [64/100], New best model saved with Val Loss: 0.009582395432516932
+Epoch [64/100], Train Loss: 0.008668567964129827, Val Loss: 0.009582395432516932
+Epoch [65/100], New best model saved with Val Loss: 0.009558606892824173
+Epoch [65/100], Train Loss: 0.008663264611227945, Val Loss: 0.009558606892824173
+Epoch [66/100], New best model saved with Val Loss: 0.009535425575450063
+Epoch [66/100], Train Loss: 0.008647538086568768, Val Loss: 0.009535425575450063
+Epoch [67/100], New best model saved with Val Loss: 0.00951175217051059
+Epoch [67/100], Train Loss: 0.008627250705930319, Val Loss: 0.00951175217051059
+Epoch [68/100], New best model saved with Val Loss: 0.00948730728123337
+Epoch [68/100], Train Loss: 0.008613611317493698, Val Loss: 0.00948730728123337
+Epoch [69/100], New best model saved with Val Loss: 0.009461771231144667
+Epoch [69/100], Train Loss: 0.00858908100053668, Val Loss: 0.009461771231144667
+Epoch [70/100], New best model saved with Val Loss: 0.009437491418793797
+Epoch [70/100], Train Loss: 0.008574321421540597, Val Loss: 0.009437491418793797
+Epoch [71/100], New best model saved with Val Loss: 0.009413730120286345
+Epoch [71/100], Train Loss: 0.008568434044718742, Val Loss: 0.009413730120286345
+Epoch [72/100], New best model saved with Val Loss: 0.009389638667926192
+Epoch [72/100], Train Loss: 0.008555300110443071, Val Loss: 0.009389638667926192
+Epoch [73/100], New best model saved with Val Loss: 0.009371631778776646
+Epoch [73/100], Train Loss: 0.008540262891487642, Val Loss: 0.009371631778776646
+Epoch [74/100], New best model saved with Val Loss: 0.009357438771985471
+Epoch [74/100], Train Loss: 0.008524750782684847, Val Loss: 0.009357438771985471
+Epoch [75/100], New best model saved with Val Loss: 0.009348192252218723
+Epoch [75/100], Train Loss: 0.008525761458176103, Val Loss: 0.009348192252218723
+Epoch [76/100], New best model saved with Val Loss: 0.009339378913864493
+Epoch [76/100], Train Loss: 0.008506411813538183, Val Loss: 0.009339378913864493
+Epoch [77/100], New best model saved with Val Loss: 0.009329445310868323
+Epoch [77/100], Train Loss: 0.008502832211723382, Val Loss: 0.009329445310868323
+Epoch [78/100], New best model saved with Val Loss: 0.009320105775259435
+Epoch [78/100], Train Loss: 0.008497328391637315, Val Loss: 0.009320105775259435
+Epoch [79/100], New best model saved with Val Loss: 0.009311058791354299
+Epoch [79/100], Train Loss: 0.008483514507216487, Val Loss: 0.009311058791354299
+Epoch [80/100], New best model saved with Val Loss: 0.009302783873863518
+Epoch [80/100], Train Loss: 0.008477172666144643, Val Loss: 0.009302783873863518
+Epoch [81/100], New best model saved with Val Loss: 0.00929561723023653
+Epoch [81/100], Train Loss: 0.008467852561311289, Val Loss: 0.00929561723023653
+Epoch [82/100], New best model saved with Val Loss: 0.00928784953430295
+Epoch [82/100], Train Loss: 0.008472637908363884, Val Loss: 0.00928784953430295
+Epoch [83/100], New best model saved with Val Loss: 0.009280358790419996
+Epoch [83/100], Train Loss: 0.00845220479690893, Val Loss: 0.009280358790419996
+Epoch [84/100], New best model saved with Val Loss: 0.00927354278974235
+Epoch [84/100], Train Loss: 0.008445318809456447, Val Loss: 0.00927354278974235
+Epoch [85/100], New best model saved with Val Loss: 0.009266650071367621
+Epoch [85/100], Train Loss: 0.008443979821591214, Val Loss: 0.009266650071367621
+Epoch [86/100], New best model saved with Val Loss: 0.009259429760277271
+Epoch [86/100], Train Loss: 0.008436447369273414, Val Loss: 0.009259429760277271
+Epoch [87/100], New best model saved with Val Loss: 0.00925246044062078
+Epoch [87/100], Train Loss: 0.00842934967526658, Val Loss: 0.00925246044062078
+Epoch [88/100], New best model saved with Val Loss: 0.009245091117918491
+Epoch [88/100], Train Loss: 0.008415288164873014, Val Loss: 0.009245091117918491
+Epoch [89/100], New best model saved with Val Loss: 0.009238025406375527
+Epoch [89/100], Train Loss: 0.008415216347202659, Val Loss: 0.009238025406375527
+Epoch [90/100], New best model saved with Val Loss: 0.009231038275174797
+Epoch [90/100], Train Loss: 0.008416869698769668, Val Loss: 0.009231038275174797
+Epoch [91/100], New best model saved with Val Loss: 0.009223574539646506
+Epoch [91/100], Train Loss: 0.008406184380874038, Val Loss: 0.009223574539646506
+Epoch [92/100], New best model saved with Val Loss: 0.009217077866196632
+Epoch [92/100], Train Loss: 0.008404579839076508, Val Loss: 0.009217077866196632
+Epoch [93/100], New best model saved with Val Loss: 0.009210094111040235
+Epoch [93/100], Train Loss: 0.008391512028703635, Val Loss: 0.009210094111040235
+Epoch [94/100], New best model saved with Val Loss: 0.009203293360769749
+Epoch [94/100], Train Loss: 0.008390758228911594, Val Loss: 0.009203293360769749
+Epoch [95/100], New best model saved with Val Loss: 0.009196731494739652
+Epoch [95/100], Train Loss: 0.008379241663285276, Val Loss: 0.009196731494739652
+Epoch [96/100], New best model saved with Val Loss: 0.009190236101858318
+Epoch [96/100], Train Loss: 0.008365133057602427, Val Loss: 0.009190236101858318
+Epoch [97/100], New best model saved with Val Loss: 0.00918360985815525
+Epoch [97/100], Train Loss: 0.008372227237983183, Val Loss: 0.00918360985815525
+Epoch [98/100], New best model saved with Val Loss: 0.009177259169518948
+Epoch [98/100], Train Loss: 0.008372616403820839, Val Loss: 0.009177259169518948
+Epoch [99/100], New best model saved with Val Loss: 0.00917091139126569
+Epoch [99/100], Train Loss: 0.008364473956383088, Val Loss: 0.00917091139126569
+Epoch [100/100], New best model saved with Val Loss: 0.009165149182081223
+Epoch [100/100], Train Loss: 0.008360007079318166, Val Loss: 0.009165149182081223
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.011861844221130013
+Epoch [1/100], Train Loss: 0.009921826506880197, Val Loss: 0.011861844221130013
+Epoch [2/100], New best model saved with Val Loss: 0.01162281516008079
+Epoch [2/100], Train Loss: 0.00975750481963835, Val Loss: 0.01162281516008079
+Epoch [3/100], New best model saved with Val Loss: 0.011367418803274632
+Epoch [3/100], Train Loss: 0.0095367398197678, Val Loss: 0.011367418803274632
+Epoch [4/100], New best model saved with Val Loss: 0.011122702388092875
+Epoch [4/100], Train Loss: 0.009312755893915892, Val Loss: 0.011122702388092875
+Epoch [5/100], New best model saved with Val Loss: 0.010888435528613627
+Epoch [5/100], Train Loss: 0.00908789254555648, Val Loss: 0.010888435528613627
+Epoch [6/100], New best model saved with Val Loss: 0.010588027769699693
+Epoch [6/100], Train Loss: 0.008868873394517736, Val Loss: 0.010588027769699693
+Epoch [7/100], New best model saved with Val Loss: 0.0102555847261101
+Epoch [7/100], Train Loss: 0.0086380776906894, Val Loss: 0.0102555847261101
+Epoch [8/100], New best model saved with Val Loss: 0.009891062858514488
+Epoch [8/100], Train Loss: 0.008434322937815026, Val Loss: 0.009891062858514488
+Epoch [9/100], New best model saved with Val Loss: 0.009474883321672678
+Epoch [9/100], Train Loss: 0.00818319737233899, Val Loss: 0.009474883321672678
+Epoch [10/100], New best model saved with Val Loss: 0.009050648775883019
+Epoch [10/100], Train Loss: 0.00785854733972387, Val Loss: 0.009050648775883019
+Epoch [11/100], New best model saved with Val Loss: 0.008686057641170919
+Epoch [11/100], Train Loss: 0.0075317329981110315, Val Loss: 0.008686057641170919
+Epoch [12/100], New best model saved with Val Loss: 0.008261899929493666
+Epoch [12/100], Train Loss: 0.007218426559120417, Val Loss: 0.008261899929493666
+Epoch [13/100], New best model saved with Val Loss: 0.007929073297418654
+Epoch [13/100], Train Loss: 0.0070059805346483536, Val Loss: 0.007929073297418654
+Epoch [14/100], New best model saved with Val Loss: 0.007760329521261156
+Epoch [14/100], Train Loss: 0.006862031782723286, Val Loss: 0.007760329521261156
+Epoch [15/100], New best model saved with Val Loss: 0.007575837429612875
+Epoch [15/100], Train Loss: 0.006746838377280669, Val Loss: 0.007575837429612875
+Epoch [16/100], New best model saved with Val Loss: 0.007444859598763287
+Epoch [16/100], Train Loss: 0.006621679989621043, Val Loss: 0.007444859598763287
+Epoch [17/100], New best model saved with Val Loss: 0.007314055226743221
+Epoch [17/100], Train Loss: 0.006530110533772545, Val Loss: 0.007314055226743221
+Epoch [18/100], New best model saved with Val Loss: 0.007192209362983704
+Epoch [18/100], Train Loss: 0.006426988910375671, Val Loss: 0.007192209362983704
+Epoch [19/100], New best model saved with Val Loss: 0.007055409834720194
+Epoch [19/100], Train Loss: 0.006326454691588879, Val Loss: 0.007055409834720194
+Epoch [20/100], New best model saved with Val Loss: 0.006986312102526426
+Epoch [20/100], Train Loss: 0.006242521043697541, Val Loss: 0.006986312102526426
+Epoch [21/100], New best model saved with Val Loss: 0.0069169215857982635
+Epoch [21/100], Train Loss: 0.006180746586654674, Val Loss: 0.0069169215857982635
+Epoch [22/100], New best model saved with Val Loss: 0.006855404702946544
+Epoch [22/100], Train Loss: 0.00611765583215112, Val Loss: 0.006855404702946544
+Epoch [23/100], New best model saved with Val Loss: 0.006778368493542075
+Epoch [23/100], Train Loss: 0.006061520998958837, Val Loss: 0.006778368493542075
+Epoch [24/100], New best model saved with Val Loss: 0.006704192841425538
+Epoch [24/100], Train Loss: 0.006000901339575648, Val Loss: 0.006704192841425538
+Epoch [25/100], New best model saved with Val Loss: 0.0066567654721438885
+Epoch [25/100], Train Loss: 0.005954888966781172, Val Loss: 0.0066567654721438885
+Epoch [26/100], New best model saved with Val Loss: 0.0066180540015921
+Epoch [26/100], Train Loss: 0.005903782407668504, Val Loss: 0.0066180540015921
+Epoch [27/100], New best model saved with Val Loss: 0.0065849676029756665
+Epoch [27/100], Train Loss: 0.005868265278298746, Val Loss: 0.0065849676029756665
+Epoch [28/100], New best model saved with Val Loss: 0.006555196945555508
+Epoch [28/100], Train Loss: 0.0058348670982840386, Val Loss: 0.006555196945555508
+Epoch [29/100], New best model saved with Val Loss: 0.006522458046674728
+Epoch [29/100], Train Loss: 0.005808586127717386, Val Loss: 0.006522458046674728
+Epoch [30/100], New best model saved with Val Loss: 0.0064944959012791514
+Epoch [30/100], Train Loss: 0.005776769142936577, Val Loss: 0.0064944959012791514
+Epoch [31/100], New best model saved with Val Loss: 0.006460387259721756
+Epoch [31/100], Train Loss: 0.005758214297450401, Val Loss: 0.006460387259721756
+Epoch [32/100], New best model saved with Val Loss: 0.0064259127248078585
+Epoch [32/100], Train Loss: 0.005746826677667824, Val Loss: 0.0064259127248078585
+Epoch [33/100], New best model saved with Val Loss: 0.006392466835677624
+Epoch [33/100], Train Loss: 0.0057230111296204, Val Loss: 0.006392466835677624
+Epoch [34/100], New best model saved with Val Loss: 0.006366141838952899
+Epoch [34/100], Train Loss: 0.0056992800038477235, Val Loss: 0.006366141838952899
+Epoch [35/100], New best model saved with Val Loss: 0.006338136619888246
+Epoch [35/100], Train Loss: 0.005689014469019391, Val Loss: 0.006338136619888246
+Epoch [36/100], New best model saved with Val Loss: 0.006296986131928861
+Epoch [36/100], Train Loss: 0.005679828770966692, Val Loss: 0.006296986131928861
+Epoch [37/100], New best model saved with Val Loss: 0.0062603779369965196
+Epoch [37/100], Train Loss: 0.005660524041476575, Val Loss: 0.0062603779369965196
+Epoch [38/100], New best model saved with Val Loss: 0.006231983774341643
+Epoch [38/100], Train Loss: 0.005653356498276646, Val Loss: 0.006231983774341643
+Epoch [39/100], New best model saved with Val Loss: 0.006203664350323379
+Epoch [39/100], Train Loss: 0.005636229285631667, Val Loss: 0.006203664350323379
+Epoch [40/100], New best model saved with Val Loss: 0.006196002475917339
+Epoch [40/100], Train Loss: 0.005614717935465954, Val Loss: 0.006196002475917339
+Epoch [41/100], Train Loss: 0.00560301980427043, Val Loss: 0.006198071991093457
+Epoch [42/100], Train Loss: 0.005595557412809946, Val Loss: 0.006200646283105016
+Epoch [43/100], New best model saved with Val Loss: 0.006194283836521208
+Epoch [43/100], Train Loss: 0.005577000895176421, Val Loss: 0.006194283836521208
+Epoch [44/100], New best model saved with Val Loss: 0.006189537001773715
+Epoch [44/100], Train Loss: 0.005571805787357417, Val Loss: 0.006189537001773715
+Epoch [45/100], New best model saved with Val Loss: 0.0061851798091083765
+Epoch [45/100], Train Loss: 0.005562079202553088, Val Loss: 0.0061851798091083765
+Epoch [46/100], New best model saved with Val Loss: 0.0061800467083230615
+Epoch [46/100], Train Loss: 0.005546919726343317, Val Loss: 0.0061800467083230615
+Epoch [47/100], New best model saved with Val Loss: 0.0061748086009174585
+Epoch [47/100], Train Loss: 0.005531921199607578, Val Loss: 0.0061748086009174585
+Epoch [48/100], New best model saved with Val Loss: 0.006170939886942506
+Epoch [48/100], Train Loss: 0.005526026139374484, Val Loss: 0.006170939886942506
+Epoch [49/100], New best model saved with Val Loss: 0.0061668806010857224
+Epoch [49/100], Train Loss: 0.005525608991526745, Val Loss: 0.0061668806010857224
+Epoch [50/100], New best model saved with Val Loss: 0.006163132376968861
+Epoch [50/100], Train Loss: 0.005511440421369943, Val Loss: 0.006163132376968861
+Epoch [51/100], New best model saved with Val Loss: 0.006160195800475776
+Epoch [51/100], Train Loss: 0.005505098813128742, Val Loss: 0.006160195800475776
+Epoch [52/100], New best model saved with Val Loss: 0.006156934308819473
+Epoch [52/100], Train Loss: 0.005503212398087437, Val Loss: 0.006156934308819473
+Epoch [53/100], New best model saved with Val Loss: 0.006153480615466833
+Epoch [53/100], Train Loss: 0.005500845272432674, Val Loss: 0.006153480615466833
+Epoch [54/100], New best model saved with Val Loss: 0.006151118199340999
+Epoch [54/100], Train Loss: 0.005485706179487434, Val Loss: 0.006151118199340999
+Epoch [55/100], New best model saved with Val Loss: 0.00614865857642144
+Epoch [55/100], Train Loss: 0.005490098466080698, Val Loss: 0.00614865857642144
+Epoch [56/100], New best model saved with Val Loss: 0.006146452738903463
+Epoch [56/100], Train Loss: 0.005484073825011199, Val Loss: 0.006146452738903463
+Epoch [57/100], New best model saved with Val Loss: 0.0061444555176422
+Epoch [57/100], Train Loss: 0.0054775692776522856, Val Loss: 0.0061444555176422
+Epoch [58/100], New best model saved with Val Loss: 0.0061421322170645
+Epoch [58/100], Train Loss: 0.005477724004198204, Val Loss: 0.0061421322170645
+Epoch [59/100], New best model saved with Val Loss: 0.0061401232378557324
+Epoch [59/100], Train Loss: 0.005477181932126934, Val Loss: 0.0061401232378557324
+Epoch [60/100], New best model saved with Val Loss: 0.006138025899417698
+Epoch [60/100], Train Loss: 0.0054739348336376925, Val Loss: 0.006138025899417698
+Epoch [61/100], New best model saved with Val Loss: 0.006135718198493123
+Epoch [61/100], Train Loss: 0.005467379677363418, Val Loss: 0.006135718198493123
+Epoch [62/100], New best model saved with Val Loss: 0.0061337294755503535
+Epoch [62/100], Train Loss: 0.005469357785345478, Val Loss: 0.0061337294755503535
+Epoch [63/100], New best model saved with Val Loss: 0.006132012349553406
+Epoch [63/100], Train Loss: 0.005475314947861162, Val Loss: 0.006132012349553406
+Epoch [64/100], New best model saved with Val Loss: 0.006130227237008512
+Epoch [64/100], Train Loss: 0.005463080142032017, Val Loss: 0.006130227237008512
+Epoch [65/100], New best model saved with Val Loss: 0.006128540728241205
+Epoch [65/100], Train Loss: 0.005464464976367625, Val Loss: 0.006128540728241205
+Epoch [66/100], New best model saved with Val Loss: 0.006126901716925204
+Epoch [66/100], Train Loss: 0.005462052702734416, Val Loss: 0.006126901716925204
+Epoch [67/100], New best model saved with Val Loss: 0.006125100771896541
+Epoch [67/100], Train Loss: 0.005459225503727794, Val Loss: 0.006125100771896541
+Epoch [68/100], New best model saved with Val Loss: 0.006123595638200641
+Epoch [68/100], Train Loss: 0.005457660119811242, Val Loss: 0.006123595638200641
+Epoch [69/100], New best model saved with Val Loss: 0.006122049409896135
+Epoch [69/100], Train Loss: 0.005459492137147622, Val Loss: 0.006122049409896135
+Epoch [70/100], New best model saved with Val Loss: 0.006120766745880246
+Epoch [70/100], Train Loss: 0.005459254374727607, Val Loss: 0.006120766745880246
+Epoch [71/100], New best model saved with Val Loss: 0.006119283381849527
+Epoch [71/100], Train Loss: 0.005452773597260768, Val Loss: 0.006119283381849527
+Epoch [72/100], New best model saved with Val Loss: 0.006117901066318154
+Epoch [72/100], Train Loss: 0.005453161217949607, Val Loss: 0.006117901066318154
+Epoch [73/100], New best model saved with Val Loss: 0.006116532487794757
+Epoch [73/100], Train Loss: 0.005450658415528861, Val Loss: 0.006116532487794757
+Epoch [74/100], New best model saved with Val Loss: 0.006114931427873671
+Epoch [74/100], Train Loss: 0.005437516734342684, Val Loss: 0.006114931427873671
+Epoch [75/100], New best model saved with Val Loss: 0.0061132063856348395
+Epoch [75/100], Train Loss: 0.00545153415507891, Val Loss: 0.0061132063856348395
+Epoch [76/100], New best model saved with Val Loss: 0.006111613474786282
+Epoch [76/100], Train Loss: 0.0054514712696387005, Val Loss: 0.006111613474786282
+Epoch [77/100], New best model saved with Val Loss: 0.006109866430051625
+Epoch [77/100], Train Loss: 0.005435002353889021, Val Loss: 0.006109866430051625
+Epoch [78/100], New best model saved with Val Loss: 0.00610798504203558
+Epoch [78/100], Train Loss: 0.005445761457932266, Val Loss: 0.00610798504203558
+Epoch [79/100], New best model saved with Val Loss: 0.006106471759267151
+Epoch [79/100], Train Loss: 0.005438048540699211, Val Loss: 0.006106471759267151
+Epoch [80/100], New best model saved with Val Loss: 0.006104792933911085
+Epoch [80/100], Train Loss: 0.005439909937029535, Val Loss: 0.006104792933911085
+Epoch [81/100], New best model saved with Val Loss: 0.0061031385557726026
+Epoch [81/100], Train Loss: 0.005435782230713151, Val Loss: 0.0061031385557726026
+Epoch [82/100], New best model saved with Val Loss: 0.006101415026932955
+Epoch [82/100], Train Loss: 0.00543235293166204, Val Loss: 0.006101415026932955
+Epoch [83/100], New best model saved with Val Loss: 0.006099778925999999
+Epoch [83/100], Train Loss: 0.005425315202129158, Val Loss: 0.006099778925999999
+Epoch [84/100], New best model saved with Val Loss: 0.006098169484175742
+Epoch [84/100], Train Loss: 0.005424581552771005, Val Loss: 0.006098169484175742
+Epoch [85/100], New best model saved with Val Loss: 0.00609695166349411
+Epoch [85/100], Train Loss: 0.005426165499639782, Val Loss: 0.00609695166349411
+Epoch [86/100], New best model saved with Val Loss: 0.006096239434555173
+Epoch [86/100], Train Loss: 0.00543077664703808, Val Loss: 0.006096239434555173
+Epoch [87/100], New best model saved with Val Loss: 0.006095304503105581
+Epoch [87/100], Train Loss: 0.00542041585272686, Val Loss: 0.006095304503105581
+Epoch [88/100], New best model saved with Val Loss: 0.006094528711400926
+Epoch [88/100], Train Loss: 0.005426082971759818, Val Loss: 0.006094528711400926
+Epoch [89/100], New best model saved with Val Loss: 0.006093903444707394
+Epoch [89/100], Train Loss: 0.005418928572908044, Val Loss: 0.006093903444707394
+Epoch [90/100], New best model saved with Val Loss: 0.006093350239098072
+Epoch [90/100], Train Loss: 0.005428825589743527, Val Loss: 0.006093350239098072
+Epoch [91/100], New best model saved with Val Loss: 0.006092855241149664
+Epoch [91/100], Train Loss: 0.005421480047516525, Val Loss: 0.006092855241149664
+Epoch [92/100], New best model saved with Val Loss: 0.00609244592487812
+Epoch [92/100], Train Loss: 0.005416896469383078, Val Loss: 0.00609244592487812
+Epoch [93/100], New best model saved with Val Loss: 0.006091880262829363
+Epoch [93/100], Train Loss: 0.0054169278168542815, Val Loss: 0.006091880262829363
+Epoch [94/100], New best model saved with Val Loss: 0.006091467221267521
+Epoch [94/100], Train Loss: 0.0054155221335928545, Val Loss: 0.006091467221267521
+Epoch [95/100], New best model saved with Val Loss: 0.006091153249144554
+Epoch [95/100], Train Loss: 0.005417363294823604, Val Loss: 0.006091153249144554
+Epoch [96/100], New best model saved with Val Loss: 0.006090922630392015
+Epoch [96/100], Train Loss: 0.005424261347136714, Val Loss: 0.006090922630392015
+Epoch [97/100], New best model saved with Val Loss: 0.0060904910787940025
+Epoch [97/100], Train Loss: 0.0054204416228458285, Val Loss: 0.0060904910787940025
+Epoch [98/100], New best model saved with Val Loss: 0.006090165814384818
+Epoch [98/100], Train Loss: 0.0054141448133371095, Val Loss: 0.006090165814384818
+Epoch [99/100], New best model saved with Val Loss: 0.0060899704694747925
+Epoch [99/100], Train Loss: 0.005423583026806062, Val Loss: 0.0060899704694747925
+Epoch [100/100], New best model saved with Val Loss: 0.006089507252909243
+Epoch [100/100], Train Loss: 0.00541425280442292, Val Loss: 0.006089507252909243
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.006854370702058077
+Epoch [1/100], Train Loss: 0.006152676312591542, Val Loss: 0.006854370702058077
+Epoch [2/100], New best model saved with Val Loss: 0.006261821836233139
+Epoch [2/100], Train Loss: 0.005596318493851207, Val Loss: 0.006261821836233139
+Epoch [3/100], New best model saved with Val Loss: 0.005851282854564488
+Epoch [3/100], Train Loss: 0.005137321623888883, Val Loss: 0.005851282854564488
+Epoch [4/100], New best model saved with Val Loss: 0.005588051746599376
+Epoch [4/100], Train Loss: 0.00473994362718341, Val Loss: 0.005588051746599376
+Epoch [5/100], New best model saved with Val Loss: 0.005313492962159216
+Epoch [5/100], Train Loss: 0.004400182134387168, Val Loss: 0.005313492962159216
+Epoch [6/100], New best model saved with Val Loss: 0.005111744510941207
+Epoch [6/100], Train Loss: 0.00423737344416705, Val Loss: 0.005111744510941207
+Epoch [7/100], New best model saved with Val Loss: 0.004892355704214424
+Epoch [7/100], Train Loss: 0.004073630393990738, Val Loss: 0.004892355704214424
+Epoch [8/100], New best model saved with Val Loss: 0.004645038512535393
+Epoch [8/100], Train Loss: 0.003916538701477376, Val Loss: 0.004645038512535393
+Epoch [9/100], New best model saved with Val Loss: 0.00449486292200163
+Epoch [9/100], Train Loss: 0.00381981053347276, Val Loss: 0.00449486292200163
+Epoch [10/100], New best model saved with Val Loss: 0.004359519341960549
+Epoch [10/100], Train Loss: 0.0037469960727982902, Val Loss: 0.004359519341960549
+Epoch [11/100], New best model saved with Val Loss: 0.004260958929080516
+Epoch [11/100], Train Loss: 0.00369975139090622, Val Loss: 0.004260958929080516
+Epoch [12/100], New best model saved with Val Loss: 0.004220204486045986
+Epoch [12/100], Train Loss: 0.0036413980203426695, Val Loss: 0.004220204486045986
+Epoch [13/100], New best model saved with Val Loss: 0.004170705156866461
+Epoch [13/100], Train Loss: 0.003601948180320588, Val Loss: 0.004170705156866461
+Epoch [14/100], New best model saved with Val Loss: 0.0041217071120627224
+Epoch [14/100], Train Loss: 0.003565495431592519, Val Loss: 0.0041217071120627224
+Epoch [15/100], New best model saved with Val Loss: 0.0040707639418542385
+Epoch [15/100], Train Loss: 0.003537082811817527, Val Loss: 0.0040707639418542385
+Epoch [16/100], New best model saved with Val Loss: 0.004028996336273849
+Epoch [16/100], Train Loss: 0.003521282882006331, Val Loss: 0.004028996336273849
+Epoch [17/100], New best model saved with Val Loss: 0.004008659976534545
+Epoch [17/100], Train Loss: 0.0035108868985182858, Val Loss: 0.004008659976534545
+Epoch [18/100], New best model saved with Val Loss: 0.004001896129921079
+Epoch [18/100], Train Loss: 0.003497896208004518, Val Loss: 0.004001896129921079
+Epoch [19/100], New best model saved with Val Loss: 0.003993186634033918
+Epoch [19/100], Train Loss: 0.0034926550526341252, Val Loss: 0.003993186634033918
+Epoch [20/100], New best model saved with Val Loss: 0.003983900300227106
+Epoch [20/100], Train Loss: 0.003481838778084652, Val Loss: 0.003983900300227106
+Epoch [21/100], New best model saved with Val Loss: 0.003976630512624979
+Epoch [21/100], Train Loss: 0.003475187917832624, Val Loss: 0.003976630512624979
+Epoch [22/100], New best model saved with Val Loss: 0.003973543411120772
+Epoch [22/100], Train Loss: 0.003468948077749122, Val Loss: 0.003973543411120772
+Epoch [23/100], Train Loss: 0.003467744089324366, Val Loss: 0.003975426312536001
+Epoch [24/100], New best model saved with Val Loss: 0.003971230529714376
+Epoch [24/100], Train Loss: 0.0034607965816659007, Val Loss: 0.003971230529714376
+Epoch [25/100], Train Loss: 0.0034609446302056313, Val Loss: 0.003972060861997306
+Epoch [26/100], Train Loss: 0.0034563091414218598, Val Loss: 0.003971518366597593
+Epoch [27/100], New best model saved with Val Loss: 0.003964497824199498
+Epoch [27/100], Train Loss: 0.0034535755615004086, Val Loss: 0.003964497824199498
+Epoch [28/100], Train Loss: 0.003452188631689007, Val Loss: 0.003970481106080115
+Epoch [29/100], New best model saved with Val Loss: 0.003963322495110333
+Epoch [29/100], Train Loss: 0.0034496597945690155, Val Loss: 0.003963322495110333
+Epoch [30/100], Train Loss: 0.00344559172464704, Val Loss: 0.003964270115830004
+Epoch [31/100], New best model saved with Val Loss: 0.003962416900321841
+Epoch [31/100], Train Loss: 0.0034419103229249067, Val Loss: 0.003962416900321841
+Epoch [32/100], New best model saved with Val Loss: 0.003953663748688996
+Epoch [32/100], Train Loss: 0.0034414091867140746, Val Loss: 0.003953663748688996
+Epoch [33/100], New best model saved with Val Loss: 0.003947080171201378
+Epoch [33/100], Train Loss: 0.0034353379265997896, Val Loss: 0.003947080171201378
+Epoch [34/100], New best model saved with Val Loss: 0.003942414885386825
+Epoch [34/100], Train Loss: 0.003430909043262628, Val Loss: 0.003942414885386825
+Epoch [35/100], New best model saved with Val Loss: 0.003935457032639533
+Epoch [35/100], Train Loss: 0.0034269640666686678, Val Loss: 0.003935457032639533
+Epoch [36/100], New best model saved with Val Loss: 0.0039214553544297814
+Epoch [36/100], Train Loss: 0.0034210980467667632, Val Loss: 0.0039214553544297814
+Epoch [37/100], New best model saved with Val Loss: 0.0039054571534506977
+Epoch [37/100], Train Loss: 0.0034072059735825114, Val Loss: 0.0039054571534506977
+Epoch [38/100], New best model saved with Val Loss: 0.00389038905268535
+Epoch [38/100], Train Loss: 0.0033959700429642744, Val Loss: 0.00389038905268535
+Epoch [39/100], New best model saved with Val Loss: 0.003875719499774277
+Epoch [39/100], Train Loss: 0.0033878849671137605, Val Loss: 0.003875719499774277
+Epoch [40/100], New best model saved with Val Loss: 0.0038635035161860287
+Epoch [40/100], Train Loss: 0.003378492134453898, Val Loss: 0.0038635035161860287
+Epoch [41/100], New best model saved with Val Loss: 0.0038538522203452885
+Epoch [41/100], Train Loss: 0.003370023946362463, Val Loss: 0.0038538522203452885
+Epoch [42/100], New best model saved with Val Loss: 0.003846687264740467
+Epoch [42/100], Train Loss: 0.0033640751022506843, Val Loss: 0.003846687264740467
+Epoch [43/100], New best model saved with Val Loss: 0.003837459604255855
+Epoch [43/100], Train Loss: 0.003356708584099331, Val Loss: 0.003837459604255855
+Epoch [44/100], New best model saved with Val Loss: 0.003833043680060655
+Epoch [44/100], Train Loss: 0.003353049629367888, Val Loss: 0.003833043680060655
+Epoch [45/100], New best model saved with Val Loss: 0.0038278974243439734
+Epoch [45/100], Train Loss: 0.0033444492252204905, Val Loss: 0.0038278974243439734
+Epoch [46/100], New best model saved with Val Loss: 0.0038207380566745996
+Epoch [46/100], Train Loss: 0.0033392404650591993, Val Loss: 0.0038207380566745996
+Epoch [47/100], New best model saved with Val Loss: 0.003820695565082133
+Epoch [47/100], Train Loss: 0.003337022287517109, Val Loss: 0.003820695565082133
+Epoch [48/100], New best model saved with Val Loss: 0.0038152766064740717
+Epoch [48/100], Train Loss: 0.0033395156285471535, Val Loss: 0.0038152766064740717
+Epoch [49/100], New best model saved with Val Loss: 0.0038071401068009436
+Epoch [49/100], Train Loss: 0.0033342928879640317, Val Loss: 0.0038071401068009436
+Epoch [50/100], New best model saved with Val Loss: 0.0037983027868904173
+Epoch [50/100], Train Loss: 0.0033299244559285316, Val Loss: 0.0037983027868904173
+Epoch [51/100], New best model saved with Val Loss: 0.0037915498833172023
+Epoch [51/100], Train Loss: 0.00332488224375993, Val Loss: 0.0037915498833172023
+Epoch [52/100], New best model saved with Val Loss: 0.0037846281193196774
+Epoch [52/100], Train Loss: 0.0033211739077656107, Val Loss: 0.0037846281193196774
+Epoch [53/100], New best model saved with Val Loss: 0.003779719118028879
+Epoch [53/100], Train Loss: 0.0033197678223421626, Val Loss: 0.003779719118028879
+Epoch [54/100], New best model saved with Val Loss: 0.003777356294449419
+Epoch [54/100], Train Loss: 0.0033163964240388436, Val Loss: 0.003777356294449419
+Epoch [55/100], New best model saved with Val Loss: 0.0037756802630610764
+Epoch [55/100], Train Loss: 0.0033158798575062642, Val Loss: 0.0037756802630610764
+Epoch [56/100], New best model saved with Val Loss: 0.0037726789014413953
+Epoch [56/100], Train Loss: 0.0033117410917343063, Val Loss: 0.0037726789014413953
+Epoch [57/100], New best model saved with Val Loss: 0.003770283132325858
+Epoch [57/100], Train Loss: 0.003315153658728708, Val Loss: 0.003770283132325858
+Epoch [58/100], New best model saved with Val Loss: 0.003768514026887715
+Epoch [58/100], Train Loss: 0.003310534298758615, Val Loss: 0.003768514026887715
+Epoch [59/100], New best model saved with Val Loss: 0.0037638330832123756
+Epoch [59/100], Train Loss: 0.003307661814191802, Val Loss: 0.0037638330832123756
+Epoch [60/100], New best model saved with Val Loss: 0.003761062922421843
+Epoch [60/100], Train Loss: 0.003303935507905077, Val Loss: 0.003761062922421843
+Epoch [61/100], New best model saved with Val Loss: 0.0037576164468191564
+Epoch [61/100], Train Loss: 0.0033038819356906142, Val Loss: 0.0037576164468191564
+Epoch [62/100], New best model saved with Val Loss: 0.0037542577483691275
+Epoch [62/100], Train Loss: 0.00330251634163274, Val Loss: 0.0037542577483691275
+Epoch [63/100], New best model saved with Val Loss: 0.003749427734874189
+Epoch [63/100], Train Loss: 0.003297619701532478, Val Loss: 0.003749427734874189
+Epoch [64/100], New best model saved with Val Loss: 0.0037448156508617103
+Epoch [64/100], Train Loss: 0.003301270867020569, Val Loss: 0.0037448156508617103
+Epoch [65/100], New best model saved with Val Loss: 0.0037405401235446334
+Epoch [65/100], Train Loss: 0.0032904361671006136, Val Loss: 0.0037405401235446334
+Epoch [66/100], New best model saved with Val Loss: 0.003735662263352424
+Epoch [66/100], Train Loss: 0.0032990498214282775, Val Loss: 0.003735662263352424
+Epoch [67/100], New best model saved with Val Loss: 0.003732063283678144
+Epoch [67/100], Train Loss: 0.0032923522574657745, Val Loss: 0.003732063283678144
+Epoch [68/100], New best model saved with Val Loss: 0.003728052950464189
+Epoch [68/100], Train Loss: 0.00329185286748477, Val Loss: 0.003728052950464189
+Epoch [69/100], New best model saved with Val Loss: 0.0037237389478832483
+Epoch [69/100], Train Loss: 0.003286511669020084, Val Loss: 0.0037237389478832483
+Epoch [70/100], New best model saved with Val Loss: 0.0037207641871646047
+Epoch [70/100], Train Loss: 0.003286790737712925, Val Loss: 0.0037207641871646047
+Epoch [71/100], New best model saved with Val Loss: 0.0037165574030950665
+Epoch [71/100], Train Loss: 0.003288565087132156, Val Loss: 0.0037165574030950665
+Epoch [72/100], New best model saved with Val Loss: 0.00371336389798671
+Epoch [72/100], Train Loss: 0.003285681574859402, Val Loss: 0.00371336389798671
+Epoch [73/100], New best model saved with Val Loss: 0.0037104615475982428
+Epoch [73/100], Train Loss: 0.0032833267892287536, Val Loss: 0.0037104615475982428
+Epoch [74/100], New best model saved with Val Loss: 0.0037059583701193333
+Epoch [74/100], Train Loss: 0.0032840699740600858, Val Loss: 0.0037059583701193333
+Epoch [75/100], New best model saved with Val Loss: 0.0037033968837931752
+Epoch [75/100], Train Loss: 0.0032903536498038607, Val Loss: 0.0037033968837931752
+Epoch [76/100], New best model saved with Val Loss: 0.0036989179207012057
+Epoch [76/100], Train Loss: 0.0032829749609597707, Val Loss: 0.0036989179207012057
+Epoch [77/100], New best model saved with Val Loss: 0.0036979771684855223
+Epoch [77/100], Train Loss: 0.003285772050730884, Val Loss: 0.0036979771684855223
+Epoch [78/100], New best model saved with Val Loss: 0.003695327031891793
+Epoch [78/100], Train Loss: 0.003284260048530996, Val Loss: 0.003695327031891793
+Epoch [79/100], New best model saved with Val Loss: 0.0036946633481420577
+Epoch [79/100], Train Loss: 0.0032802330097183585, Val Loss: 0.0036946633481420577
+Epoch [80/100], New best model saved with Val Loss: 0.0036933381925337017
+Epoch [80/100], Train Loss: 0.0032787976511330767, Val Loss: 0.0036933381925337017
+Epoch [81/100], New best model saved with Val Loss: 0.003692275728099048
+Epoch [81/100], Train Loss: 0.0032790252854200926, Val Loss: 0.003692275728099048
+Epoch [82/100], New best model saved with Val Loss: 0.003690957266371697
+Epoch [82/100], Train Loss: 0.003281553741544485, Val Loss: 0.003690957266371697
+Epoch [83/100], New best model saved with Val Loss: 0.0036901551065966487
+Epoch [83/100], Train Loss: 0.003281665087508207, Val Loss: 0.0036901551065966487
+Epoch [84/100], New best model saved with Val Loss: 0.0036877025850117207
+Epoch [84/100], Train Loss: 0.0032818143637004223, Val Loss: 0.0036877025850117207
+Epoch [85/100], Train Loss: 0.0032801296752454205, Val Loss: 0.0036880006082355976
+Epoch [86/100], New best model saved with Val Loss: 0.003686270152684301
+Epoch [86/100], Train Loss: 0.0032767554723911667, Val Loss: 0.003686270152684301
+Epoch [87/100], New best model saved with Val Loss: 0.0036860848776996136
+Epoch [87/100], Train Loss: 0.003283522261137312, Val Loss: 0.0036860848776996136
+Epoch [88/100], New best model saved with Val Loss: 0.0036859033862128854
+Epoch [88/100], Train Loss: 0.003279514589600942, Val Loss: 0.0036859033862128854
+Epoch [89/100], New best model saved with Val Loss: 0.003685790754389018
+Epoch [89/100], Train Loss: 0.0032790620303289456, Val Loss: 0.003685790754389018
+Epoch [90/100], Train Loss: 0.0032765147360888395, Val Loss: 0.003686201001983136
+Epoch [91/100], Train Loss: 0.00327911778268489, Val Loss: 0.003685825678985566
+Epoch [92/100], Train Loss: 0.0032769291640513325, Val Loss: 0.0036861508851870894
+Epoch [93/100], New best model saved with Val Loss: 0.0036848013405688107
+Epoch [93/100], Train Loss: 0.0032790175173431635, Val Loss: 0.0036848013405688107
+Epoch [94/100], Train Loss: 0.003282193168574436, Val Loss: 0.003684829513076693
+Epoch [95/100], New best model saved with Val Loss: 0.0036843247362412512
+Epoch [95/100], Train Loss: 0.0032754346982321954, Val Loss: 0.0036843247362412512
+Epoch [96/100], New best model saved with Val Loss: 0.003684125724248588
+Epoch [96/100], Train Loss: 0.0032831314019858837, Val Loss: 0.003684125724248588
+Epoch [97/100], Train Loss: 0.003282537387514656, Val Loss: 0.0036845276481471956
+Epoch [98/100], Train Loss: 0.0032805362822149286, Val Loss: 0.0036848701420240104
+Epoch [99/100], New best model saved with Val Loss: 0.0036838508676737547
+Epoch [99/100], Train Loss: 0.0032772598682310095, Val Loss: 0.0036838508676737547
+Epoch [100/100], New best model saved with Val Loss: 0.0036832921905443072
+Epoch [100/100], Train Loss: 0.0032771068244156513, Val Loss: 0.0036832921905443072
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.027240581810474396
+Epoch [1/100], Train Loss: 0.02268763758580793, Val Loss: 0.027240581810474396
+Epoch [2/100], New best model saved with Val Loss: 0.025614241138100624
+Epoch [2/100], Train Loss: 0.021231355230239304, Val Loss: 0.025614241138100624
+Epoch [3/100], New best model saved with Val Loss: 0.024026776663959026
+Epoch [3/100], Train Loss: 0.019866147755899212, Val Loss: 0.024026776663959026
+Epoch [4/100], New best model saved with Val Loss: 0.022405977826565504
+Epoch [4/100], Train Loss: 0.018511333502829075, Val Loss: 0.022405977826565504
+Epoch [5/100], New best model saved with Val Loss: 0.020663826260715723
+Epoch [5/100], Train Loss: 0.017175730063833973, Val Loss: 0.020663826260715723
+Epoch [6/100], New best model saved with Val Loss: 0.019450783729553223
+Epoch [6/100], Train Loss: 0.016058748757297344, Val Loss: 0.019450783729553223
+Epoch [7/100], New best model saved with Val Loss: 0.018566405400633812
+Epoch [7/100], Train Loss: 0.015137696554037657, Val Loss: 0.018566405400633812
+Epoch [8/100], New best model saved with Val Loss: 0.01769205625168979
+Epoch [8/100], Train Loss: 0.014521593439646742, Val Loss: 0.01769205625168979
+Epoch [9/100], New best model saved with Val Loss: 0.016891320701688528
+Epoch [9/100], Train Loss: 0.014085022097622807, Val Loss: 0.016891320701688528
+Epoch [10/100], New best model saved with Val Loss: 0.01641488540917635
+Epoch [10/100], Train Loss: 0.01369679452512752, Val Loss: 0.01641488540917635
+Epoch [11/100], New best model saved with Val Loss: 0.016009863233193755
+Epoch [11/100], Train Loss: 0.013417195401747118, Val Loss: 0.016009863233193755
+Epoch [12/100], New best model saved with Val Loss: 0.015673229238018394
+Epoch [12/100], Train Loss: 0.01314607398076491, Val Loss: 0.015673229238018394
+Epoch [13/100], New best model saved with Val Loss: 0.015333683928474784
+Epoch [13/100], Train Loss: 0.01286478874019601, Val Loss: 0.015333683928474784
+Epoch [14/100], New best model saved with Val Loss: 0.015090331202372909
+Epoch [14/100], Train Loss: 0.012604672080752525, Val Loss: 0.015090331202372909
+Epoch [15/100], New best model saved with Val Loss: 0.014870844781398773
+Epoch [15/100], Train Loss: 0.012392867441204462, Val Loss: 0.014870844781398773
+Epoch [16/100], New best model saved with Val Loss: 0.01464087888598442
+Epoch [16/100], Train Loss: 0.012191492640836672, Val Loss: 0.01464087888598442
+Epoch [17/100], New best model saved with Val Loss: 0.014399825362488627
+Epoch [17/100], Train Loss: 0.012003445235843008, Val Loss: 0.014399825362488627
+Epoch [18/100], New best model saved with Val Loss: 0.01415304047986865
+Epoch [18/100], Train Loss: 0.011792672374709086, Val Loss: 0.01415304047986865
+Epoch [19/100], New best model saved with Val Loss: 0.01389449113048613
+Epoch [19/100], Train Loss: 0.01159365614876151, Val Loss: 0.01389449113048613
+Epoch [20/100], New best model saved with Val Loss: 0.013604275649413466
+Epoch [20/100], Train Loss: 0.011371789373118769, Val Loss: 0.013604275649413466
+Epoch [21/100], New best model saved with Val Loss: 0.01327980519272387
+Epoch [21/100], Train Loss: 0.01109210562638261, Val Loss: 0.01327980519272387
+Epoch [22/100], New best model saved with Val Loss: 0.012944149319082499
+Epoch [22/100], Train Loss: 0.010854055893353441, Val Loss: 0.012944149319082499
+Epoch [23/100], New best model saved with Val Loss: 0.01263301307335496
+Epoch [23/100], Train Loss: 0.010612195527011698, Val Loss: 0.01263301307335496
+Epoch [24/100], New best model saved with Val Loss: 0.012275293003767729
+Epoch [24/100], Train Loss: 0.010378765069286932, Val Loss: 0.012275293003767729
+Epoch [25/100], New best model saved with Val Loss: 0.011919521493837237
+Epoch [25/100], Train Loss: 0.010052788515829227, Val Loss: 0.011919521493837237
+Epoch [26/100], New best model saved with Val Loss: 0.011540554696694016
+Epoch [26/100], Train Loss: 0.00966768017546697, Val Loss: 0.011540554696694016
+Epoch [27/100], New best model saved with Val Loss: 0.011128124548122287
+Epoch [27/100], Train Loss: 0.009249070003120736, Val Loss: 0.011128124548122287
+Epoch [28/100], New best model saved with Val Loss: 0.010701128514483571
+Epoch [28/100], Train Loss: 0.008715212683786045, Val Loss: 0.010701128514483571
+Epoch [29/100], New best model saved with Val Loss: 0.010207825223915279
+Epoch [29/100], Train Loss: 0.008258495522155003, Val Loss: 0.010207825223915279
+Epoch [30/100], New best model saved with Val Loss: 0.009592384565621614
+Epoch [30/100], Train Loss: 0.007728174794465303, Val Loss: 0.009592384565621614
+Epoch [31/100], New best model saved with Val Loss: 0.00893019640352577
+Epoch [31/100], Train Loss: 0.0072098028295758095, Val Loss: 0.00893019640352577
+Epoch [32/100], New best model saved with Val Loss: 0.008018625667318702
+Epoch [32/100], Train Loss: 0.006715296936983412, Val Loss: 0.008018625667318702
+Epoch [33/100], New best model saved with Val Loss: 0.00742522394284606
+Epoch [33/100], Train Loss: 0.006247763204472986, Val Loss: 0.00742522394284606
+Epoch [34/100], New best model saved with Val Loss: 0.006985177984461188
+Epoch [34/100], Train Loss: 0.005919667267748578, Val Loss: 0.006985177984461188
+Epoch [35/100], New best model saved with Val Loss: 0.006718377582728863
+Epoch [35/100], Train Loss: 0.0057003403675149784, Val Loss: 0.006718377582728863
+Epoch [36/100], New best model saved with Val Loss: 0.006419066339731216
+Epoch [36/100], Train Loss: 0.005511855664239688, Val Loss: 0.006419066339731216
+Epoch [37/100], New best model saved with Val Loss: 0.006286362884566188
+Epoch [37/100], Train Loss: 0.005357655252076008, Val Loss: 0.006286362884566188
+Epoch [38/100], New best model saved with Val Loss: 0.006180057534947991
+Epoch [38/100], Train Loss: 0.005250085949559103, Val Loss: 0.006180057534947991
+Epoch [39/100], New best model saved with Val Loss: 0.006103392923250794
+Epoch [39/100], Train Loss: 0.005159521898762746, Val Loss: 0.006103392923250794
+Epoch [40/100], New best model saved with Val Loss: 0.0060355812311172485
+Epoch [40/100], Train Loss: 0.0051112264839254995, Val Loss: 0.0060355812311172485
+Epoch [41/100], New best model saved with Val Loss: 0.005972872953861952
+Epoch [41/100], Train Loss: 0.005064087390730327, Val Loss: 0.005972872953861952
+Epoch [42/100], New best model saved with Val Loss: 0.005916329799219966
+Epoch [42/100], Train Loss: 0.005029458743096752, Val Loss: 0.005916329799219966
+Epoch [43/100], New best model saved with Val Loss: 0.005861725891008973
+Epoch [43/100], Train Loss: 0.004997324261983687, Val Loss: 0.005861725891008973
+Epoch [44/100], New best model saved with Val Loss: 0.005816425778903067
+Epoch [44/100], Train Loss: 0.004961595870554447, Val Loss: 0.005816425778903067
+Epoch [45/100], New best model saved with Val Loss: 0.005779511644504964
+Epoch [45/100], Train Loss: 0.0049367197789251804, Val Loss: 0.005779511644504964
+Epoch [46/100], New best model saved with Val Loss: 0.005744002177380025
+Epoch [46/100], Train Loss: 0.004908191738650203, Val Loss: 0.005744002177380025
+Epoch [47/100], New best model saved with Val Loss: 0.005721134250052273
+Epoch [47/100], Train Loss: 0.004878561456941746, Val Loss: 0.005721134250052273
+Epoch [48/100], New best model saved with Val Loss: 0.005698323831893504
+Epoch [48/100], Train Loss: 0.004855041910724884, Val Loss: 0.005698323831893504
+Epoch [49/100], New best model saved with Val Loss: 0.005680495407432318
+Epoch [49/100], Train Loss: 0.004844572691416199, Val Loss: 0.005680495407432318
+Epoch [50/100], New best model saved with Val Loss: 0.005666638840921223
+Epoch [50/100], Train Loss: 0.0048344443679194556, Val Loss: 0.005666638840921223
+Epoch [51/100], New best model saved with Val Loss: 0.005652106134220958
+Epoch [51/100], Train Loss: 0.004818386271257292, Val Loss: 0.005652106134220958
+Epoch [52/100], New best model saved with Val Loss: 0.005637245369143784
+Epoch [52/100], Train Loss: 0.004803459646857597, Val Loss: 0.005637245369143784
+Epoch [53/100], New best model saved with Val Loss: 0.005623252713121474
+Epoch [53/100], Train Loss: 0.0047960329208184375, Val Loss: 0.005623252713121474
+Epoch [54/100], New best model saved with Val Loss: 0.005618069088086486
+Epoch [54/100], Train Loss: 0.004779973776418377, Val Loss: 0.005618069088086486
+Epoch [55/100], New best model saved with Val Loss: 0.005612960201688111
+Epoch [55/100], Train Loss: 0.004776397889310663, Val Loss: 0.005612960201688111
+Epoch [56/100], New best model saved with Val Loss: 0.005607982282526791
+Epoch [56/100], Train Loss: 0.004764815792441368, Val Loss: 0.005607982282526791
+Epoch [57/100], New best model saved with Val Loss: 0.005602478864602745
+Epoch [57/100], Train Loss: 0.004750984212891622, Val Loss: 0.005602478864602745
+Epoch [58/100], New best model saved with Val Loss: 0.005596777191385627
+Epoch [58/100], Train Loss: 0.004733237046325071, Val Loss: 0.005596777191385627
+Epoch [59/100], New best model saved with Val Loss: 0.005591221968643367
+Epoch [59/100], Train Loss: 0.0047348901968110695, Val Loss: 0.005591221968643367
+Epoch [60/100], New best model saved with Val Loss: 0.005587116000242531
+Epoch [60/100], Train Loss: 0.004712731101211499, Val Loss: 0.005587116000242531
+Epoch [61/100], New best model saved with Val Loss: 0.005582833546213806
+Epoch [61/100], Train Loss: 0.004711195974695412, Val Loss: 0.005582833546213806
+Epoch [62/100], New best model saved with Val Loss: 0.005578054115176201
+Epoch [62/100], Train Loss: 0.004693617007102479, Val Loss: 0.005578054115176201
+Epoch [63/100], New best model saved with Val Loss: 0.0055727651342749596
+Epoch [63/100], Train Loss: 0.004695506745272062, Val Loss: 0.0055727651342749596
+Epoch [64/100], New best model saved with Val Loss: 0.005567566375248134
+Epoch [64/100], Train Loss: 0.004676479571075602, Val Loss: 0.005567566375248134
+Epoch [65/100], New best model saved with Val Loss: 0.005562124657444656
+Epoch [65/100], Train Loss: 0.004666277027519589, Val Loss: 0.005562124657444656
+Epoch [66/100], New best model saved with Val Loss: 0.005556517164222896
+Epoch [66/100], Train Loss: 0.004667081245729191, Val Loss: 0.005556517164222896
+Epoch [67/100], New best model saved with Val Loss: 0.0055507756769657135
+Epoch [67/100], Train Loss: 0.00465913980521939, Val Loss: 0.0055507756769657135
+Epoch [68/100], New best model saved with Val Loss: 0.005545215797610581
+Epoch [68/100], Train Loss: 0.004649339137937535, Val Loss: 0.005545215797610581
+Epoch [69/100], New best model saved with Val Loss: 0.0055395918898284435
+Epoch [69/100], Train Loss: 0.004636044000190767, Val Loss: 0.0055395918898284435
+Epoch [70/100], New best model saved with Val Loss: 0.00553454807959497
+Epoch [70/100], Train Loss: 0.004621325230056589, Val Loss: 0.00553454807959497
+Epoch [71/100], New best model saved with Val Loss: 0.0055296088103204966
+Epoch [71/100], Train Loss: 0.004619247661056844, Val Loss: 0.0055296088103204966
+Epoch [72/100], New best model saved with Val Loss: 0.005524417501874268
+Epoch [72/100], Train Loss: 0.0046094650169834495, Val Loss: 0.005524417501874268
+Epoch [73/100], New best model saved with Val Loss: 0.005518571473658085
+Epoch [73/100], Train Loss: 0.004603738420304249, Val Loss: 0.005518571473658085
+Epoch [74/100], New best model saved with Val Loss: 0.005512694362550974
+Epoch [74/100], Train Loss: 0.00458983643065122, Val Loss: 0.005512694362550974
+Epoch [75/100], New best model saved with Val Loss: 0.005506580346263945
+Epoch [75/100], Train Loss: 0.004576501764611087, Val Loss: 0.005506580346263945
+Epoch [76/100], New best model saved with Val Loss: 0.005500245839357376
+Epoch [76/100], Train Loss: 0.00456711104859344, Val Loss: 0.005500245839357376
+Epoch [77/100], New best model saved with Val Loss: 0.005492673721164465
+Epoch [77/100], Train Loss: 0.004557246702130546, Val Loss: 0.005492673721164465
+Epoch [78/100], New best model saved with Val Loss: 0.005485840141773224
+Epoch [78/100], Train Loss: 0.004545941684310409, Val Loss: 0.005485840141773224
+Epoch [79/100], New best model saved with Val Loss: 0.005478417966514826
+Epoch [79/100], Train Loss: 0.004525358259508555, Val Loss: 0.005478417966514826
+Epoch [80/100], New best model saved with Val Loss: 0.005470092641189694
+Epoch [80/100], Train Loss: 0.004510014127431946, Val Loss: 0.005470092641189694
+Epoch [81/100], New best model saved with Val Loss: 0.0054646029602736235
+Epoch [81/100], Train Loss: 0.0044916212897409095, Val Loss: 0.0054646029602736235
+Epoch [82/100], New best model saved with Val Loss: 0.005458141677081585
+Epoch [82/100], Train Loss: 0.004489954127083448, Val Loss: 0.005458141677081585
+Epoch [83/100], New best model saved with Val Loss: 0.005457247025333345
+Epoch [83/100], Train Loss: 0.0044825664530931545, Val Loss: 0.005457247025333345
+Epoch [84/100], New best model saved with Val Loss: 0.0054523092694580555
+Epoch [84/100], Train Loss: 0.004475646377117796, Val Loss: 0.0054523092694580555
+Epoch [85/100], New best model saved with Val Loss: 0.005447850096970797
+Epoch [85/100], Train Loss: 0.004468410170044412, Val Loss: 0.005447850096970797
+Epoch [86/100], New best model saved with Val Loss: 0.005443401518277824
+Epoch [86/100], Train Loss: 0.00446375243535096, Val Loss: 0.005443401518277824
+Epoch [87/100], New best model saved with Val Loss: 0.005439125350676477
+Epoch [87/100], Train Loss: 0.004457213365557519, Val Loss: 0.005439125350676477
+Epoch [88/100], New best model saved with Val Loss: 0.005433811107650399
+Epoch [88/100], Train Loss: 0.004459342125549235, Val Loss: 0.005433811107650399
+Epoch [89/100], New best model saved with Val Loss: 0.005427327123470604
+Epoch [89/100], Train Loss: 0.004451482398012145, Val Loss: 0.005427327123470604
+Epoch [90/100], New best model saved with Val Loss: 0.005422340938821435
+Epoch [90/100], Train Loss: 0.004450649298219519, Val Loss: 0.005422340938821435
+Epoch [91/100], New best model saved with Val Loss: 0.005417457083240151
+Epoch [91/100], Train Loss: 0.004446693304502828, Val Loss: 0.005417457083240151
+Epoch [92/100], New best model saved with Val Loss: 0.005413000122644007
+Epoch [92/100], Train Loss: 0.004444999916648323, Val Loss: 0.005413000122644007
+Epoch [93/100], New best model saved with Val Loss: 0.00540651916526258
+Epoch [93/100], Train Loss: 0.0044281809082762765, Val Loss: 0.00540651916526258
+Epoch [94/100], New best model saved with Val Loss: 0.005401194328442216
+Epoch [94/100], Train Loss: 0.004426895503208719, Val Loss: 0.005401194328442216
+Epoch [95/100], New best model saved with Val Loss: 0.00539378757821396
+Epoch [95/100], Train Loss: 0.00442323796662756, Val Loss: 0.00539378757821396
+Epoch [96/100], New best model saved with Val Loss: 0.0053869003895670176
+Epoch [96/100], Train Loss: 0.004414488582617857, Val Loss: 0.0053869003895670176
+Epoch [97/100], New best model saved with Val Loss: 0.005377784837037325
+Epoch [97/100], Train Loss: 0.004406875422732396, Val Loss: 0.005377784837037325
+Epoch [98/100], New best model saved with Val Loss: 0.005371614941395819
+Epoch [98/100], Train Loss: 0.004396278643980622, Val Loss: 0.005371614941395819
+Epoch [99/100], New best model saved with Val Loss: 0.005363028962165117
+Epoch [99/100], Train Loss: 0.0043893222146752205, Val Loss: 0.005363028962165117
+Epoch [100/100], New best model saved with Val Loss: 0.005355261964723468
+Epoch [100/100], Train Loss: 0.004377894918434322, Val Loss: 0.005355261964723468
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.01596427382901311
+Epoch [1/100], Train Loss: 0.01716451109810309, Val Loss: 0.01596427382901311
+Epoch [2/100], New best model saved with Val Loss: 0.014264511875808239
+Epoch [2/100], Train Loss: 0.015081876211545685, Val Loss: 0.014264511875808239
+Epoch [3/100], New best model saved with Val Loss: 0.012542972108349204
+Epoch [3/100], Train Loss: 0.013141368812119419, Val Loss: 0.012542972108349204
+Epoch [4/100], New best model saved with Val Loss: 0.011079620104283094
+Epoch [4/100], Train Loss: 0.01164473919197917, Val Loss: 0.011079620104283094
+Epoch [5/100], New best model saved with Val Loss: 0.009780727326869965
+Epoch [5/100], Train Loss: 0.010516535152088512, Val Loss: 0.009780727326869965
+Epoch [6/100], New best model saved with Val Loss: 0.008759416057728231
+Epoch [6/100], Train Loss: 0.009494180706414309, Val Loss: 0.008759416057728231
+Epoch [7/100], New best model saved with Val Loss: 0.007881909376010299
+Epoch [7/100], Train Loss: 0.008630093673921445, Val Loss: 0.007881909376010299
+Epoch [8/100], New best model saved with Val Loss: 0.007224107044748962
+Epoch [8/100], Train Loss: 0.007891188777813857, Val Loss: 0.007224107044748962
+Epoch [9/100], New best model saved with Val Loss: 0.006933819386176765
+Epoch [9/100], Train Loss: 0.007327298252758655, Val Loss: 0.006933819386176765
+Epoch [10/100], New best model saved with Val Loss: 0.0067126634530723095
+Epoch [10/100], Train Loss: 0.00699413169852712, Val Loss: 0.0067126634530723095
+Epoch [11/100], New best model saved with Val Loss: 0.006540065165609121
+Epoch [11/100], Train Loss: 0.006805771792476828, Val Loss: 0.006540065165609121
+Epoch [12/100], New best model saved with Val Loss: 0.006395677803084254
+Epoch [12/100], Train Loss: 0.006671136245131493, Val Loss: 0.006395677803084254
+Epoch [13/100], New best model saved with Val Loss: 0.006263417541049421
+Epoch [13/100], Train Loss: 0.006543467752635479, Val Loss: 0.006263417541049421
+Epoch [14/100], New best model saved with Val Loss: 0.006115033174864948
+Epoch [14/100], Train Loss: 0.006416958439248529, Val Loss: 0.006115033174864948
+Epoch [15/100], New best model saved with Val Loss: 0.006059087696485221
+Epoch [15/100], Train Loss: 0.006327371324666522, Val Loss: 0.006059087696485221
+Epoch [16/100], New best model saved with Val Loss: 0.005970264202915132
+Epoch [16/100], Train Loss: 0.006227037234401161, Val Loss: 0.005970264202915132
+Epoch [17/100], New best model saved with Val Loss: 0.0058907868806272745
+Epoch [17/100], Train Loss: 0.006146941291676326, Val Loss: 0.0058907868806272745
+Epoch [18/100], New best model saved with Val Loss: 0.005853201728314161
+Epoch [18/100], Train Loss: 0.006059988994490017, Val Loss: 0.005853201728314161
+Epoch [19/100], New best model saved with Val Loss: 0.005806894041597843
+Epoch [19/100], Train Loss: 0.00597746884026988, Val Loss: 0.005806894041597843
+Epoch [20/100], New best model saved with Val Loss: 0.005754341371357441
+Epoch [20/100], Train Loss: 0.0059257940473881636, Val Loss: 0.005754341371357441
+Epoch [21/100], New best model saved with Val Loss: 0.005703137256205082
+Epoch [21/100], Train Loss: 0.005860490152950992, Val Loss: 0.005703137256205082
+Epoch [22/100], New best model saved with Val Loss: 0.005655217566527426
+Epoch [22/100], Train Loss: 0.005811080315404318, Val Loss: 0.005655217566527426
+Epoch [23/100], New best model saved with Val Loss: 0.00562024163082242
+Epoch [23/100], Train Loss: 0.005776479924944314, Val Loss: 0.00562024163082242
+Epoch [24/100], New best model saved with Val Loss: 0.005569929140619934
+Epoch [24/100], Train Loss: 0.005738183242184195, Val Loss: 0.005569929140619934
+Epoch [25/100], New best model saved with Val Loss: 0.005551798967644572
+Epoch [25/100], Train Loss: 0.005710036070509391, Val Loss: 0.005551798967644572
+Epoch [26/100], New best model saved with Val Loss: 0.005533305113203824
+Epoch [26/100], Train Loss: 0.005666326244615696, Val Loss: 0.005533305113203824
+Epoch [27/100], New best model saved with Val Loss: 0.005519664729945362
+Epoch [27/100], Train Loss: 0.005617791003632275, Val Loss: 0.005519664729945362
+Epoch [28/100], New best model saved with Val Loss: 0.005499964929185808
+Epoch [28/100], Train Loss: 0.005591745636510578, Val Loss: 0.005499964929185808
+Epoch [29/100], New best model saved with Val Loss: 0.005471293698064983
+Epoch [29/100], Train Loss: 0.005550514758479866, Val Loss: 0.005471293698064983
+Epoch [30/100], New best model saved with Val Loss: 0.005428473348729312
+Epoch [30/100], Train Loss: 0.005496944406662475, Val Loss: 0.005428473348729312
+Epoch [31/100], New best model saved with Val Loss: 0.005379879614338279
+Epoch [31/100], Train Loss: 0.00544514432972805, Val Loss: 0.005379879614338279
+Epoch [32/100], New best model saved with Val Loss: 0.005325025878846645
+Epoch [32/100], Train Loss: 0.005388019627637484, Val Loss: 0.005325025878846645
+Epoch [33/100], New best model saved with Val Loss: 0.005277625867165625
+Epoch [33/100], Train Loss: 0.005336392385123128, Val Loss: 0.005277625867165625
+Epoch [34/100], New best model saved with Val Loss: 0.005229163798503578
+Epoch [34/100], Train Loss: 0.005286238325590437, Val Loss: 0.005229163798503578
+Epoch [35/100], New best model saved with Val Loss: 0.005160782835446298
+Epoch [35/100], Train Loss: 0.005204145330935717, Val Loss: 0.005160782835446298
+Epoch [36/100], New best model saved with Val Loss: 0.005086175282485783
+Epoch [36/100], Train Loss: 0.005108474584465677, Val Loss: 0.005086175282485783
+Epoch [37/100], New best model saved with Val Loss: 0.005016591981984675
+Epoch [37/100], Train Loss: 0.005033385707065463, Val Loss: 0.005016591981984675
+Epoch [38/100], New best model saved with Val Loss: 0.004928688402287662
+Epoch [38/100], Train Loss: 0.004965287156995724, Val Loss: 0.004928688402287662
+Epoch [39/100], New best model saved with Val Loss: 0.004844154405873269
+Epoch [39/100], Train Loss: 0.004863923066295683, Val Loss: 0.004844154405873269
+Epoch [40/100], New best model saved with Val Loss: 0.0046464704792015254
+Epoch [40/100], Train Loss: 0.004742104845883494, Val Loss: 0.0046464704792015254
+Epoch [41/100], New best model saved with Val Loss: 0.004564106813631952
+Epoch [41/100], Train Loss: 0.004637582206421278, Val Loss: 0.004564106813631952
+Epoch [42/100], New best model saved with Val Loss: 0.00453607301460579
+Epoch [42/100], Train Loss: 0.0045336634343998, Val Loss: 0.00453607301460579
+Epoch [43/100], New best model saved with Val Loss: 0.004510518629103899
+Epoch [43/100], Train Loss: 0.004454462217505683, Val Loss: 0.004510518629103899
+Epoch [44/100], New best model saved with Val Loss: 0.004453869303688407
+Epoch [44/100], Train Loss: 0.004325411716391417, Val Loss: 0.004453869303688407
+Epoch [45/100], New best model saved with Val Loss: 0.00439479062333703
+Epoch [45/100], Train Loss: 0.004232563215985217, Val Loss: 0.00439479062333703
+Epoch [46/100], New best model saved with Val Loss: 0.004322828957810998
+Epoch [46/100], Train Loss: 0.004152849475345151, Val Loss: 0.004322828957810998
+Epoch [47/100], New best model saved with Val Loss: 0.00426230882294476
+Epoch [47/100], Train Loss: 0.004067960195243359, Val Loss: 0.00426230882294476
+Epoch [48/100], New best model saved with Val Loss: 0.004195270943455398
+Epoch [48/100], Train Loss: 0.004015383733944459, Val Loss: 0.004195270943455398
+Epoch [49/100], New best model saved with Val Loss: 0.004157568910159171
+Epoch [49/100], Train Loss: 0.003968711963600733, Val Loss: 0.004157568910159171
+Epoch [50/100], New best model saved with Val Loss: 0.004133402486331761
+Epoch [50/100], Train Loss: 0.003950186020864005, Val Loss: 0.004133402486331761
+Epoch [51/100], New best model saved with Val Loss: 0.004121040517929941
+Epoch [51/100], Train Loss: 0.003936288370327516, Val Loss: 0.004121040517929941
+Epoch [52/100], New best model saved with Val Loss: 0.004097328172065318
+Epoch [52/100], Train Loss: 0.003915598531338302, Val Loss: 0.004097328172065318
+Epoch [53/100], New best model saved with Val Loss: 0.004085747001226991
+Epoch [53/100], Train Loss: 0.0039033228531479836, Val Loss: 0.004085747001226991
+Epoch [54/100], New best model saved with Val Loss: 0.004073535092175007
+Epoch [54/100], Train Loss: 0.0038818783888762646, Val Loss: 0.004073535092175007
+Epoch [55/100], New best model saved with Val Loss: 0.004053474171087146
+Epoch [55/100], Train Loss: 0.0038652764315801587, Val Loss: 0.004053474171087146
+Epoch [56/100], New best model saved with Val Loss: 0.0040416676783934236
+Epoch [56/100], Train Loss: 0.0038658320395783944, Val Loss: 0.0040416676783934236
+Epoch [57/100], New best model saved with Val Loss: 0.004020337131805718
+Epoch [57/100], Train Loss: 0.003846339680339125, Val Loss: 0.004020337131805718
+Epoch [58/100], New best model saved with Val Loss: 0.003995918203145266
+Epoch [58/100], Train Loss: 0.003835334622470493, Val Loss: 0.003995918203145266
+Epoch [59/100], New best model saved with Val Loss: 0.003970816673245281
+Epoch [59/100], Train Loss: 0.0038205275460231032, Val Loss: 0.003970816673245281
+Epoch [60/100], New best model saved with Val Loss: 0.003949488396756351
+Epoch [60/100], Train Loss: 0.0038141172739084473, Val Loss: 0.003949488396756351
+Epoch [61/100], New best model saved with Val Loss: 0.003941618953831494
+Epoch [61/100], Train Loss: 0.0037903096738525414, Val Loss: 0.003941618953831494
+Epoch [62/100], New best model saved with Val Loss: 0.003928697376977652
+Epoch [62/100], Train Loss: 0.003786228882910853, Val Loss: 0.003928697376977652
+Epoch [63/100], New best model saved with Val Loss: 0.00392018276033923
+Epoch [63/100], Train Loss: 0.003775030014697801, Val Loss: 0.00392018276033923
+Epoch [64/100], New best model saved with Val Loss: 0.0039041946874931455
+Epoch [64/100], Train Loss: 0.003782156283374537, Val Loss: 0.0039041946874931455
+Epoch [65/100], Train Loss: 0.0037611078216948294, Val Loss: 0.003913258493412286
+Epoch [66/100], Train Loss: 0.003751702934757552, Val Loss: 0.003913914901204407
+Epoch [67/100], Train Loss: 0.003742737229913473, Val Loss: 0.003917443915270269
+Epoch [68/100], Train Loss: 0.003730144658633931, Val Loss: 0.003911960986442864
+Epoch [69/100], Train Loss: 0.0037275082114237275, Val Loss: 0.003917434019967914
+Epoch [70/100], New best model saved with Val Loss: 0.0039028325118124485
+Epoch [70/100], Train Loss: 0.0037184981523420324, Val Loss: 0.0039028325118124485
+Epoch [71/100], Train Loss: 0.0037142943739044395, Val Loss: 0.003907109843567014
+Epoch [72/100], New best model saved with Val Loss: 0.003900372132193297
+Epoch [72/100], Train Loss: 0.003713448796505955, Val Loss: 0.003900372132193297
+Epoch [73/100], Train Loss: 0.0036905548133125358, Val Loss: 0.0039012329070828855
+Epoch [74/100], New best model saved with Val Loss: 0.0038765681092627347
+Epoch [74/100], Train Loss: 0.0036893278699029575, Val Loss: 0.0038765681092627347
+Epoch [75/100], New best model saved with Val Loss: 0.0038708039792254567
+Epoch [75/100], Train Loss: 0.003681020980531519, Val Loss: 0.0038708039792254567
+Epoch [76/100], New best model saved with Val Loss: 0.0038581875851377845
+Epoch [76/100], Train Loss: 0.0036704264136708594, Val Loss: 0.0038581875851377845
+Epoch [77/100], New best model saved with Val Loss: 0.003851990739349276
+Epoch [77/100], Train Loss: 0.003665581409057433, Val Loss: 0.003851990739349276
+Epoch [78/100], New best model saved with Val Loss: 0.003847422660328448
+Epoch [78/100], Train Loss: 0.003661968491294167, Val Loss: 0.003847422660328448
+Epoch [79/100], New best model saved with Val Loss: 0.00383827235782519
+Epoch [79/100], Train Loss: 0.0036484982225705276, Val Loss: 0.00383827235782519
+Epoch [80/100], New best model saved with Val Loss: 0.003829286200925708
+Epoch [80/100], Train Loss: 0.003647987550886517, Val Loss: 0.003829286200925708
+Epoch [81/100], Train Loss: 0.003652876676906916, Val Loss: 0.003834991599433124
+Epoch [82/100], New best model saved with Val Loss: 0.003810943919233978
+Epoch [82/100], Train Loss: 0.003651419728571041, Val Loss: 0.003810943919233978
+Epoch [83/100], Train Loss: 0.0036379445280710406, Val Loss: 0.0038222644943743944
+Epoch [84/100], Train Loss: 0.003633144639686427, Val Loss: 0.003811674832832068
+Epoch [85/100], New best model saved with Val Loss: 0.003807402739766985
+Epoch [85/100], Train Loss: 0.003626480815000832, Val Loss: 0.003807402739766985
+Epoch [86/100], New best model saved with Val Loss: 0.003792500006966293
+Epoch [86/100], Train Loss: 0.0036320450334725056, Val Loss: 0.003792500006966293
+Epoch [87/100], New best model saved with Val Loss: 0.0037825481849722564
+Epoch [87/100], Train Loss: 0.0036222743801772594, Val Loss: 0.0037825481849722564
+Epoch [88/100], Train Loss: 0.003606951753185554, Val Loss: 0.003808152338024229
+Epoch [89/100], Train Loss: 0.003610463823530484, Val Loss: 0.003786626737564802
+Epoch [90/100], Train Loss: 0.003604957325892015, Val Loss: 0.0037840272998437285
+Epoch [91/100], Train Loss: 0.003598068734969605, Val Loss: 0.0037870194064453244
+Epoch [92/100], Train Loss: 0.0035899405537003822, Val Loss: 0.003792288829572499
+Epoch [93/100], New best model saved with Val Loss: 0.0037756136734969914
+Epoch [93/100], Train Loss: 0.0035887895024974237, Val Loss: 0.0037756136734969914
+Epoch [94/100], Train Loss: 0.0035911110885949297, Val Loss: 0.003783609252423048
+Epoch [95/100], New best model saved with Val Loss: 0.003771299496293068
+Epoch [95/100], Train Loss: 0.003589528866789558, Val Loss: 0.003771299496293068
+Epoch [96/100], New best model saved with Val Loss: 0.0037711590412072837
+Epoch [96/100], Train Loss: 0.003584166427820244, Val Loss: 0.0037711590412072837
+Epoch [97/100], New best model saved with Val Loss: 0.0037663312978111207
+Epoch [97/100], Train Loss: 0.003582891701212661, Val Loss: 0.0037663312978111207
+Epoch [98/100], Train Loss: 0.003573727942156521, Val Loss: 0.0037685356801375747
+Epoch [99/100], Train Loss: 0.003565250969999893, Val Loss: 0.003784741973504424
+Epoch [100/100], New best model saved with Val Loss: 0.0037556119496002793
+Epoch [100/100], Train Loss: 0.0035685179543427444, Val Loss: 0.0037556119496002793
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.0057134347734972835
+Epoch [1/100], Train Loss: 0.006280971479348161, Val Loss: 0.0057134347734972835
+Epoch [2/100], New best model saved with Val Loss: 0.0055178163456730545
+Epoch [2/100], Train Loss: 0.006014273120937022, Val Loss: 0.0055178163456730545
+Epoch [3/100], New best model saved with Val Loss: 0.005368194135371596
+Epoch [3/100], Train Loss: 0.00584326614625752, Val Loss: 0.005368194135371596
+Epoch [4/100], New best model saved with Val Loss: 0.005147516145370901
+Epoch [4/100], Train Loss: 0.005686639173125679, Val Loss: 0.005147516145370901
+Epoch [5/100], New best model saved with Val Loss: 0.005066891491878778
+Epoch [5/100], Train Loss: 0.005524820753965865, Val Loss: 0.005066891491878778
+Epoch [6/100], New best model saved with Val Loss: 0.00504485092824325
+Epoch [6/100], Train Loss: 0.0053873598808422685, Val Loss: 0.00504485092824325
+Epoch [7/100], New best model saved with Val Loss: 0.005016306065954268
+Epoch [7/100], Train Loss: 0.005263174820522016, Val Loss: 0.005016306065954268
+Epoch [8/100], New best model saved with Val Loss: 0.004991029214579612
+Epoch [8/100], Train Loss: 0.005187818230214444, Val Loss: 0.004991029214579612
+Epoch [9/100], New best model saved with Val Loss: 0.004965750500559807
+Epoch [9/100], Train Loss: 0.005152612384832041, Val Loss: 0.004965750500559807
+Epoch [10/100], New best model saved with Val Loss: 0.004942177853081375
+Epoch [10/100], Train Loss: 0.005118221425536004, Val Loss: 0.004942177853081375
+Epoch [11/100], New best model saved with Val Loss: 0.004909691342618316
+Epoch [11/100], Train Loss: 0.005092314539731226, Val Loss: 0.004909691342618316
+Epoch [12/100], New best model saved with Val Loss: 0.004886918177362531
+Epoch [12/100], Train Loss: 0.005071999843824993, Val Loss: 0.004886918177362531
+Epoch [13/100], New best model saved with Val Loss: 0.004860719665884972
+Epoch [13/100], Train Loss: 0.005065680386244573, Val Loss: 0.004860719665884972
+Epoch [14/100], New best model saved with Val Loss: 0.004830735793802887
+Epoch [14/100], Train Loss: 0.005046173676171086, Val Loss: 0.004830735793802887
+Epoch [15/100], New best model saved with Val Loss: 0.00478551333071664
+Epoch [15/100], Train Loss: 0.00503325171303004, Val Loss: 0.00478551333071664
+Epoch [16/100], New best model saved with Val Loss: 0.004759666509926319
+Epoch [16/100], Train Loss: 0.005003235821442848, Val Loss: 0.004759666509926319
+Epoch [17/100], New best model saved with Val Loss: 0.0047350419335998595
+Epoch [17/100], Train Loss: 0.004980969623747197, Val Loss: 0.0047350419335998595
+Epoch [18/100], New best model saved with Val Loss: 0.004715118440799415
+Epoch [18/100], Train Loss: 0.0049737836445935745, Val Loss: 0.004715118440799415
+Epoch [19/100], New best model saved with Val Loss: 0.004705377039499581
+Epoch [19/100], Train Loss: 0.004953886996108023, Val Loss: 0.004705377039499581
+Epoch [20/100], New best model saved with Val Loss: 0.0046946065267547965
+Epoch [20/100], Train Loss: 0.0049383518582379275, Val Loss: 0.0046946065267547965
+Epoch [21/100], New best model saved with Val Loss: 0.004682441882323474
+Epoch [21/100], Train Loss: 0.004917222794822671, Val Loss: 0.004682441882323474
+Epoch [22/100], New best model saved with Val Loss: 0.004670402850024402
+Epoch [22/100], Train Loss: 0.004896937509660016, Val Loss: 0.004670402850024402
+Epoch [23/100], New best model saved with Val Loss: 0.004655048600398004
+Epoch [23/100], Train Loss: 0.004883860544809563, Val Loss: 0.004655048600398004
+Epoch [24/100], New best model saved with Val Loss: 0.004641144594643265
+Epoch [24/100], Train Loss: 0.004876906570809131, Val Loss: 0.004641144594643265
+Epoch [25/100], New best model saved with Val Loss: 0.004630010633263737
+Epoch [25/100], Train Loss: 0.004855357957157222, Val Loss: 0.004630010633263737
+Epoch [26/100], New best model saved with Val Loss: 0.004611012060195208
+Epoch [26/100], Train Loss: 0.004847980559464882, Val Loss: 0.004611012060195208
+Epoch [27/100], New best model saved with Val Loss: 0.004589456249959767
+Epoch [27/100], Train Loss: 0.004836422454735095, Val Loss: 0.004589456249959767
+Epoch [28/100], New best model saved with Val Loss: 0.004575821163598448
+Epoch [28/100], Train Loss: 0.004830348950980062, Val Loss: 0.004575821163598448
+Epoch [29/100], Train Loss: 0.004822287983684378, Val Loss: 0.004576638690195978
+Epoch [30/100], Train Loss: 0.004826435300690884, Val Loss: 0.004576220002491027
+Epoch [31/100], New best model saved with Val Loss: 0.004574587976094335
+Epoch [31/100], Train Loss: 0.0048173730981282215, Val Loss: 0.004574587976094335
+Epoch [32/100], New best model saved with Val Loss: 0.004572690115310252
+Epoch [32/100], Train Loss: 0.004814374493435025, Val Loss: 0.004572690115310252
+Epoch [33/100], Train Loss: 0.004815074488181959, Val Loss: 0.004574840189889073
+Epoch [34/100], Train Loss: 0.004808931368064474, Val Loss: 0.004574881575535983
+Epoch [35/100], Train Loss: 0.0048000200609253215, Val Loss: 0.004574213759042323
+Epoch [36/100], New best model saved with Val Loss: 0.004572130914311856
+Epoch [36/100], Train Loss: 0.004797298270701008, Val Loss: 0.004572130914311856
+Epoch [37/100], Train Loss: 0.004794983235611157, Val Loss: 0.004575198690872639
+Epoch [38/100], Train Loss: 0.004799070958556099, Val Loss: 0.004578125663101673
+Epoch [39/100], Train Loss: 0.004785233801654117, Val Loss: 0.004578945634420961
+Epoch [40/100], Train Loss: 0.004780365154147148, Val Loss: 0.0045840643579140306
+Epoch [41/100], Train Loss: 0.004777202700180086, Val Loss: 0.004589139891322702
+Epoch [42/100], Train Loss: 0.00477049152620814, Val Loss: 0.004592046316247433
+Epoch [43/100], Train Loss: 0.004762325181879781, Val Loss: 0.00459300319198519
+Epoch [44/100], Train Loss: 0.004759657334282317, Val Loss: 0.004593246441800147
+Epoch [45/100], Train Loss: 0.00475974950346757, Val Loss: 0.004583940375596285
+Epoch [46/100], Train Loss: 0.004743560196154497, Val Loss: 0.004582112829666585
+Epoch [47/100], Train Loss: 0.004747975173152306, Val Loss: 0.004583284666296095
+Epoch [48/100], Train Loss: 0.004743964834646745, Val Loss: 0.004583123605698347
+Epoch [49/100], Train Loss: 0.00474069180729037, Val Loss: 0.004574750259052962
+Epoch [50/100], New best model saved with Val Loss: 0.004571578756440431
+Epoch [50/100], Train Loss: 0.004740049025382508, Val Loss: 0.004571578756440431
+Epoch [51/100], Train Loss: 0.004736077051017095, Val Loss: 0.004572764039039612
+Epoch [52/100], New best model saved with Val Loss: 0.004567098745610565
+Epoch [52/100], Train Loss: 0.004735036626119505, Val Loss: 0.004567098745610565
+Epoch [53/100], New best model saved with Val Loss: 0.00456173432758078
+Epoch [53/100], Train Loss: 0.004732793514532122, Val Loss: 0.00456173432758078
+Epoch [54/100], New best model saved with Val Loss: 0.004558571905363351
+Epoch [54/100], Train Loss: 0.004731403801336207, Val Loss: 0.004558571905363351
+Epoch [55/100], New best model saved with Val Loss: 0.004552534373942763
+Epoch [55/100], Train Loss: 0.004723111336881464, Val Loss: 0.004552534373942763
+Epoch [56/100], New best model saved with Val Loss: 0.004548077296931297
+Epoch [56/100], Train Loss: 0.004729587383652953, Val Loss: 0.004548077296931297
+Epoch [57/100], New best model saved with Val Loss: 0.004542522656265646
+Epoch [57/100], Train Loss: 0.004722726869989525, Val Loss: 0.004542522656265646
+Epoch [58/100], New best model saved with Val Loss: 0.0045385786215774715
+Epoch [58/100], Train Loss: 0.00471079592931677, Val Loss: 0.0045385786215774715
+Epoch [59/100], New best model saved with Val Loss: 0.0045334427850320935
+Epoch [59/100], Train Loss: 0.004708598346703432, Val Loss: 0.0045334427850320935
+Epoch [60/100], New best model saved with Val Loss: 0.004527453158516437
+Epoch [60/100], Train Loss: 0.004713729531927543, Val Loss: 0.004527453158516437
+Epoch [61/100], New best model saved with Val Loss: 0.004523496842011809
+Epoch [61/100], Train Loss: 0.004703108231875707, Val Loss: 0.004523496842011809
+Epoch [62/100], New best model saved with Val Loss: 0.004520406655501574
+Epoch [62/100], Train Loss: 0.004711248827251521, Val Loss: 0.004520406655501574
+Epoch [63/100], New best model saved with Val Loss: 0.0045153514365665615
+Epoch [63/100], Train Loss: 0.004701823366551914, Val Loss: 0.0045153514365665615
+Epoch [64/100], New best model saved with Val Loss: 0.0045125726028345525
+Epoch [64/100], Train Loss: 0.00469966342842037, Val Loss: 0.0045125726028345525
+Epoch [65/100], New best model saved with Val Loss: 0.004511243023443967
+Epoch [65/100], Train Loss: 0.004689010717398064, Val Loss: 0.004511243023443967
+Epoch [66/100], New best model saved with Val Loss: 0.004503210016991943
+Epoch [66/100], Train Loss: 0.004679289985109459, Val Loss: 0.004503210016991943
+Epoch [67/100], New best model saved with Val Loss: 0.00448958738707006
+Epoch [67/100], Train Loss: 0.0046810525342483415, Val Loss: 0.00448958738707006
+Epoch [68/100], New best model saved with Val Loss: 0.004485303303226829
+Epoch [68/100], Train Loss: 0.0046747011894529514, Val Loss: 0.004485303303226829
+Epoch [69/100], New best model saved with Val Loss: 0.004479513445403427
+Epoch [69/100], Train Loss: 0.0046698236202990465, Val Loss: 0.004479513445403427
+Epoch [70/100], Train Loss: 0.004663156292570586, Val Loss: 0.0044841046328656375
+Epoch [71/100], New best model saved with Val Loss: 0.00447388447355479
+Epoch [71/100], Train Loss: 0.004655122756958008, Val Loss: 0.00447388447355479
+Epoch [72/100], New best model saved with Val Loss: 0.004463848250452429
+Epoch [72/100], Train Loss: 0.004652873094362969, Val Loss: 0.004463848250452429
+Epoch [73/100], New best model saved with Val Loss: 0.004451050946954638
+Epoch [73/100], Train Loss: 0.0046418317360803485, Val Loss: 0.004451050946954638
+Epoch [74/100], New best model saved with Val Loss: 0.004440397082362324
+Epoch [74/100], Train Loss: 0.004637229340997609, Val Loss: 0.004440397082362324
+Epoch [75/100], New best model saved with Val Loss: 0.004431518318597227
+Epoch [75/100], Train Loss: 0.0046256515726616435, Val Loss: 0.004431518318597227
+Epoch [76/100], Train Loss: 0.004620074283924292, Val Loss: 0.004438688571099192
+Epoch [77/100], New best model saved with Val Loss: 0.004402902210131288
+Epoch [77/100], Train Loss: 0.00460360741073435, Val Loss: 0.004402902210131288
+Epoch [78/100], New best model saved with Val Loss: 0.004388420085888356
+Epoch [78/100], Train Loss: 0.004603826737200672, Val Loss: 0.004388420085888356
+Epoch [79/100], New best model saved with Val Loss: 0.004362160747405142
+Epoch [79/100], Train Loss: 0.004578030393035574, Val Loss: 0.004362160747405142
+Epoch [80/100], New best model saved with Val Loss: 0.004340239800512791
+Epoch [80/100], Train Loss: 0.004573286172341217, Val Loss: 0.004340239800512791
+Epoch [81/100], New best model saved with Val Loss: 0.004319605068303645
+Epoch [81/100], Train Loss: 0.004560364706611092, Val Loss: 0.004319605068303645
+Epoch [82/100], New best model saved with Val Loss: 0.004291147459298372
+Epoch [82/100], Train Loss: 0.0045448682821271095, Val Loss: 0.004291147459298372
+Epoch [83/100], New best model saved with Val Loss: 0.004263047245331109
+Epoch [83/100], Train Loss: 0.004527559038251638, Val Loss: 0.004263047245331109
+Epoch [84/100], New best model saved with Val Loss: 0.004231622442603111
+Epoch [84/100], Train Loss: 0.0045174860014495525, Val Loss: 0.004231622442603111
+Epoch [85/100], New best model saved with Val Loss: 0.004190735751762986
+Epoch [85/100], Train Loss: 0.004493939817290415, Val Loss: 0.004190735751762986
+Epoch [86/100], New best model saved with Val Loss: 0.004162255034316331
+Epoch [86/100], Train Loss: 0.00447957810353149, Val Loss: 0.004162255034316331
+Epoch [87/100], New best model saved with Val Loss: 0.004132341127842665
+Epoch [87/100], Train Loss: 0.004451443970372731, Val Loss: 0.004132341127842665
+Epoch [88/100], New best model saved with Val Loss: 0.004093738098163158
+Epoch [88/100], Train Loss: 0.004428276167759163, Val Loss: 0.004093738098163158
+Epoch [89/100], New best model saved with Val Loss: 0.0040523947100155056
+Epoch [89/100], Train Loss: 0.004399591252546419, Val Loss: 0.0040523947100155056
+Epoch [90/100], New best model saved with Val Loss: 0.004015123355202377
+Epoch [90/100], Train Loss: 0.00436903647443449, Val Loss: 0.004015123355202377
+Epoch [91/100], New best model saved with Val Loss: 0.00397567410254851
+Epoch [91/100], Train Loss: 0.004352851590903645, Val Loss: 0.00397567410254851
+Epoch [92/100], New best model saved with Val Loss: 0.003935089975129813
+Epoch [92/100], Train Loss: 0.004319893312640488, Val Loss: 0.003935089975129813
+Epoch [93/100], New best model saved with Val Loss: 0.003911415871698409
+Epoch [93/100], Train Loss: 0.004302851009097966, Val Loss: 0.003911415871698409
+Epoch [94/100], Train Loss: 0.004308533103374595, Val Loss: 0.003929047787096351
+Epoch [95/100], Train Loss: 0.004294496527026323, Val Loss: 0.00391239277087152
+Epoch [96/100], New best model saved with Val Loss: 0.0038753898115828633
+Epoch [96/100], Train Loss: 0.004270167248746889, Val Loss: 0.0038753898115828633
+Epoch [97/100], New best model saved with Val Loss: 0.0038568205782212317
+Epoch [97/100], Train Loss: 0.0042621831261468205, Val Loss: 0.0038568205782212317
+Epoch [98/100], New best model saved with Val Loss: 0.0038291853270493448
+Epoch [98/100], Train Loss: 0.004240732428363778, Val Loss: 0.0038291853270493448
+Epoch [99/100], New best model saved with Val Loss: 0.0038064864929765463
+Epoch [99/100], Train Loss: 0.004227304428985173, Val Loss: 0.0038064864929765463
+Epoch [100/100], New best model saved with Val Loss: 0.0037914879503659904
+Epoch [100/100], Train Loss: 0.004204192759723149, Val Loss: 0.0037914879503659904
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.009542741114273667
+Epoch [1/100], Train Loss: 0.009210687130689621, Val Loss: 0.009542741114273667
+Epoch [2/100], New best model saved with Val Loss: 0.008958624675869942
+Epoch [2/100], Train Loss: 0.008886649485000155, Val Loss: 0.008958624675869942
+Epoch [3/100], New best model saved with Val Loss: 0.008607376366853714
+Epoch [3/100], Train Loss: 0.008646669183773074, Val Loss: 0.008607376366853714
+Epoch [4/100], New best model saved with Val Loss: 0.00827366509474814
+Epoch [4/100], Train Loss: 0.008401179749687964, Val Loss: 0.00827366509474814
+Epoch [5/100], New best model saved with Val Loss: 0.008064080029726028
+Epoch [5/100], Train Loss: 0.008226183264262298, Val Loss: 0.008064080029726028
+Epoch [6/100], New best model saved with Val Loss: 0.007940906565636396
+Epoch [6/100], Train Loss: 0.008069893302903934, Val Loss: 0.007940906565636396
+Epoch [7/100], New best model saved with Val Loss: 0.007851188885979354
+Epoch [7/100], Train Loss: 0.007917281663553282, Val Loss: 0.007851188885979354
+Epoch [8/100], New best model saved with Val Loss: 0.007778314757160842
+Epoch [8/100], Train Loss: 0.00777773910456083, Val Loss: 0.007778314757160842
+Epoch [9/100], New best model saved with Val Loss: 0.007659929688088596
+Epoch [9/100], Train Loss: 0.00760350012305108, Val Loss: 0.007659929688088596
+Epoch [10/100], New best model saved with Val Loss: 0.0074395902920514345
+Epoch [10/100], Train Loss: 0.0073997565883804454, Val Loss: 0.0074395902920514345
+Epoch [11/100], New best model saved with Val Loss: 0.007274854462593794
+Epoch [11/100], Train Loss: 0.007259752178056674, Val Loss: 0.007274854462593794
+Epoch [12/100], New best model saved with Val Loss: 0.007186360191553831
+Epoch [12/100], Train Loss: 0.007184609114615755, Val Loss: 0.007186360191553831
+Epoch [13/100], New best model saved with Val Loss: 0.007104617776349187
+Epoch [13/100], Train Loss: 0.0071312352930280294, Val Loss: 0.007104617776349187
+Epoch [14/100], New best model saved with Val Loss: 0.007040456752292812
+Epoch [14/100], Train Loss: 0.007076738740910183, Val Loss: 0.007040456752292812
+Epoch [15/100], New best model saved with Val Loss: 0.006744946469552815
+Epoch [15/100], Train Loss: 0.006971330889924006, Val Loss: 0.006744946469552815
+Epoch [16/100], New best model saved with Val Loss: 0.0066203889437019825
+Epoch [16/100], Train Loss: 0.006746099245819179, Val Loss: 0.0066203889437019825
+Epoch [17/100], New best model saved with Val Loss: 0.00637977453880012
+Epoch [17/100], Train Loss: 0.006560613866895437, Val Loss: 0.00637977453880012
+Epoch [18/100], New best model saved with Val Loss: 0.006250955746509135
+Epoch [18/100], Train Loss: 0.006474605316973545, Val Loss: 0.006250955746509135
+Epoch [19/100], New best model saved with Val Loss: 0.006172730820253491
+Epoch [19/100], Train Loss: 0.006420369873839346, Val Loss: 0.006172730820253491
+Epoch [20/100], New best model saved with Val Loss: 0.006125648971647024
+Epoch [20/100], Train Loss: 0.006360995329239152, Val Loss: 0.006125648971647024
+Epoch [21/100], New best model saved with Val Loss: 0.006057569058611989
+Epoch [21/100], Train Loss: 0.006318159803578799, Val Loss: 0.006057569058611989
+Epoch [22/100], New best model saved with Val Loss: 0.00602098077069968
+Epoch [22/100], Train Loss: 0.006263086868619377, Val Loss: 0.00602098077069968
+Epoch [23/100], New best model saved with Val Loss: 0.005911387735977769
+Epoch [23/100], Train Loss: 0.006231570764529434, Val Loss: 0.005911387735977769
+Epoch [24/100], New best model saved with Val Loss: 0.005851417197845876
+Epoch [24/100], Train Loss: 0.0061739041808653965, Val Loss: 0.005851417197845876
+Epoch [25/100], New best model saved with Val Loss: 0.005827577551826835
+Epoch [25/100], Train Loss: 0.006163025634701957, Val Loss: 0.005827577551826835
+Epoch [26/100], New best model saved with Val Loss: 0.005807890207506716
+Epoch [26/100], Train Loss: 0.006145853295244954, Val Loss: 0.005807890207506716
+Epoch [27/100], New best model saved with Val Loss: 0.0057838542852550745
+Epoch [27/100], Train Loss: 0.006116980369287458, Val Loss: 0.0057838542852550745
+Epoch [28/100], New best model saved with Val Loss: 0.0057261851616203785
+Epoch [28/100], Train Loss: 0.006110460878434506, Val Loss: 0.0057261851616203785
+Epoch [29/100], New best model saved with Val Loss: 0.0056928565027192235
+Epoch [29/100], Train Loss: 0.006095461928370324, Val Loss: 0.0056928565027192235
+Epoch [30/100], New best model saved with Val Loss: 0.005679182009771466
+Epoch [30/100], Train Loss: 0.0060895046811889515, Val Loss: 0.005679182009771466
+Epoch [31/100], New best model saved with Val Loss: 0.005659522139467299
+Epoch [31/100], Train Loss: 0.006078906738283959, Val Loss: 0.005659522139467299
+Epoch [32/100], New best model saved with Val Loss: 0.00564640189986676
+Epoch [32/100], Train Loss: 0.00606423451311209, Val Loss: 0.00564640189986676
+Epoch [33/100], New best model saved with Val Loss: 0.005610656109638512
+Epoch [33/100], Train Loss: 0.006067981435493989, Val Loss: 0.005610656109638512
+Epoch [34/100], New best model saved with Val Loss: 0.005583321559242904
+Epoch [34/100], Train Loss: 0.006054230648177591, Val Loss: 0.005583321559242904
+Epoch [35/100], Train Loss: 0.006042474944313819, Val Loss: 0.005584623548202217
+Epoch [36/100], New best model saved with Val Loss: 0.005570734618231654
+Epoch [36/100], Train Loss: 0.006043316415426406, Val Loss: 0.005570734618231654
+Epoch [37/100], New best model saved with Val Loss: 0.005519624333828688
+Epoch [37/100], Train Loss: 0.006020738510414958, Val Loss: 0.005519624333828688
+Epoch [38/100], Train Loss: 0.006020315478301861, Val Loss: 0.005529203452169895
+Epoch [39/100], New best model saved with Val Loss: 0.005493027623742819
+Epoch [39/100], Train Loss: 0.005995900052684275, Val Loss: 0.005493027623742819
+Epoch [40/100], Train Loss: 0.005976424785330892, Val Loss: 0.005504873697645962
+Epoch [41/100], New best model saved with Val Loss: 0.005472137127071619
+Epoch [41/100], Train Loss: 0.005976706319911914, Val Loss: 0.005472137127071619
+Epoch [42/100], New best model saved with Val Loss: 0.0054614306427538395
+Epoch [42/100], Train Loss: 0.005966566333716566, Val Loss: 0.0054614306427538395
+Epoch [43/100], New best model saved with Val Loss: 0.005456895334646106
+Epoch [43/100], Train Loss: 0.005953745704821565, Val Loss: 0.005456895334646106
+Epoch [44/100], New best model saved with Val Loss: 0.005446012946777046
+Epoch [44/100], Train Loss: 0.005949649367142807, Val Loss: 0.005446012946777046
+Epoch [45/100], Train Loss: 0.0059368936133316974, Val Loss: 0.005454905331134796
+Epoch [46/100], New best model saved with Val Loss: 0.0054378502536565065
+Epoch [46/100], Train Loss: 0.005929560421712019, Val Loss: 0.0054378502536565065
+Epoch [47/100], New best model saved with Val Loss: 0.005436700419522822
+Epoch [47/100], Train Loss: 0.005912788677960634, Val Loss: 0.005436700419522822
+Epoch [48/100], New best model saved with Val Loss: 0.005419291788712144
+Epoch [48/100], Train Loss: 0.005910682851787318, Val Loss: 0.005419291788712144
+Epoch [49/100], New best model saved with Val Loss: 0.00541421037632972
+Epoch [49/100], Train Loss: 0.0058899189514869995, Val Loss: 0.00541421037632972
+Epoch [50/100], Train Loss: 0.005877497013319622, Val Loss: 0.005414839484728873
+Epoch [51/100], New best model saved with Val Loss: 0.005412852275185287
+Epoch [51/100], Train Loss: 0.0058482760690491305, Val Loss: 0.005412852275185287
+Epoch [52/100], New best model saved with Val Loss: 0.005356208304874599
+Epoch [52/100], Train Loss: 0.005820749454538931, Val Loss: 0.005356208304874599
+Epoch [53/100], New best model saved with Val Loss: 0.0053415350848808885
+Epoch [53/100], Train Loss: 0.005816569170829925, Val Loss: 0.0053415350848808885
+Epoch [54/100], Train Loss: 0.005802807588638229, Val Loss: 0.005342939170077443
+Epoch [55/100], Train Loss: 0.005807007578286258, Val Loss: 0.005357653833925724
+Epoch [56/100], Train Loss: 0.005789193134246902, Val Loss: 0.0053550617303699255
+Epoch [57/100], Train Loss: 0.00575336500663649, Val Loss: 0.005358270602300763
+Epoch [58/100], Train Loss: 0.0057177611584351825, Val Loss: 0.005348861217498779
+Epoch [59/100], New best model saved with Val Loss: 0.005297535797581077
+Epoch [59/100], Train Loss: 0.005698926514014602, Val Loss: 0.005297535797581077
+Epoch [60/100], New best model saved with Val Loss: 0.005269082495942712
+Epoch [60/100], Train Loss: 0.005680011267858473, Val Loss: 0.005269082495942712
+Epoch [61/100], New best model saved with Val Loss: 0.005243217921815813
+Epoch [61/100], Train Loss: 0.0056585270742123776, Val Loss: 0.005243217921815813
+Epoch [62/100], New best model saved with Val Loss: 0.005241866922006011
+Epoch [62/100], Train Loss: 0.005634965480897914, Val Loss: 0.005241866922006011
+Epoch [63/100], Train Loss: 0.005617271897129037, Val Loss: 0.005276148091070354
+Epoch [64/100], Train Loss: 0.005594822133637287, Val Loss: 0.005291727953590453
+Epoch [65/100], Train Loss: 0.005572045581753959, Val Loss: 0.005279087694361806
+Epoch [66/100], Train Loss: 0.0055544191378761425, Val Loss: 0.0052719590021297336
+Epoch [67/100], Train Loss: 0.0055407598530027, Val Loss: 0.005258021061308682
+Epoch [68/100], Train Loss: 0.005526938242837787, Val Loss: 0.005249212961643934
+Epoch [69/100], New best model saved with Val Loss: 0.005189786781556904
+Epoch [69/100], Train Loss: 0.005532240897247737, Val Loss: 0.005189786781556904
+Epoch [70/100], Train Loss: 0.005506985990161245, Val Loss: 0.005221195868216455
+Epoch [71/100], Train Loss: 0.0055117755599150605, Val Loss: 0.005190543946810067
+Epoch [72/100], New best model saved with Val Loss: 0.005160810542292893
+Epoch [72/100], Train Loss: 0.005481613630598242, Val Loss: 0.005160810542292893
+Epoch [73/100], New best model saved with Val Loss: 0.005118103348650038
+Epoch [73/100], Train Loss: 0.00547679879871959, Val Loss: 0.005118103348650038
+Epoch [74/100], Train Loss: 0.005465071965855631, Val Loss: 0.005132837686687708
+Epoch [75/100], New best model saved with Val Loss: 0.005112294224090874
+Epoch [75/100], Train Loss: 0.005433409728787162, Val Loss: 0.005112294224090874
+Epoch [76/100], New best model saved with Val Loss: 0.005085671436972916
+Epoch [76/100], Train Loss: 0.005414265663024376, Val Loss: 0.005085671436972916
+Epoch [77/100], New best model saved with Val Loss: 0.005085532087832689
+Epoch [77/100], Train Loss: 0.005405033557591113, Val Loss: 0.005085532087832689
+Epoch [78/100], New best model saved with Val Loss: 0.005059826304204762
+Epoch [78/100], Train Loss: 0.00538485577668656, Val Loss: 0.005059826304204762
+Epoch [79/100], New best model saved with Val Loss: 0.005044587072916329
+Epoch [79/100], Train Loss: 0.005381961088542911, Val Loss: 0.005044587072916329
+Epoch [80/100], New best model saved with Val Loss: 0.005039199721068144
+Epoch [80/100], Train Loss: 0.005351233486594124, Val Loss: 0.005039199721068144
+Epoch [81/100], Train Loss: 0.005344034722921523, Val Loss: 0.0050471683498471975
+Epoch [82/100], New best model saved with Val Loss: 0.005035818670876324
+Epoch [82/100], Train Loss: 0.005342435070567511, Val Loss: 0.005035818670876324
+Epoch [83/100], Train Loss: 0.005321419522674246, Val Loss: 0.005052323453128338
+Epoch [84/100], New best model saved with Val Loss: 0.005001727491617203
+Epoch [84/100], Train Loss: 0.0053305535746568985, Val Loss: 0.005001727491617203
+Epoch [85/100], Train Loss: 0.005282671423628926, Val Loss: 0.005004271864891052
+Epoch [86/100], Train Loss: 0.005263838282024319, Val Loss: 0.005042351083829999
+Epoch [87/100], Train Loss: 0.005274242425168102, Val Loss: 0.005005997372791171
+Epoch [88/100], Train Loss: 0.005251221252943982, Val Loss: 0.005060092080384493
+Epoch [89/100], New best model saved with Val Loss: 0.004997793468646705
+Epoch [89/100], Train Loss: 0.005245604086667299, Val Loss: 0.004997793468646705
+Epoch [90/100], New best model saved with Val Loss: 0.004986772080883384
+Epoch [90/100], Train Loss: 0.005224146562713114, Val Loss: 0.004986772080883384
+Epoch [91/100], Train Loss: 0.005219857483594255, Val Loss: 0.004988465807400644
+Epoch [92/100], New best model saved with Val Loss: 0.004972357768565416
+Epoch [92/100], Train Loss: 0.005212651713835922, Val Loss: 0.004972357768565416
+Epoch [93/100], Train Loss: 0.005197316175326705, Val Loss: 0.00500997609924525
+Epoch [94/100], New best model saved with Val Loss: 0.004969900939613581
+Epoch [94/100], Train Loss: 0.0051866007799452, Val Loss: 0.004969900939613581
+Epoch [95/100], Train Loss: 0.00517941363663836, Val Loss: 0.0050023687072098255
+Epoch [96/100], New best model saved with Val Loss: 0.004949173307977617
+Epoch [96/100], Train Loss: 0.005174371477385814, Val Loss: 0.004949173307977617
+Epoch [97/100], New best model saved with Val Loss: 0.004929054994136095
+Epoch [97/100], Train Loss: 0.005147513975812631, Val Loss: 0.004929054994136095
+Epoch [98/100], Train Loss: 0.0051255629355595874, Val Loss: 0.004953493713401258
+Epoch [99/100], New best model saved with Val Loss: 0.0049059075536206365
+Epoch [99/100], Train Loss: 0.005110962676223029, Val Loss: 0.0049059075536206365
+Epoch [100/100], Train Loss: 0.005136685382405465, Val Loss: 0.004983409307897091
+Training and validation data loaded successfully on cuda.
+Epoch [1/100], New best model saved with Val Loss: 0.01736038038507104
+Epoch [1/100], Train Loss: 0.01781915052031929, Val Loss: 0.01736038038507104
+Epoch [2/100], New best model saved with Val Loss: 0.01735513424500823
+Epoch [2/100], Train Loss: 0.017814812843095173, Val Loss: 0.01735513424500823
+Epoch [3/100], New best model saved with Val Loss: 0.01733789360150695
+Epoch [3/100], Train Loss: 0.01779353212226521, Val Loss: 0.01733789360150695
+Epoch [4/100], New best model saved with Val Loss: 0.017325147055089474
+Epoch [4/100], Train Loss: 0.017771519043228844, Val Loss: 0.017325147055089474
+Epoch [5/100], New best model saved with Val Loss: 0.017310055438429117
+Epoch [5/100], Train Loss: 0.017773056995462288, Val Loss: 0.017310055438429117
+Epoch [6/100], New best model saved with Val Loss: 0.0173036796040833
+Epoch [6/100], Train Loss: 0.017751266925849697, Val Loss: 0.0173036796040833
+Epoch [7/100], New best model saved with Val Loss: 0.01729921856895089
+Epoch [7/100], Train Loss: 0.017743329178880562, Val Loss: 0.01729921856895089
+Epoch [8/100], New best model saved with Val Loss: 0.017291362397372723
+Epoch [8/100], Train Loss: 0.017735560043630274, Val Loss: 0.017291362397372723
+Epoch [9/100], New best model saved with Val Loss: 0.01727639278396964
+Epoch [9/100], Train Loss: 0.017732195640829475, Val Loss: 0.01727639278396964
+Epoch [10/100], New best model saved with Val Loss: 0.017272781115025282
+Epoch [10/100], Train Loss: 0.017714392266828905, Val Loss: 0.017272781115025282
+Epoch [11/100], New best model saved with Val Loss: 0.017270705197006464
+Epoch [11/100], Train Loss: 0.017714962278577415, Val Loss: 0.017270705197006464
+Epoch [12/100], New best model saved with Val Loss: 0.017266107257455587
+Epoch [12/100], Train Loss: 0.017706742510199547, Val Loss: 0.017266107257455587
+Epoch [13/100], New best model saved with Val Loss: 0.01725460635498166
+Epoch [13/100], Train Loss: 0.017693159932439976, Val Loss: 0.01725460635498166
+Epoch [14/100], New best model saved with Val Loss: 0.01724562281742692
+Epoch [14/100], Train Loss: 0.017692336981946773, Val Loss: 0.01724562281742692
+Epoch [15/100], New best model saved with Val Loss: 0.017233758699148893
+Epoch [15/100], Train Loss: 0.01768304907124151, Val Loss: 0.017233758699148893
+Epoch [16/100], New best model saved with Val Loss: 0.017230154015123844
+Epoch [16/100], Train Loss: 0.01768321560865099, Val Loss: 0.017230154015123844
+Epoch [17/100], New best model saved with Val Loss: 0.017216140870004892
+Epoch [17/100], Train Loss: 0.017658817751163788, Val Loss: 0.017216140870004892
+Epoch [18/100], New best model saved with Val Loss: 0.017210069578140974
+Epoch [18/100], Train Loss: 0.017650937238200146, Val Loss: 0.017210069578140974
+Epoch [19/100], New best model saved with Val Loss: 0.017203959170728922
+Epoch [19/100], Train Loss: 0.017649122429164974, Val Loss: 0.017203959170728922
+Epoch [20/100], New best model saved with Val Loss: 0.0172009551897645
+Epoch [20/100], Train Loss: 0.017646326768127354, Val Loss: 0.0172009551897645
+Epoch [21/100], New best model saved with Val Loss: 0.017197631765156984
+Epoch [21/100], Train Loss: 0.01763611464676532, Val Loss: 0.017197631765156984
+Epoch [22/100], New best model saved with Val Loss: 0.017196415923535824
+Epoch [22/100], Train Loss: 0.01763409316878427, Val Loss: 0.017196415923535824
+Epoch [23/100], New best model saved with Val Loss: 0.01719056349247694
+Epoch [23/100], Train Loss: 0.017629712481390346, Val Loss: 0.01719056349247694
+Epoch [24/100], New best model saved with Val Loss: 0.01718322839587927
+Epoch [24/100], Train Loss: 0.017617788673801857, Val Loss: 0.01718322839587927
+Epoch [25/100], New best model saved with Val Loss: 0.01717036310583353
+Epoch [25/100], Train Loss: 0.01759377731518312, Val Loss: 0.01717036310583353
+Epoch [26/100], New best model saved with Val Loss: 0.017164424993097782
+Epoch [26/100], Train Loss: 0.01758984535593878, Val Loss: 0.017164424993097782
+Epoch [27/100], New best model saved with Val Loss: 0.017156055197119713
+Epoch [27/100], Train Loss: 0.017569967714900322, Val Loss: 0.017156055197119713
+Epoch [28/100], New best model saved with Val Loss: 0.017146803438663483
+Epoch [28/100], Train Loss: 0.017551947385072708, Val Loss: 0.017146803438663483
+Epoch [29/100], New best model saved with Val Loss: 0.01714074146002531
+Epoch [29/100], Train Loss: 0.01754586703398011, Val Loss: 0.01714074146002531
+Epoch [30/100], New best model saved with Val Loss: 0.01707540452480316
+Epoch [30/100], Train Loss: 0.017534206621348858, Val Loss: 0.01707540452480316
+Epoch [31/100], New best model saved with Val Loss: 0.01698247203603387
+Epoch [31/100], Train Loss: 0.017521239393814045, Val Loss: 0.01698247203603387
+Epoch [32/100], New best model saved with Val Loss: 0.01696968637406826
+Epoch [32/100], Train Loss: 0.017499889924444935, Val Loss: 0.01696968637406826
+Epoch [33/100], New best model saved with Val Loss: 0.016948795411735773
+Epoch [33/100], Train Loss: 0.017492729662494225, Val Loss: 0.016948795411735773
+Epoch [34/100], New best model saved with Val Loss: 0.016937650740146637
+Epoch [34/100], Train Loss: 0.0174756393852559, Val Loss: 0.016937650740146637
+Epoch [35/100], New best model saved with Val Loss: 0.016922247130423784
+Epoch [35/100], Train Loss: 0.017464751885695892, Val Loss: 0.016922247130423784
+Epoch [36/100], New best model saved with Val Loss: 0.01690970454365015
+Epoch [36/100], Train Loss: 0.017458002590997654, Val Loss: 0.01690970454365015
+Epoch [37/100], New best model saved with Val Loss: 0.016904373187571764
+Epoch [37/100], Train Loss: 0.017432806590064007, Val Loss: 0.016904373187571764
+Epoch [38/100], New best model saved with Val Loss: 0.01688837818801403
+Epoch [38/100], Train Loss: 0.017430620183321564, Val Loss: 0.01688837818801403
+Epoch [39/100], New best model saved with Val Loss: 0.016878025606274605
+Epoch [39/100], Train Loss: 0.017423098991540344, Val Loss: 0.016878025606274605
+Epoch [40/100], New best model saved with Val Loss: 0.016872528940439224
+Epoch [40/100], Train Loss: 0.017418270422653717, Val Loss: 0.016872528940439224
+Epoch [41/100], New best model saved with Val Loss: 0.016848137136548758
+Epoch [41/100], Train Loss: 0.01738571934401989, Val Loss: 0.016848137136548758
+Epoch [42/100], New best model saved with Val Loss: 0.016839537303894758
+Epoch [42/100], Train Loss: 0.017374439757655968, Val Loss: 0.016839537303894758
+Epoch [43/100], New best model saved with Val Loss: 0.016836741007864475
+Epoch [43/100], Train Loss: 0.017357698641717434, Val Loss: 0.016836741007864475
+Epoch [44/100], New best model saved with Val Loss: 0.016804125159978867
+Epoch [44/100], Train Loss: 0.017312977801669727, Val Loss: 0.016804125159978867
+Epoch [45/100], New best model saved with Val Loss: 0.016798182856291533
+Epoch [45/100], Train Loss: 0.017277617430822415, Val Loss: 0.016798182856291533
+Epoch [46/100], New best model saved with Val Loss: 0.01678814645856619
+Epoch [46/100], Train Loss: 0.01726728423752568, Val Loss: 0.01678814645856619
+Epoch [47/100], New best model saved with Val Loss: 0.01674288371577859
+Epoch [47/100], Train Loss: 0.017250955528156323, Val Loss: 0.01674288371577859
+Epoch [48/100], New best model saved with Val Loss: 0.016699557658284903
+Epoch [48/100], Train Loss: 0.017225388268178158, Val Loss: 0.016699557658284903
+Epoch [49/100], New best model saved with Val Loss: 0.01667537447065115
+Epoch [49/100], Train Loss: 0.017209248490292917, Val Loss: 0.01667537447065115
+Epoch [50/100], New best model saved with Val Loss: 0.016622184310108423
+Epoch [50/100], Train Loss: 0.017180322838777847, Val Loss: 0.016622184310108423
+Epoch [51/100], New best model saved with Val Loss: 0.01653981674462557
+Epoch [51/100], Train Loss: 0.017152417027814823, Val Loss: 0.01653981674462557
+Epoch [52/100], New best model saved with Val Loss: 0.016514133661985397
+Epoch [52/100], Train Loss: 0.01712221863933585, Val Loss: 0.016514133661985397
+Epoch [53/100], New best model saved with Val Loss: 0.016507219057530165
+Epoch [53/100], Train Loss: 0.017101811541413717, Val Loss: 0.016507219057530165
+Epoch [54/100], New best model saved with Val Loss: 0.01649952493607998
+Epoch [54/100], Train Loss: 0.01709187183190476, Val Loss: 0.01649952493607998
+Epoch [55/100], New best model saved with Val Loss: 0.016495251562446356
+Epoch [55/100], Train Loss: 0.01708191590891643, Val Loss: 0.016495251562446356
+Epoch [56/100], New best model saved with Val Loss: 0.016491607995703816
+Epoch [56/100], Train Loss: 0.017076031389561565, Val Loss: 0.016491607995703816
+Epoch [57/100], New best model saved with Val Loss: 0.016470784321427345
+Epoch [57/100], Train Loss: 0.01705708308145404, Val Loss: 0.016470784321427345
+Epoch [58/100], New best model saved with Val Loss: 0.016455210745334625
+Epoch [58/100], Train Loss: 0.017050433819266884, Val Loss: 0.016455210745334625
+Epoch [59/100], New best model saved with Val Loss: 0.016447152476757765
+Epoch [59/100], Train Loss: 0.01704194329001687, Val Loss: 0.016447152476757765
+Epoch [60/100], New best model saved with Val Loss: 0.016412382246926427
+Epoch [60/100], Train Loss: 0.017032835801894016, Val Loss: 0.016412382246926427
+Epoch [61/100], New best model saved with Val Loss: 0.01635689614340663
+Epoch [61/100], Train Loss: 0.0170129737816751, Val Loss: 0.01635689614340663
+Epoch [62/100], New best model saved with Val Loss: 0.01635092031210661
+Epoch [62/100], Train Loss: 0.016994247890331528, Val Loss: 0.01635092031210661
+Epoch [63/100], New best model saved with Val Loss: 0.01633961871266365
+Epoch [63/100], Train Loss: 0.01698197051882744, Val Loss: 0.01633961871266365
+Epoch [64/100], New best model saved with Val Loss: 0.016333260340616107
+Epoch [64/100], Train Loss: 0.016973600511185148, Val Loss: 0.016333260340616107
+Epoch [65/100], New best model saved with Val Loss: 0.016324058873578906
+Epoch [65/100], Train Loss: 0.016943925398994576, Val Loss: 0.016324058873578906
+Epoch [66/100], New best model saved with Val Loss: 0.01631498127244413
+Epoch [66/100], Train Loss: 0.016930351838130842, Val Loss: 0.01631498127244413
+Epoch [67/100], New best model saved with Val Loss: 0.016302460338920355
+Epoch [67/100], Train Loss: 0.01690071372484619, Val Loss: 0.016302460338920355
+Epoch [68/100], New best model saved with Val Loss: 0.016295356675982475
+Epoch [68/100], Train Loss: 0.01687517829916694, Val Loss: 0.016295356675982475
+Epoch [69/100], New best model saved with Val Loss: 0.016289059538394213
+Epoch [69/100], Train Loss: 0.0168482586318119, Val Loss: 0.016289059538394213
+Epoch [70/100], New best model saved with Val Loss: 0.01627710834145546
+Epoch [70/100], Train Loss: 0.01684067559174516, Val Loss: 0.01627710834145546
+Epoch [71/100], New best model saved with Val Loss: 0.01627142960205674
+Epoch [71/100], Train Loss: 0.016832359092818064, Val Loss: 0.01627142960205674
+Epoch [72/100], New best model saved with Val Loss: 0.016268606763333082
+Epoch [72/100], Train Loss: 0.016819185281003065, Val Loss: 0.016268606763333082
+Epoch [73/100], New best model saved with Val Loss: 0.016248661326244473
+Epoch [73/100], Train Loss: 0.016797961709512907, Val Loss: 0.016248661326244473
+Epoch [74/100], New best model saved with Val Loss: 0.01623800164088607
+Epoch [74/100], Train Loss: 0.016780115240676838, Val Loss: 0.01623800164088607
+Epoch [75/100], New best model saved with Val Loss: 0.016229664906859398
+Epoch [75/100], Train Loss: 0.01676877626133236, Val Loss: 0.016229664906859398
+Epoch [76/100], New best model saved with Val Loss: 0.01622805092483759
+Epoch [76/100], Train Loss: 0.016736454457383265, Val Loss: 0.01622805092483759
+Epoch [77/100], New best model saved with Val Loss: 0.016222129110246897
+Epoch [77/100], Train Loss: 0.016729081811552696, Val Loss: 0.016222129110246897
+Epoch [78/100], New best model saved with Val Loss: 0.016212118323892355
+Epoch [78/100], Train Loss: 0.01671795949170535, Val Loss: 0.016212118323892355
+Epoch [79/100], New best model saved with Val Loss: 0.01617392268963158
+Epoch [79/100], Train Loss: 0.01670276178893718, Val Loss: 0.01617392268963158
+Epoch [80/100], New best model saved with Val Loss: 0.016121929278597236
+Epoch [80/100], Train Loss: 0.01668115756051107, Val Loss: 0.016121929278597236
+Epoch [81/100], New best model saved with Val Loss: 0.016101079527288675
+Epoch [81/100], Train Loss: 0.01666400581598282, Val Loss: 0.016101079527288675
+Epoch [82/100], New best model saved with Val Loss: 0.016085342038422823
+Epoch [82/100], Train Loss: 0.01665418485010212, Val Loss: 0.016085342038422823
+Epoch [83/100], New best model saved with Val Loss: 0.016066194977611303
+Epoch [83/100], Train Loss: 0.0166392233222723, Val Loss: 0.016066194977611303
+Epoch [84/100], New best model saved with Val Loss: 0.016063908115029335
+Epoch [84/100], Train Loss: 0.016633173747157507, Val Loss: 0.016063908115029335
+Epoch [85/100], New best model saved with Val Loss: 0.01606303872540593
+Epoch [85/100], Train Loss: 0.016625296663154255, Val Loss: 0.01606303872540593
+Epoch [86/100], New best model saved with Val Loss: 0.016020593233406544
+Epoch [86/100], Train Loss: 0.016635261687704107, Val Loss: 0.016020593233406544
+Epoch [87/100], New best model saved with Val Loss: 0.01599750784225762
+Epoch [87/100], Train Loss: 0.01663576667620377, Val Loss: 0.01599750784225762
+Epoch [88/100], New best model saved with Val Loss: 0.01598264602944255
+Epoch [88/100], Train Loss: 0.016628274355422367, Val Loss: 0.01598264602944255
+Epoch [89/100], New best model saved with Val Loss: 0.015963107347488403
+Epoch [89/100], Train Loss: 0.01662730760025707, Val Loss: 0.015963107347488403
+Epoch [90/100], New best model saved with Val Loss: 0.015959184849634767
+Epoch [90/100], Train Loss: 0.0166127575900067, Val Loss: 0.015959184849634767
+Epoch [91/100], New best model saved with Val Loss: 0.015955850016325712
+Epoch [91/100], Train Loss: 0.016611309806731613, Val Loss: 0.015955850016325712
+Epoch [92/100], New best model saved with Val Loss: 0.015954546630382538
+Epoch [92/100], Train Loss: 0.016607496125454254, Val Loss: 0.015954546630382538
+Epoch [93/100], New best model saved with Val Loss: 0.015952720772475004
+Epoch [93/100], Train Loss: 0.016608386342837053, Val Loss: 0.015952720772475004
+Epoch [94/100], New best model saved with Val Loss: 0.015951830428093672
+Epoch [94/100], Train Loss: 0.016605471091514282, Val Loss: 0.015951830428093672
+Epoch [95/100], New best model saved with Val Loss: 0.015937182819470763
+Epoch [95/100], Train Loss: 0.016600917305120012, Val Loss: 0.015937182819470763
+Epoch [96/100], New best model saved with Val Loss: 0.015922741033136845
+Epoch [96/100], Train Loss: 0.016587780534543774, Val Loss: 0.015922741033136845
+Epoch [97/100], New best model saved with Val Loss: 0.01591406320221722
+Epoch [97/100], Train Loss: 0.016574042341248554, Val Loss: 0.01591406320221722
+Epoch [98/100], New best model saved with Val Loss: 0.015911110676825047
+Epoch [98/100], Train Loss: 0.016571352596987377, Val Loss: 0.015911110676825047
+Epoch [99/100], New best model saved with Val Loss: 0.01590921776369214
+Epoch [99/100], Train Loss: 0.01656569680199027, Val Loss: 0.01590921776369214
+Epoch [100/100], New best model saved with Val Loss: 0.01590765593573451
+Epoch [100/100], Train Loss: 0.016545503273267637, Val Loss: 0.01590765593573451

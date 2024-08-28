@@ -39,7 +39,7 @@ y_test, y_val, lengths_test, lengths_val, k_test, k_val = train_test_split(
     y_temp, lengths_temp, k_temp, train_size=params['num_test'], test_size=params['num_val'], random_state=SEED
 )
 #%%
-weight_path='./weights/'
+weight_path=os.path.join(config.proj_path,config.weight_name)
 
 best_val_list=[]
 
