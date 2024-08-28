@@ -1,5 +1,0 @@
-LF_N=4
-w=0,loss=0.005259,epoch=random
-w=0.5,loss=0.000853,epoch=43
-w=0.75,loss=
-w=0.99,loss=0.000918,epoch=125
